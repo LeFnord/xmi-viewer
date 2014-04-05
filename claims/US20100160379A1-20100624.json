@@ -1,0 +1,2956 @@
+{
+  "claims": [
+    {
+      "id": 3514498,
+      "index": 1,
+      "node_name": "claim 1",
+      "node_value": "A compound represented by the following formula (I), or a salt thereof:&#10;&#10;&#10;&#10;wherein R1 represents a hydrogen atom, a halogen atom, an amino group, R11—NH— (wherein R11 represents a C1-6 alkyl group, a hydroxy C1-6 alkyl group, a C1-6 alkoxy C1-6 alkyl group, or a C1-6 alkoxycarbonyl C1-6 alkyl group), R12—(CO)—NH— (wherein R12 represents a C1-6 alkyl group or a C1-6 alkoxy C1-6 alkyl group), a C1-6 alkyl group, a hydroxy C1-6 alkyl group, a cyano C1-6 alkyl group, a C1-6 alkoxy group or a C1-6 alkoxy C1-6 alkyl group;&#10;R2 represents a hydrogen atom, a C1-6 alkyl group, an amino group or a di C1-6 alkylamino group;&#10;X is an oxygen atom;&#10;Y is a nitrogen atom;&#10;ring A represents a 5- or 6-membered heteroaryl ring which may have 1 or 2 halogen atoms, or 1 or 2 C1-6 alkyl groups;&#10;Z represents a single bond, a methylene group, an ethylene group, an oxygen atom, a sulfur atom, —CH2O—, —OCH2—, —NH—, —CH2NH—, —NHCH2—, —CH2S—, or —SCH2—;&#10;R3 represents a hydrogen atom, or a halogen atom, or a C1-6 alkyl group, a C3-8 cycloalkyl group, a C6-10 aryl group, a 5- or 6-membered heteroaryl group, or 5- or 6-membered non-aromatic heterocyclic group, wherein these groups may have 1 or 2 substituents selected from substituent group α,&#10;wherein substituent group α represents the group consisting of a halogen atom, a cyano group, a C1-6 alkyl group, a C1-6 alkoxy group, a C1-6 alkoxycarbonyl group, a C3-8 cycloalkyl group, a C2-6 alkenyl group and a C2-6 alkynyl group; and&#10;R4 represents a hydrogen atom or a halogen atom;&#10;excluding compounds where all of R1, R2, and R4 represent the hydrogen atom at the same time when Z represents the single bond or R3 represents the hydrogen atom.",
+      "link_degree": 1,
+      "references": [
+        0
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514501,
+      "index": 2,
+      "node_name": "claim 2",
+      "node_value": "The compound or a pharmaceutically acceptable salt thereof according to claim 1, wherein Z represents an oxygen atom or —OCH2—.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514504,
+      "index": 3,
+      "node_name": "claim 3",
+      "node_value": "The compound or a pharmaceutically acceptable salt thereof according to claim 1, wherein R1 represents an amino group.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514507,
+      "index": 4,
+      "node_name": "claim 4",
+      "node_value": "The compound or a pharmaceutically acceptable salt thereof according to claim 1, wherein R2 represents an amino group.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514510,
+      "index": 5,
+      "node_name": "claim 5",
+      "node_value": "The compound or a pharmaceutically acceptable salt thereof according to claim 1, wherein R3 represents a C6-10 aryl group which may have 1 or 2 substituents selected from substituent group α.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514513,
+      "index": 6,
+      "node_name": "claim 6",
+      "node_value": "The compound or a pharmaceutically acceptable salt thereof according to claim 5, wherein α represents a halogen atom.",
+      "link_degree": 1,
+      "references": [
+        5
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514516,
+      "index": 7,
+      "node_name": "claim 7",
+      "node_value": "The compound or a pharmaceutically acceptable salt thereof according to claim 1, wherein R3 represents benzene which may have 1 or 2 substituents selected from substituent group α.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514519,
+      "index": 8,
+      "node_name": "claim 8",
+      "node_value": "The compound or a pharmaceutically acceptable salt thereof according to claim 1, wherein R4 represents a hydrogen atom.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514522,
+      "index": 9,
+      "node_name": "claim 9",
+      "node_value": "The compound or a pharmaceutically acceptable salt thereof according to claim 1, wherein ring A represents a 6-membered heteroaryl ring having 1 halogen atom.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514525,
+      "index": 10,
+      "node_name": "claim 10",
+      "node_value": "A pharmaceutical composition comprising the compound or the salt thereof according to claim 1; and&#10;a pharmaceutically acceptable carrier.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514528,
+      "index": 11,
+      "node_name": "claim 11",
+      "node_value": "A compound or a pharmaceutically acceptable salt thereof, said compound is selected from the group consisting of:&#10;3-(3-(6-benzyloxy-pyridin-3-ylmethyl)-isoxazol-5-yl)-pyridin-2,6-diamine;&#10;3-(3-(6-phenoxy-pyridin-3-ylmethyl)-isoxazol-5-yl)-pyridin-2,6-diamine;&#10;3-(3-(6-phenoxymethyl-pyridin-3-ylmethyl)-isoxazol-5-yl)-pyridin-2-ylamine;&#10;3-(3-(4-(5-chloro-furan-2-ylmethyl)-benzyl)-isoxazol-5-yl)-pyridin-2-ylamine;&#10;3-(3-(6-phenoxymethyl-pyridin-3-ylmethyl)-isoxazol-5-yl)-pyridin-2,6-diamine;&#10;3-(3-(1-benzyl-1H-pyrrol-3-ylmethyl)-isoxazol-5-yl)-pyridin-2,6-diamine;&#10;3-(3-(6-(3-fluoro-phenoxy)-pyridin-3-ylmethyl)-isoxazol-5-yl)-pyridin-2,6-diamine;&#10;3-(3-(6-(4-fluoro-phenoxy)-pyridin-3-ylmethyl)-isoxazol-5-yl)-pyridin-2,6-diamine;&#10;3-(3-(6-benzyloxy-pyridin-3-ylmethyl)-isoxazol-5-yl)-pyridin-2-ylamine, and&#10;3-(3-(6-(4-fluoro-benzyloxy)-pyridin-3-ylmethyl)-isoxazol-5-yl)-pyridin-2,6-diamine.",
+      "link_degree": 1,
+      "references": [
+        0
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514531,
+      "index": 12,
+      "node_name": "claim 12",
+      "node_value": "A pharmaceutical composition comprising the compound or the salt thereof according to claim 11; and&#10;a pharmaceutically acceptable carrier.",
+      "link_degree": 1,
+      "references": [
+        11
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514534,
+      "index": 13,
+      "node_name": "claim 13",
+      "node_value": "A compound of 3-(3-(6-benzyloxy-pyridin-3-ylmethyl)-isoxazol-5-yl)-pyridin-2,6-diamine:&#10;&#10;&#10;&#10;&#10;or a pharmaceutically acceptable salt thereof.",
+      "link_degree": 1,
+      "references": [
+        0
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514537,
+      "index": 14,
+      "node_name": "claim 14",
+      "node_value": "A pharmaceutical composition comprising the compound or the salt thereof according to claim 13; and&#10;a pharmaceutically acceptable carrier.",
+      "link_degree": 1,
+      "references": [
+        13
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514540,
+      "index": 15,
+      "node_name": "claim 15",
+      "node_value": "A compound of 3-(3-(6-phenoxy-pyridin-3-ylmethyl)-isoxazol-5-yl)-pyridin-2,6-diamine:&#10;&#10;&#10;&#10;&#10;or a pharmaceutically acceptable salt thereof.",
+      "link_degree": 1,
+      "references": [
+        0
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514543,
+      "index": 16,
+      "node_name": "claim 16",
+      "node_value": "A pharmaceutical composition comprising the compound or the salt thereof according to claim 15; and&#10;a pharmaceutically acceptable carrier.",
+      "link_degree": 1,
+      "references": [
+        15
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514546,
+      "index": 17,
+      "node_name": "claim 17",
+      "node_value": "A compound of 3-(3-(6-benzyloxy-pyridin-3-ylmethyl)-isoxazol-5-yl)-pyridin-2-ylamine:&#10;&#10;&#10;&#10;&#10;or a pharmaceutically acceptable salt thereof.",
+      "link_degree": 1,
+      "references": [
+        0
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514549,
+      "index": 18,
+      "node_name": "claim 18",
+      "node_value": "A pharmaceutical composition comprising the compound or the salt thereof according to claim 17; and&#10;a pharmaceutically acceptable carrier.",
+      "link_degree": 1,
+      "references": [
+        17
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514552,
+      "index": 19,
+      "node_name": "claim 19",
+      "node_value": "A compound of 3-(3-(6-(4-fluoro-benzyloxy)-pyridin-3-ylmethyl)-isoxazol-5-yl)-pyridin-2,6-diamine:&#10;&#10;&#10;&#10;&#10;or a pharmaceutically acceptable salt thereof.",
+      "link_degree": 1,
+      "references": [
+        0
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514555,
+      "index": 20,
+      "node_name": "claim 20",
+      "node_value": "A pharmaceutical composition comprising the compound or the salt thereof according to claim 19; and&#10;a pharmaceutically acceptable carrier.",
+      "link_degree": 1,
+      "references": [
+        19
+      ],
+      "group": 1
+    },
+    {
+      "id": 3514558,
+      "index": 21,
+      "node_name": "claim 21",
+      "node_value": "A method for treating a fungal infection comprising:&#10;administering a pharmacologically effective dose of a compound according to claim 1 or salt thereof, to a patient in need thereof.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    }
+  ],
+  "claim_links": [
+    {
+      "source": 3514501,
+      "target": 3514498,
+      "value": 1
+    },
+    {
+      "source": 3514504,
+      "target": 3514498,
+      "value": 1
+    },
+    {
+      "source": 3514507,
+      "target": 3514498,
+      "value": 1
+    },
+    {
+      "source": 3514510,
+      "target": 3514498,
+      "value": 1
+    },
+    {
+      "source": 3514513,
+      "target": 3514510,
+      "value": 1
+    },
+    {
+      "source": 3514516,
+      "target": 3514498,
+      "value": 1
+    },
+    {
+      "source": 3514519,
+      "target": 3514498,
+      "value": 1
+    },
+    {
+      "source": 3514522,
+      "target": 3514498,
+      "value": 1
+    },
+    {
+      "source": 3514525,
+      "target": 3514498,
+      "value": 1
+    },
+    {
+      "source": 3514531,
+      "target": 3514528,
+      "value": 1
+    },
+    {
+      "source": 3514537,
+      "target": 3514534,
+      "value": 1
+    },
+    {
+      "source": 3514543,
+      "target": 3514540,
+      "value": 1
+    },
+    {
+      "source": 3514549,
+      "target": 3514546,
+      "value": 1
+    },
+    {
+      "source": 3514555,
+      "target": 3514552,
+      "value": 1
+    },
+    {
+      "source": 3514558,
+      "target": 3514498,
+      "value": 1
+    }
+  ],
+  "links": {
+    "is_parentChem_of": [
+      {
+        "source": 3514501,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514498,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514501,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514501,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514504,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514504,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514507,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514507,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514510,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514510,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514513,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514513,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514516,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514516,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514519,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514519,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514522,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514522,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514525,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514525,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514528,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514528,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514531,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514531,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514534,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514534,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514537,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514537,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514540,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514540,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514543,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514543,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514546,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514546,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514549,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514549,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514552,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514552,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514555,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514558,
+        "target": 3514555,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514498,
+        "target": 3514558,
+        "source_value": "compounds",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514501,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514504,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514507,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514510,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514513,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514516,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514519,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514522,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514525,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514528,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514531,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514534,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514537,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514540,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514543,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514546,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514549,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514552,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 3514555,
+        "target": 3514558,
+        "source_value": "compound",
+        "target_value": "salt"
+      }
+    ]
+  }
+}

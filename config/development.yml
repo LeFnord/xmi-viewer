@@ -1,0 +1,12 @@
+---
+  address: localhost
+  port: 4567
+  environment: development
+  chdir: /Users/le_fnord/sandbox/own_things/think_and_do
+  pid: /Users/le_fnord/sandbox/own_things/think_and_do/tmp/thin.pid
+  rackup: /Users/le_fnord/sandbox/own_things/think_and_do/config.ru
+  log: /Users/le_fnord/sandbox/own_things/think_and_do/log/thin.log
+  max_conns: 1024
+  max_persistent_conns: 16
+  timeout: 600
+  daemonize: false

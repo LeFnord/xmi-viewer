@@ -1,0 +1,544 @@
+{
+  "claims": [
+    {
+      "id": 1133115,
+      "index": 1,
+      "node_name": "claim 1",
+      "node_value": "A compound of the formula (I)&#10;&#10;&#10;&#10;&#10;wherein:&#10;Het is a 5-membered heteroaryl ring;&#10;R1 is C1-10 alkyl, C1-10 alkoxy, C3-10 cycloalkyl, 3-10 membered saturated heterocyclic ring, 5-10 membered mono or bicyclic heteroaryl ring or phenyl each optionally independently substituted with 1-3 substituents chosen from C1-4 alkyl, C1-4 alkoxy, C3-10 cycloalkyl, C1-4 alkylsulfonyl, acyl, oxo, cyano, phenyl, hydroxyl and halogen;&#10;R2 and R3 are C1-C4 alkyl or hydrogen with the proviso that both R2 and R3 cannot be hydrogen; or R2 and R3 together with the carbon atom to which they are attached form a 3- to 6-membered cycloalkyl or heterocyclic ring;&#10;R4 is hydrogen or methyl;&#10;R5 is chosen from&#10;&#10;&#10;&#10;&#10;m is 0, 1, 2 or 3&#10;R6 is hydrogen or C1-4 alkyl;&#10;&#10;wherein R7 and R8 are each independently hydrogen or C1-4 alkyl with the proviso that both R7 and R8 cannot be hydrogen; and wherein R7 and R8 optionally can cyclize to form a C3-7 cycloalkyl ring;&#10;n is 0, 1 or 2;&#10;&#10;wherein any carbon atom on the formula (I) or any R substituent listed above is optionally partially or fully halogenated where possible;&#10;or a pharmaceutically acceptable salt thereof.",
+      "link_degree": 1,
+      "references": [
+        0
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133118,
+      "index": 2,
+      "node_name": "claim 2",
+      "node_value": "The compound according to claim 1, and wherein&#10;Het is&#10;&#10;&#10;&#10;&#10;R1 is C1-4 alkyl, phenyl, cyclopropyl, cyclobutyl, cyclopentyl, cyclohexyl, cycloheptyl, cyclooctyl, tetrahydrofuranyl, tetrahydropyranyl, azetidinyl, piperidinyl; benzoxazolyl, benzothiazolyl, benzimidazolyl, dioxanyl, oxazolyl, isoxazolyl, thiazolyl, pyrazolyl, pyrrolyl, imidazolyl, thienyl, thiomorpholinyl, 1,1-Dioxo-1λ6-thiomorpholinyl, morpholinyl, pyridinyl, pyrimidinyl, pyridazinyl, pyrazinyl, triazinyl, pyrrolidinyl, piperazinyl, purinyl, quinolinyl, Dihydro-2H-quinolinyl, isoquinolinyl, quinazolinyl, indazolyl, indolyl, benzofuranyl, benzopyranyl or benzodioxolyl each optionally substituted by a substituent chosen from halogen, C1-4 alkyl, C1-4 alkylsulfonyl or oxo;&#10;R2 and R3 are independently methyl, ethyl, n-propyl, isopropyl, or hydrogen with the proviso that both R2 and R3 cannot be hydrogen; or R2 and R3 together with the carbon to which they are attached form a cyclopropyl, cyclobutyl, or cyclopentyl ring;&#10;R4 is hydrogen;&#10;R5 is chosen from&#10;&#10;&#10;&#10;&#10;R6 is hydrogen or C1-3 alkyl;&#10;&#10;wherein R7 and R8 are each C1-3 alkyl or C3-6 cycloalkyl.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133121,
+      "index": 3,
+      "node_name": "claim 3",
+      "node_value": "The compound according to claim 2, and wherein&#10;R1 is C1-4 alkyl, cyclopropyl, cyclobutyl, cyclopentyl, cyclohexyl, cycloheptyl, cyclooctyl, tetrahydrofuranyl, tetrahydropyranyl, azetidinyl, piperidinyl, dioxanyl, thiomorpholinyl, 1,1-Dioxo-1λ6-thiomorpholinyl, morpholinyl, pyrrolidinyl or piperazinyl, each optionally substituted by a substituent chosen from halogen, C1-4 alkyl, C1-4 alkylsulfonyl or oxo.",
+      "link_degree": 1,
+      "references": [
+        2
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133124,
+      "index": 4,
+      "node_name": "claim 4",
+      "node_value": "The compound according to claim 1, and wherein&#10;R1 is C1-4 alkyl, cyclopropyl, cyclobutyl, cyclopentyl, cyclohexyl, cycloheptyl, cyclooctyl, tetrahydrofuranyl, tetrahydropyranyl, azetidinyl, piperidinyl, dioxanyl, thiomorpholinyl, 1,1-Dioxo-1λ6-thiomorpholinyl, morpholinyl, pyrrolidinyl or piperazinyl, optionally substituted by a substituent chosen from halogen, C1-4 alkyl, C1-4 alkoxy, C1-4 alkylsulfonyl or oxo.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133127,
+      "index": 5,
+      "node_name": "claim 5",
+      "node_value": "The compound according to claim 2, and wherein&#10;Het is&#10;&#10;&#10;&#10;&#10;R1 is phenyl, benzoxazolyl, benzothiazolyl, benzimidazolyl, oxazolyl, isoxazolyl, thiazolyl, pyrazolyl, pyrrolyl, imidazolyl, thienyl, thiadiazolyl, pyridinyl, pyrimidinyl, pyridazinyl, pyrazinyl, triazinyl, purinyl, quinolinyl, Dihydro-2H-quinolinyl, isoquinolinyl, quinazolinyl, indazolyl, indolyl, benzofuranyl, benzopyranyl or benzodioxolyl each optionally substituted by a substituent chosen from halogen, C1-4 alkyl, C1-4 alkylsulfonyl or oxo;&#10;R2 and R3 are independently methyl, ethyl, n-propyl, isopropyl, or hydrogen with the proviso that both R2 and R3 cannot be hydrogen; or R2 and R3 together with the carbon to which they are attached form a cyclopropyl, cyclobutyl, or cyclopentyl ring.",
+      "link_degree": 1,
+      "references": [
+        2
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133130,
+      "index": 6,
+      "node_name": "claim 6",
+      "node_value": "The compound according to claim 5, and wherein&#10;Het is&#10;&#10;&#10;&#10;&#10;R1 is phenyl or benzimidazoyl each optionally substituted by a substituent chosen from halogen, C1-4 alkyl, C1-4 alkylsulfonyl or oxo;&#10;R2 and R3 are methyl; or R2 and R3 together with the carbon to which they are attached form a cyclopropyl or cyclobutyl ring;&#10;R6 is hydrogen or C1-2 alkyl;&#10;R7 and R8 are each C1-2 alkyl.",
+      "link_degree": 1,
+      "references": [
+        5
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133133,
+      "index": 7,
+      "node_name": "claim 7",
+      "node_value": "The compound according to claim 3, and wherein&#10;Het is&#10;&#10;&#10;&#10;&#10;R1 is C1-2 alkyl, cyclopropyl, cyclobutyl, cyclopentyl, cyclohexyl, tetrahydropyranyl, tetrahydrofuranyl, azetidinyl, pyrrolidinyl or piperidinyl each optionally substituted by a substituent chosen from by halogen, C1-4 alkyl, C1-4 alkylsulfonyl or oxo;&#10;R2 and R3 are methyl, or R2 and R3 together with the carbon to which they are attached form a cyclopropyl or cyclobutyl ring;&#10;R6 is hydrogen or C1-2 alkyl;&#10;R7 and R8 are each C1-2 alkyl.",
+      "link_degree": 1,
+      "references": [
+        3
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133136,
+      "index": 8,
+      "node_name": "claim 8",
+      "node_value": "The compound according claim 6 and wherein&#10;Het is&#10;&#10;&#10;&#10;&#10;R1 is phenyl optionally substituted by a substituent chosen from by halogen, C1-4 alkyl or C1-4 alkylsulfonyl.",
+      "link_degree": 1,
+      "references": [
+        6
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133139,
+      "index": 9,
+      "node_name": "claim 9",
+      "node_value": "The compound according to claim 7, and wherein&#10;Het is&#10;&#10;&#10;&#10;&#10;R1 is cyclopropyl, cyclobutyl, tetrahydropyranyl, tetrahydrofuranyl or azetidinyl each optionally substituted by a substituent chosen from by halogen, C1-4 alkyl, C1-4 alkylsulfonyl or oxo.",
+      "link_degree": 1,
+      "references": [
+        7
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133142,
+      "index": 10,
+      "node_name": "claim 10",
+      "node_value": "The compound according to claim 3, and wherein&#10;Het is&#10;&#10;&#10;&#10;&#10;R2 and R3 are methyl.",
+      "link_degree": 1,
+      "references": [
+        3
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133145,
+      "index": 11,
+      "node_name": "claim 11",
+      "node_value": "The compound according to claim 10, and wherein&#10;Het is&#10;&#10;&#10;&#10;&#10;&#10;and&#10;R5 is chosen from",
+      "link_degree": 1,
+      "references": [
+        10
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133148,
+      "index": 12,
+      "node_name": "claim 12",
+      "node_value": "The compound according to claim 11, and wherein&#10;Het is",
+      "link_degree": 1,
+      "references": [
+        11
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133151,
+      "index": 13,
+      "node_name": "claim 13",
+      "node_value": "The compound according to claim 11, and wherein&#10;R5 is",
+      "link_degree": 1,
+      "references": [
+        11
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133154,
+      "index": 14,
+      "node_name": "claim 14",
+      "node_value": "The compound according to claim 11, and wherein&#10;R1 is C1-4 alkyl, cyclopropyl, cyclobutyl, cyclopentyl, cyclohexyl, tetrahydropyranyl, tetrahydrofuranyl, azetidinyl, piperidinyl or pyrrolidinyl each optionally substituted by a substituent chosen from by halogen, C1-4 alkyl, C1-4 alkoxy, C1-4 alkylsulfonyl or oxo.",
+      "link_degree": 1,
+      "references": [
+        11
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133157,
+      "index": 15,
+      "node_name": "claim 15",
+      "node_value": "The compound according to claim 11, and wherein&#10;R1 is CF3—CH2—CH2—CH2— or tetrahydropyranyl.",
+      "link_degree": 1,
+      "references": [
+        11
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133160,
+      "index": 16,
+      "node_name": "claim 16",
+      "node_value": "A compound of the formula (II)&#10;&#10;&#10;&#10;&#10;wherein&#10;&#10;&#10;&#10;&#10;of the formula (I) is chosen from column A1-A26 in Table I, and&#10;&#10;&#10;&#10;&#10;of the formula (I) is chosen from column B1-B20 in Table I,&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;TABLE I&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;A1&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A2&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A3&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A4&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A5&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A6&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A7&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A8&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A9&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A10&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A11&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A12&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A13&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A14&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A15&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A16&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A17&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A18&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A19&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A20&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A21&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A22&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A23&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A24&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A25&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;A26&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B1&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B2&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B3&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B4&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B5&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B6&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B7&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B8&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B9&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B10&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B11&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B12&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B13&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B14&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B15&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B16&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B17&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B18&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B19&#10;&#10;&#10;&#10;&#10;&#10;&#10; &#10;&#10;&#10;B20&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;or a pharmaceutically acceptable salt thereof.",
+      "link_degree": 1,
+      "references": [
+        0
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133163,
+      "index": 17,
+      "node_name": "claim 17",
+      "node_value": "A pharmaceutical composition comprising a therapeutically effective amount of a compound according to claim 1 and one or more pharmaceutically acceptable carriers and/or adjuvants.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133166,
+      "index": 18,
+      "node_name": "claim 18",
+      "node_value": "A method of treating pain comprising administering a therapeutically effective amount of a compound according to claim 1.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 1133169,
+      "index": 19,
+      "node_name": "claim 19",
+      "node_value": "A method of treating a disease or condition chosen from a lung disease, a rheumatic disease, an autoimmune disease, a musculoskeletal disease, an allergic disease, an allergic reaction, a vascular disease, a dermatological disease, a renal disease, a hepatic disease, a gastrointestinal disease, neurodegeneration eye disease, diseases of the ear, nose, and throat, neurological disease blood disease, tumors, endocrine diseases, organ and tissue transplantations and graft-versus-host diseases, severe states of shock, acute pain, visceral pain, spasm of the gastrointestinal tract or uterus, colics, neuropathic pain, inflammatory and nociceptive pain, cancer pain, headache, restenosis, atherosclerosis, reperfusion injury, congestive heart failure, myocardial infarction, thermal injury, multiple organ injury secondary to trauma, necrotizing enterocolitis and syndromes associated with hemodialysis, leukopheresis, and granulocyte transfusion, sarcoidosis, gingivitis and pyrexia comprising administering a therapeutically effective amount of a compound according to claim 1.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    }
+  ],
+  "claim_links": [
+    {
+      "source": 1133118,
+      "target": 1133115,
+      "value": 1
+    },
+    {
+      "source": 1133121,
+      "target": 1133118,
+      "value": 1
+    },
+    {
+      "source": 1133124,
+      "target": 1133115,
+      "value": 1
+    },
+    {
+      "source": 1133127,
+      "target": 1133118,
+      "value": 1
+    },
+    {
+      "source": 1133130,
+      "target": 1133127,
+      "value": 1
+    },
+    {
+      "source": 1133133,
+      "target": 1133121,
+      "value": 1
+    },
+    {
+      "source": 1133136,
+      "target": 1133130,
+      "value": 1
+    },
+    {
+      "source": 1133139,
+      "target": 1133133,
+      "value": 1
+    },
+    {
+      "source": 1133142,
+      "target": 1133121,
+      "value": 1
+    },
+    {
+      "source": 1133145,
+      "target": 1133142,
+      "value": 1
+    },
+    {
+      "source": 1133148,
+      "target": 1133145,
+      "value": 1
+    },
+    {
+      "source": 1133151,
+      "target": 1133145,
+      "value": 1
+    },
+    {
+      "source": 1133154,
+      "target": 1133145,
+      "value": 1
+    },
+    {
+      "source": 1133157,
+      "target": 1133145,
+      "value": 1
+    },
+    {
+      "source": 1133163,
+      "target": 1133115,
+      "value": 1
+    },
+    {
+      "source": 1133166,
+      "target": 1133115,
+      "value": 1
+    },
+    {
+      "source": 1133169,
+      "target": 1133115,
+      "value": 1
+    }
+  ],
+  "links": {
+    "is_parentChem_of": [
+      {
+        "source": 1133118,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133121,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133124,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133127,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133130,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133133,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133136,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133139,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133142,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133145,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133148,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133151,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133154,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133157,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133160,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133163,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133166,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133169,
+        "target": 1133115,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133115,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133118,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133121,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133124,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133127,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133130,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133133,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133136,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133139,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133142,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133145,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133148,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133151,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133154,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133157,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133163,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133166,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133169,
+        "target": 1133160,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 1133166,
+        "target": 1133169,
+        "source_value": "pain",
+        "target_value": "acute pain"
+      },
+      {
+        "source": 1133166,
+        "target": 1133169,
+        "source_value": "pain",
+        "target_value": "neuropathic pain"
+      },
+      {
+        "source": 1133166,
+        "target": 1133169,
+        "source_value": "pain",
+        "target_value": "nociceptive pain"
+      },
+      {
+        "source": 1133166,
+        "target": 1133169,
+        "source_value": "pain",
+        "target_value": "headache"
+      }
+    ]
+  }
+}

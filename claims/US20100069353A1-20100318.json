@@ -1,0 +1,1109 @@
+{
+  "claims": [
+    {
+      "id": 430351,
+      "index": 1,
+      "node_name": "claim 1",
+      "node_value": "A compound of formula (I):&#10;&#10;&#10;&#10;wherein&#10;R1 is (C1-4)alkyl or (C3-4)cycloalkyl;&#10;R2 is a 5- or 6-membered heterocycle containing 1 to 4 heteroatoms each independently selected from N, O and S, wherein the heterocycle is optionally substituted with 1 to 3 substituents each independently selected from halo, (C1-6)alkyl and (C1-6)haloalkyl;&#10;R3 is (C1-6)alkyl, (C3-7)cycloalkyl-(C1-6)alkyl-, aryl-(C1-6)alkyl- or Het-(C1-6)alkyl-;&#10;wherein each of the (C1-6)alkyl, (C3-7)cycloalkyl-(C1-6)alkyl-, aryl-(C1-6)alkyl- and Het-(C1-6)alkyl- is optionally substituted with 1 to 3 substituents each independently selected from (C1-6)alkyl, (C1-6)haloalkyl, halo, oxo, —N3, —CN, —OH, —O(C1-6)alkyl, —NH2, —NH(C1-6)alkyl, —N((C1-6)alkyl)2, —NHC(═O)(C1-6)alkyl, —NHSO2(C1-6)alkyl, —C(═O)—NH2, —C(═O)—NH(C1-6)alkyl, —C(═O)—N((C1-6)alkyl)2, —C(═O)(C1-6)alkyl, —SO2NH2, —SO2NH(C1-6)alkyl, —SO2N((C1-6)alkyl)2, —SO2(C1-6)alkyl, Het, Het-(C1-6)alkyl- and —C(═N((C1-6)alkyl)2)-N((C1-6)alkyl)2; and&#10;&#10;R4 is (C1-6)alkyl, (C3-7)cycloalkyl, (C3-7)cycloalkyl-(C1-6)alkyl-, aryl, aryl-(C1-6)alkyl-, Het or Het-(C1-6)alkyl-;&#10;wherein each of the (C1-6)alkyl, (C3-7)cycloalkyl, (C3-7)cycloalkyl-(C1-6)alkyl-, aryl, aryl-(C1-6)alkyl-, Het and Het-(C1-6)alkyl- is optionally substituted with 1 to 4 substituents each independently selected from (C1-6)alkyl, Het, halo, —NO2, —OH, —O(C1-6)alkyl, —C(═O)(C1-6)alkyl, —COOH, —N(R41)R42, —C(═O)—N(R41)R42 and —SO2—N(R41)R42;&#10;wherein each of the (C1-6)alkyl and —O(C1-6)alkyl are optionally substituted with —N(R41)R42, —C(═O)—N(R41)R42 or —O-Het;&#10;&#10;wherein R41 is H or (C1-6)alkyl and&#10;R42 is H, (C1-6)alkyl, (C3-7)cycloalkyl, (C3-7)cycloalkyl-(C1-6)alkyl-, aryl-(C1-6)alkyl-, Het or Het-(C1-6)alkyl-;&#10;wherein the (C1-6)alkyl is optionally substituted with —CN, —OH, —O(C1-6)alkyl, —NH2, —NH(C1-6)alkyl, —N((C1-6)alkyl)2, —C(═O)—NH2, —C(═O)—NH(C1-6)alkyl and —C(═O)—N((C1-6)alkyl)2;&#10;and wherein the aryl portion of the aryl-(C1-6)alkyl- and the Het are each optionally substituted with 1 to 3 substituents each independently selected from (C1-6)alkyl, —OH, —NH2 and —C(═O)—O(C1-6)alkyl; or&#10;&#10;R41 and R42 are linked, together with the N to which they are attached, to form a 4- to 7-membered heterocycle optionally further containing 1 to 3 heteroatoms each independently selected from O, N and S, or a 9- to 14-membered heteropolycycle optionally further containing 1 to 3 heteroatoms each independently selected from O, N and S; wherein each of the heterocycle and heteropolycycle is optionally substituted with 1 to 3 substituents each independently selected from (C1-6)alkyl, Het, halo, —OH, —NH2, —NH(C1-6)alkyl, —N((C1-6)alkyl)2, —CN, —COOH, —C(═O)—O(C1-6)alkyl, —C(═O)—NH2, —C(═O)—NH(C1-6)alkyl and —C(═O)—N((C1-6)alkyl)2;&#10;wherein the (C1-6)alkyl is optionally substituted with —OH;&#10;&#10;&#10;wherein Het is a 4- to 7-membered saturated, unsaturated or aromatic heterocycle having 1 to 4 heteroatoms each independently selected from O, N and S, or a 7- to 14-membered saturated, unsaturated or aromatic heteropolycycle having wherever possible 1 to 5 heteroatoms, each independently selected from O, N and S; wherein each N heteroatom may, independently and where possible, exist in an oxidized state such that it is further bonded to an oxygen atom to form an N-oxide group and wherein each S heteroatom may, independently and where possible, exist in an oxidized state such that it is further bonded to one or two oxygen atoms to form the groups SO or SO2;&#10;or a salt or ester thereof.",
+      "link_degree": 1,
+      "references": [
+        0
+      ],
+      "group": 1
+    },
+    {
+      "id": 430354,
+      "index": 2,
+      "node_name": "claim 2",
+      "node_value": "The compound according to claim 1, wherein R1 is (C1-4)alkyl.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 430357,
+      "index": 3,
+      "node_name": "claim 3",
+      "node_value": "The compound according to claim 2, wherein R1 is methyl or ethyl.",
+      "link_degree": 1,
+      "references": [
+        2
+      ],
+      "group": 1
+    },
+    {
+      "id": 430360,
+      "index": 4,
+      "node_name": "claim 4",
+      "node_value": "The compound according to claim 3, wherein R1 is ethyl.",
+      "link_degree": 1,
+      "references": [
+        3
+      ],
+      "group": 1
+    },
+    {
+      "id": 430363,
+      "index": 5,
+      "node_name": "claim 5",
+      "node_value": "The compound according to claim 1, wherein R1 is (C3-4)cycloalkyl.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 430366,
+      "index": 6,
+      "node_name": "claim 6",
+      "node_value": "The compound according to claim 5, wherein R1 is cyclopropyl.",
+      "link_degree": 1,
+      "references": [
+        5
+      ],
+      "group": 1
+    },
+    {
+      "id": 430369,
+      "index": 7,
+      "node_name": "claim 7",
+      "node_value": "The compound according to claim 1, wherein R2 is a 5-membered heterocycle containing 1 or 2 heteroatoms each independently selected from N, O and S, wherein the heterocycle is optionally substituted with 1 to 3 substituents each independently selected from halo, (C1-6)alkyl and (C1-6)haloalkyl.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 430372,
+      "index": 8,
+      "node_name": "claim 8",
+      "node_value": "The compound according to claim 7, wherein R2 is furyl or thienyl, each of the furyl and thienyl being optionally substituted with 1 or 2 substituents each independently selected from halo, (C1-6)alkyl and (C1-6)haloalkyl.",
+      "link_degree": 1,
+      "references": [
+        7
+      ],
+      "group": 1
+    },
+    {
+      "id": 430375,
+      "index": 9,
+      "node_name": "claim 9",
+      "node_value": "The compound according to claim 1, wherein R3 is aryl-(C1-3)alkyl- optionally substituted with 1 to 3 substituents each independently selected from (C1-6)alkyl, (C1-6)haloalkyl, halo, —N3, —CN, —OH, —O(C1-6)alkyl, —NH2, —NH(C1-6)alkyl, —N((C1-6)alkyl)2, —NHC(═O)(C1-6)alkyl, —NHSO2(C1-6)alkyl, —C(═O)—NH2, —C(═O)—NH(C1-6)alkyl, —C(═O)—N((C1-6)alkyl)2, —C(═O)(C1-6)alkyl, —SO2NH2, —SO2NH(C1-6)alkyl, —SO2N((C1-6)alkyl)2, —SO2(C1-6)alkyl, Het and Het-(C1-6)alkyl-.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 430378,
+      "index": 10,
+      "node_name": "claim 10",
+      "node_value": "The compound according to claim 9, wherein R3 is aryl-(C1-3)alkyl- optionally substituted with 1 to 3 substituents each independently selected from halo, —N3, —OH, —O(C1-4)alkyl, —NH2, —NH(C1-4)alkyl, —N((C1-4)alkyl)2, —NHC(═O)(C1-4)alkyl, —SO2NH2, —SO2NH(C1-4)alkyl, —SO2N((C1-4)alkyl)2, —SO2(C1-4)alkyl, Het and Het-(C1-6)alkyl-;&#10;wherein the Het is a 5- or 6-membered heterocycle containing 1 to 3 heteroatoms each independently selected from N, O and S.",
+      "link_degree": 1,
+      "references": [
+        9
+      ],
+      "group": 1
+    },
+    {
+      "id": 430381,
+      "index": 11,
+      "node_name": "claim 11",
+      "node_value": "The compound according to claim 1, wherein R3 is Het-(C1-3)alkyl- optionally substituted with 1 to 3 substituents each independently selected from (C1-6)alkyl, (C1-6)haloalkyl, halo, oxo, —N3, —CN, —OH, —O(C1-6)alkyl, —NH2, —NH(C1-6)alkyl, —N((C1-6)alkyl)2, —NHC(═O)(C1-6)alkyl, —NHSO2(C1-6)alkyl, —C(═O)—NH2, —C(═O)—NH(C1-6)alkyl, —C(═O)—N((C1-6)alkyl)2, —C(═O)(C1-6)alkyl, —SO2NH2, —SO2NH(C1-6)alkyl, —SO2N((C1-6)alkyl)2, —SO2(C1-6)alkyl, Het, Het-(C1-6)alkyl- and C(═N((C1-6)alkyl)2)-N((C1-6)alkyl)2.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 430384,
+      "index": 12,
+      "node_name": "claim 12",
+      "node_value": "The compound according to claim 11, wherein R3 is Het-(C1-3)alkyl-, wherein the Het is a 5- or 6-membered heterocycle containing 1 to 3 heteroatoms each independently selected from N, O and S or the Het is a 9- or 10-membered heteropolycycle containing 1 to 3 heteroatoms each independently selected from N, O and S;&#10;wherein the Het-(C1-3)alkyl- is optionally substituted with 1 to 3 substituents each independently selected from (C1-6)alkyl, (C1-6)haloalkyl, oxo, —O(C1-6)alkyl, —C(═N((C1-6)alkyl)2)-N((C1-6)alkyl)2 and Het, wherein the Het is a 4, 5- or 6-membered heterocycle containing 1 to 3 heteroatoms each independently selected from N, O and S.",
+      "link_degree": 1,
+      "references": [
+        11
+      ],
+      "group": 1
+    },
+    {
+      "id": 430387,
+      "index": 13,
+      "node_name": "claim 13",
+      "node_value": "The compound according to claim 12, wherein R3 is Het-(C1-2)alkyl-, wherein the Het is pyridyl; and wherein the Het-(C1-2)alkyl- is optionally substituted with 1 or 2 substituents each independently selected from (C1-6)alkyl, oxo and —O(C1-6)alkyl.",
+      "link_degree": 1,
+      "references": [
+        12
+      ],
+      "group": 1
+    },
+    {
+      "id": 430390,
+      "index": 14,
+      "node_name": "claim 14",
+      "node_value": "The compound according to claim 1, wherein R4 is aryl;&#10;wherein the aryl is optionally substituted with 1 to 4 substituents each independently selected from (C1-6)alkyl, Het, halo, —OH, —O(C1-6)alkyl, —C(═O)(C1-6)alkyl, —COOH, —N(R41)R42, —C(═O)—N(R41)R42 and —SO2—N(R41)R42;&#10;wherein each of the (C1-6)alkyl and —O(C1-6)alkyl are optionally substituted with —N(R41)R42, —C(═O)—N(R41)R42 or —O-Het;&#10;&#10;wherein R41 is H or (C1-6)alkyl and&#10;R42 is H, (C1-6)alkyl, (C3-7)cycloalkyl, (C3-7)cycloalkyl-(C1-6)alkyl-, aryl-(C1-6)alkyl-, Het or Het-(C1-6)alkyl-;&#10;wherein the (C1-6)alkyl is optionally substituted with —CN, —OH, —O(C1-6)alkyl, —NH2, —NH(C1-6)alkyl, —N((C1-6)alkyl)2, —C(═O)—NH2, —C(═O)—NH(C1-6)alkyl and —C(═O)—N((C1-6)alkyl)2;&#10;and wherein the aryl portion of the aryl-(C1-6)alkyl- and the Het are each optionally substituted with 1 to 3 substituents each independently selected from (C1-6)alkyl, —OH, —NH2 and —C(═O)—O(C1-6)alkyl; or&#10;&#10;R41 and R42 are linked, together with the N to which they are attached, to form a 4- to 7-membered heterocycle optionally further containing 1 to 3 heteroatoms each independently selected from O, N and S, or a 9- to 14-membered heteropolycycle optionally further containing 1 to 3 heteroatoms each independently selected from O, N and S; wherein each of the heterocycle and heteropolycycle is optionally substituted with 1 to 3 substituents each independently selected from (C1-6)alkyl, Het, halo, —OH, —NH2, —NH(C1-6)alkyl, —N((C1-6)alkyl)2, —CN, —COOH, —C(═O)—O(C1-6)alkyl, —C(═O)—NH2, —C(═O)—NH(C1-6)alkyl and —C(═O)—N((C1-6)alkyl)2;&#10;wherein the (C1-6)alkyl is optionally substituted with —OH.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 430393,
+      "index": 15,
+      "node_name": "claim 15",
+      "node_value": "The compound according to claim 14, wherein R4 is aryl of the formula:&#10;&#10;&#10;&#10;wherein R40 is selected from (C1-6)alkyl, Het, halo, —O(C1-6)alkyl, —C(═O)(C1-6)alkyl, —COOH, —C(═O)—N(R41)R42 and —SO2—N(R41)R42;&#10;wherein Het is a 6-membered heterocycle containing 1 or 2 heteroatoms each independently selected from N, O and S; and&#10;wherein the (C1-6)alkyl is optionally substituted with —N(R41)R42 or —O-Het, wherein Het is a 6-membered heterocycle containing 1 or 2 heteroatoms each independently selected from N, O and S;&#10;&#10;wherein R41 is H or (C1-6)alkyl and&#10;R42 is H, (C1-6)alkyl, (C3-7)cycloalkyl, (C3-7)cycloalkyl-(C1-6)alkyl-, aryl-(C1-6)alkyl-, Het or Het-(C1-6)alkyl-;&#10;wherein the (C1-6)alkyl is optionally substituted with —CN, —OH, —O(C1-6)alkyl, —NH2, —NH(C1-6)alkyl, —N((C1-6)alkyl)2, —C(═O)—NH2, —C(═O)—NH(C1-6)alkyl and —C(═O)—N((C1-6)alkyl)2;&#10;and wherein the aryl portion of the aryl-(C1-6)alkyl- and the Het are each optionally substituted with 1 to 3 substituents each independently selected from (C1-6)alkyl, —OH, —NH2 and —C(═O)—O(C1-6)alkyl; or&#10;&#10;R41 and R42 are linked, together with the N to which they are attached, to form a 4- to 7-membered heterocycle optionally further containing 1 to 3 heteroatoms each independently selected from O, N and S; wherein the heterocycle is optionally substituted with 1 to 3 substituents each independently selected from (C1-6)alkyl, Het, halo, —OH, —NH2, —NH(C1-6)alkyl, —N((C1-6)alkyl)2, —CN, —COOH, —C(═O)—O(C1-6)alkyl, —C(═O)—NH2, —C(═O)—NH(C1-6)alkyl and —C(═O)—N((C1-6)alkyl)2;&#10;wherein the (C1-6)alkyl is optionally substituted with —OH; and wherein the Het is a 5-membered heterocycle containing 1 to 3 heteroatoms each independently selected from N, O and S.",
+      "link_degree": 1,
+      "references": [
+        14
+      ],
+      "group": 1
+    },
+    {
+      "id": 430396,
+      "index": 16,
+      "node_name": "claim 16",
+      "node_value": "The compound according to claim 15, wherein R4 is aryl of the formula:&#10;&#10;&#10;&#10;wherein R41 is H or (C1-6)alkyl and&#10;R42 is H, (C1-6)alkyl or (C3-7)cycloalkyl;&#10;wherein the (C1-6)alkyl is optionally substituted with —CN, —OH, —O(C1-6)alkyl, —NH2, —NH(C1-6)alkyl, —N((C1-6)alkyl)2, —C(═O)—NH2, —C(═O)—NH(C1-6)alkyl and —C(═O)—N((C1-6)alkyl)2; or&#10;&#10;R41 and R42 are linked, together with the N to which they are attached, to form a 4- to 7-membered heterocycle optionally further containing 1 to 3 heteroatoms each independently selected from O, N and S; wherein the heterocycle is optionally substituted with 1 to 3 substituents each independently selected from (C1-6)alkyl, Het, halo, —OH, —NH2, —NH(C1-6)alkyl, —N((C1-6)alkyl)2, —CN, —COOH, —C(═O)—O(C1-6)alkyl, —C(═O)—NH2, —C(═O)—NH(C1-6)alkyl and —C(═O)—N((C1-6)alkyl)2;&#10;wherein the (C1-6)alkyl is optionally substituted with —OH; and&#10;wherein the Het is a 5-membered heterocycle containing 1 to 3 heteroatoms each independently selected from N, O and S.",
+      "link_degree": 1,
+      "references": [
+        15
+      ],
+      "group": 1
+    },
+    {
+      "id": 430399,
+      "index": 17,
+      "node_name": "claim 17",
+      "node_value": "The compound according to claim 16, wherein R4 is aryl of the formula:&#10;&#10;&#10;&#10;wherein R41 is H or (C1-6)alkyl and R42 is (C1-6)alkyl or (C3-7)cycloalkyl; or&#10;R41 and R42 are linked, together with the N to which they are attached, to form a 4- to 6-membered heterocycle optionally further containing 1 to 3 heteroatoms each independently selected from O, N and S; wherein the heterocycle is optionally substituted with 1 or 2 substituents each independently selected from (C1-6)alkyl, halo or —OH;&#10;wherein the (C1-6)alkyl is optionally substituted with —OH.",
+      "link_degree": 1,
+      "references": [
+        16
+      ],
+      "group": 1
+    },
+    {
+      "id": 430402,
+      "index": 18,
+      "node_name": "claim 18",
+      "node_value": "The compound according to claim 1, wherein R4 is Het, wherein Het is a 5- or 6-membered heterocycle containing 1 to 3 heteroatoms each independently selected from N, O and S, or Het is a 9- or 10-membered heteropolycycle containing 1 to 3 heteroatoms each independently selected from N, O and S, wherein each N heteroatom may, independently and where possible, exist in an oxidized state such that it is further bonded to an oxygen atom to form an N-oxide group;&#10;wherein the Het is optionally substituted with 1 to 4 substituents each independently selected from (C1-6)alkyl, —NO2, —OH and —C(═O)—N(R41)R42;&#10;wherein R41 is H or (C1-6)alkyl and R42 is H or (C1-6)alkyl.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 430405,
+      "index": 19,
+      "node_name": "claim 19",
+      "node_value": "A pharmaceutically acceptable salt or ester thereof of a compound according to claim 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 or 18.",
+      "link_degree": 17,
+      "references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "group": 17
+    },
+    {
+      "id": 430408,
+      "index": 20,
+      "node_name": "claim 20",
+      "node_value": "A pharmaceutical composition comprising a compound of formula (I) according to claim 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 or 18, or a pharmaceutically acceptable salt or ester thereof; and one or more pharmaceutically acceptable carriers.",
+      "link_degree": 17,
+      "references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "group": 17
+    },
+    {
+      "id": 430411,
+      "index": 22,
+      "node_name": "claim 22",
+      "node_value": "A method for treating HIV infection in a host infected with HIV which method comprises administering a therapeutically effective amount of a compound of the formula (I) according to claim 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 or 18 or a pharmaceutically acceptable salt or ester thereof.",
+      "link_degree": 17,
+      "references": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "group": 17
+    }
+  ],
+  "claim_links": [
+    {
+      "source": 430354,
+      "target": 430351,
+      "value": 1
+    },
+    {
+      "source": 430357,
+      "target": 430354,
+      "value": 1
+    },
+    {
+      "source": 430360,
+      "target": 430357,
+      "value": 1
+    },
+    {
+      "source": 430363,
+      "target": 430351,
+      "value": 1
+    },
+    {
+      "source": 430366,
+      "target": 430363,
+      "value": 1
+    },
+    {
+      "source": 430369,
+      "target": 430351,
+      "value": 1
+    },
+    {
+      "source": 430372,
+      "target": 430369,
+      "value": 1
+    },
+    {
+      "source": 430375,
+      "target": 430351,
+      "value": 1
+    },
+    {
+      "source": 430378,
+      "target": 430375,
+      "value": 1
+    },
+    {
+      "source": 430381,
+      "target": 430351,
+      "value": 1
+    },
+    {
+      "source": 430384,
+      "target": 430381,
+      "value": 1
+    },
+    {
+      "source": 430387,
+      "target": 430384,
+      "value": 1
+    },
+    {
+      "source": 430390,
+      "target": 430351,
+      "value": 1
+    },
+    {
+      "source": 430393,
+      "target": 430390,
+      "value": 1
+    },
+    {
+      "source": 430396,
+      "target": 430393,
+      "value": 1
+    },
+    {
+      "source": 430399,
+      "target": 430396,
+      "value": 1
+    },
+    {
+      "source": 430402,
+      "target": 430351,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430351,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430354,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430357,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430360,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430363,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430366,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430369,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430372,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430375,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430378,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430381,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430384,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430387,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430390,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430393,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430396,
+      "value": 1
+    },
+    {
+      "source": 430405,
+      "target": 430399,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430351,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430354,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430357,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430360,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430363,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430366,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430369,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430372,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430375,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430378,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430381,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430384,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430387,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430390,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430393,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430396,
+      "value": 1
+    },
+    {
+      "source": 430408,
+      "target": 430399,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430351,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430354,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430357,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430360,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430363,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430366,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430369,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430372,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430375,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430378,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430381,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430384,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430387,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430390,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430393,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430396,
+      "value": 1
+    },
+    {
+      "source": 430411,
+      "target": 430399,
+      "value": 1
+    }
+  ],
+  "links": {
+    "is_parentChem_of": [
+      {
+        "source": 430354,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430357,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430360,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430363,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430366,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430369,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430372,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430375,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430378,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430381,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430384,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430387,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430390,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430393,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430396,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430399,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430402,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430405,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430408,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430411,
+        "target": 430351,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430351,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430354,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430357,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430360,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430363,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430366,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430369,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430372,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430375,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430378,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430381,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430384,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430387,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430390,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430393,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430396,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430399,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430402,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430408,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430411,
+        "target": 430405,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430351,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430354,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430357,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430360,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430363,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430366,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430369,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430372,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430375,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430378,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430381,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430384,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430387,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430390,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430393,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430396,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430399,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430402,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430405,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430411,
+        "target": 430408,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430351,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430354,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430357,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430360,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430363,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430366,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430369,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430372,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430375,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430378,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430381,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430384,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430387,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430390,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430393,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430396,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430399,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430402,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430405,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 430408,
+        "target": 430411,
+        "source_value": "compound",
+        "target_value": "salt"
+      }
+    ]
+  }
+}

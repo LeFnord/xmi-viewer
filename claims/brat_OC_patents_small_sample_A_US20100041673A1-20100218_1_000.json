@@ -1,0 +1,913 @@
+{
+  "claims": [
+    {
+      "id": 5359,
+      "index": 1,
+      "node_name": "claim 1",
+      "node_value": "A compound of formula (I)     wherein Ar represents phenyl, naphthyl, monocyclic or bicyclic rings, which may be substituted by one or more independent substituents selected from R1; R1 represents one or more independent substituents selected from hydrogen, halogen, (C1-C3)alkyl, halo(C1-C3)alkyl, (C1-C3)alkoxy, halo(C1-C3)alkoxy, alkyl thio, cyclo(C3-C6)alkyl or cyclo(C3-C6)alkoxy; R2 represents hydrogen, halogen, (C1-C3)alkyl, halo(C1-C3)alkyl, (C1-C3)alkoxy or halo (C1-C3)alkoxy; R3 represents hydrogen, halogen, (C1-C3) alkyl or halo(C1-C3)alkyl, (C1-C3)alkoxy or halo(C1-C3)alkoxy; R represents hydrogen atom, (C1-C3) alkyl or halo (C1-C3) alkyl group; R4 and R5 represent hydrogen, halogen, (C1-C3) alkyl or halo(C1-C3)alkyl, (C1-C3)alkoxy or halo(C1-C3)alkoxy.",
+      "link_degree": 1,
+      "references": [
+        0
+      ],
+      "group": 1
+    },
+    {
+      "id": 5362,
+      "index": 2,
+      "node_name": "claim 2",
+      "node_value": "The compound as claimed in claim 1, wherein Ar is phenyl, naphthyl, indolyl, indazolyl, pyrrolopyridinyl, benzofuranyl, benzothienyl or benzimidazolyl.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 5365,
+      "index": 3,
+      "node_name": "claim 3",
+      "node_value": "The compound as claimed in claim 1, wherein R1 is a hydrogen, halogen, (C1-C3)alkyl, halo(C1-C3)alkyl, (C1-C3)alkoxy, halo(C1-C3)alkoxy, alkoxy(C1-C3)alkoxy, hydroxy(C1-C3)alkoxy, alkyl thio cyclo(C3-C6)alkyl or cyclo(C3-C6)alkoxy.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 5368,
+      "index": 4,
+      "node_name": "claim 4",
+      "node_value": "The compound as claimed in claim 1, wherein R2 is hydrogen, halogen, (C1-C3)alkyl, halo(C1-C3)alkyl, (C1-C3)alkoxy or halo(C1-3) alkoxy.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 5371,
+      "index": 5,
+      "node_name": "claim 5",
+      "node_value": "The compound as claimed in claim 1, wherein R3 is hydrogen, halogen, (C1-C3)alkyl or halo(C1-C3)alkyl, (C1-C3) alkoxy or halo(C1-C3) alkoxy.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 5374,
+      "index": 6,
+      "node_name": "claim 6",
+      "node_value": "The compound as claimed in claim 1, wherein both R4 and R5 are hydrogen.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 5377,
+      "index": 7,
+      "node_name": "claim 7",
+      "node_value": "The compound as claimed in claim 1, which is selected from the group consisting of: 1-Benzenesulfonyl-5-(4-methylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(4-Methylbenzenesulfonyl)-5-(4-methylpiperazin-1-yl methyl)-1H-indole; 1-(4-Fluorobenzenesulfonyl)-5-(4-methylpiperazin-1-yl methyl)-1H-indole; 1-(4-Methoxybenzenesulfonyl)-5-(4-Methylpiperazin-1-yl methyl)-1H-indole; 1-[4-(1-Methylethyl)benzenesulfonyl]-5-(4-methylpiperazin-1-yl methyl)-1H-indole; 1-(4-Chlorobenzenesulfonyl)-5-(4-ethylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(4-Fluorobenzenesulfonyl)-5-(4-ethylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(4-Methylethyl)benzenesulfonyl]-5-(4-ethylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(4-Methoxybenzenesulfonyl)-5-(4-ethylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(2,4-Difluorobenzenesulfonyl)-5-(4-ethylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(4-Bromobenzenesulfonyl)-5-(4-ethylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(3-Trifluoromethylbenzenesulfonyl)-5-4-ethylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(4-Methylbenzenesulfonyl)-5-(4-ethylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(2,3-Dichlorobenzenesulfonyl)-5-(4-ethylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(2-Bromobenzenesulfonyl)-5-(4-ethylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-{4-Chlorobenzenesulfonyl)-5-{4-ethylpiperazin-1-yl methyl)-3-bromo-1H-indole dihydrochloride; 1-Benzenesulfonyl-5-(4-methylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(2,4-Difluorobenzenesulfonyl)-5-(4-methylpiperazin-1-yl methyl)-1H-Indole; 1-(2-Chloro-5-trifluoromethylbenzenesulfonyl)-5-(4-methylpiperazin-1-yl methyl)-1H-indole; 1-(2-Bromobenzenesulfonyl)-5-(4-methylpiperazin-1-yl methyl)-1H-indole; 1-(2,3-Dichlorobenzenesulfonyl)-5-(4-methylpiperazin-1-yl methyl)-1H-indole; 1-(4-Chlorobenzenesulfonyl)-5-(4-methylpiperazin-1-yl methyl)-1H-indole; 1-(3-Trifluoromethylbenzenesulfonyl)-5-(4-methylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(4-Chlorobenzenesulfonyl)-3-chloro-5-(4-methylpiperazin-1-yl methyl)-1H-indole; 1-(4-Fluorobenzenesulfonyl)-3-chloro-5-(4-methylpiperazin-1-yl methyl)-1H-indole; 1-(2,4-Difluorobenzenesulfonyl)-3-chloro-5-(4-methylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(2-Chloro-5-trifluoromethylbenzenesulfonyl)-3-chloro-5-(4-methylpiperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(4-Fluorobenzenesulfonyl)-4-isopropoxy-5-(4-methylpiperazin-1-yl methyl)-1H-indole; 1-[4-(1-Methylethyl)benzenesulfonyl]-4-isopropoxy-5-(4-methylpiperazin-1-yl methyl)-1H-indole; 1-(4-Fluorobenzenesulfonyl)-3-chloro-5-(piperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(2-Bromobenzenesulfonyl)-5-(piperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(2,4-Difluorobenzenesulfonyl)-3-chloro-5-(piperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(Benzenesulfonyl)-5-(piperazin-1-yl methyl)-1H-indole dihydrochloride; 1-[4-(1-Methylethyl)benzenesulfonyl]-5-(piperazin-1-yl methyl)-1H-indole dihydrochloride; 1-(3-Chloro benzenesulfonyl-5-(2,4-dimethyl piperazin-1-yl methyl)-1H-indole; 2-Chloro-5-(4-methyl piperazin-1-yl methyl)-1-(3-methyl benzenesulfonyl)-1H-indole; 2-Methoxy-5-(4-methyl piperazin-1-yl methyl)-1-(3-methyl benzenesulfonyl)-1H-indole; 1-(3-Chloro benzenesulfonyl)-3-methoxy-5-(4-methyl piperazin-1-yl methyl)-1H-indole; 5-(4-Methyl piperazin-1-yl methyl)-1-(4-methyl benzenesulfonyl)-6-trifluoromethyl-1H-indole; 1-(3-Chloro benzenesulfonyl)-7-methoxy-5-(4-methyl piperazin-1-yl methyl)-1H-indole; a stereoisomer thereof; and/or a salt thereof.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 5380,
+      "index": 8,
+      "node_name": "claim 8",
+      "node_value": "A process of preparing a compound of formula (I) as claimed in claim 1 comprising contacting a compound of formula (a)     with an aryl sulfonyl compound of formula ArSO2Cl, wherein using an appropriate inert solvent and base at a suitable temperature to obtain a compound of formula (I) as claimed in claim 1, wherein all substitutions are as defined in claim 1.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 5383,
+      "index": 24,
+      "node_name": "claim 24",
+      "node_value": "A pharmaceutical composition comprising a compound according to claim 1 or a pharmaceutically accepted carrier, diluent, recipient or solvate along with a therapeutically effective amount of a compound according to claim 1, its stereoisomers, its pharmaceutically accepted salts and any suitable combination of the above.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 5386,
+      "index": 25,
+      "node_name": "claim 25",
+      "node_value": "The pharmaceutical composition according to claim 24, which is in the form of a tablet, capsule, powder lozenges, suppositories, syrup, solution, suspension or an injectable, wherein said form is administered in a single or multiple dose units.",
+      "link_degree": 1,
+      "references": [
+        24
+      ],
+      "group": 1
+    },
+    {
+      "id": 5389,
+      "index": 26,
+      "node_name": "claim 26",
+      "node_value": "The pharmaceutical composition according to claim 24, for the treatment and/or prevention of clinical conditions such as anxiety, Alzheimer's disease, depression, obsessive compulsive disorders, cognitive memory disorders, Parkinson's disease schizophrenia, panic disorders, withdrawal from drug abuse syndrome, stroke, head trauma, neurodegenerative disorders, gastrointestinal and obesity.",
+      "link_degree": 1,
+      "references": [
+        24
+      ],
+      "group": 1
+    },
+    {
+      "id": 5392,
+      "index": 27,
+      "node_name": "claim 27",
+      "node_value": "A method for the treatment or prevention of the central nervous system related to or affected by the 5HT6 receptor in a mammal comprising administering to a mammal in need of such treatment or prevention and effective amount of the compound of formula (I) in accordance with claim 1.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 5395,
+      "index": 28,
+      "node_name": "claim 28",
+      "node_value": "The compound as claimed in claim 2, wherein R1 is a hydrogen, halogen, (C1-C3)alkyl, halo(C1-C3)alkyl, (C1-C3)alkoxy, halo(C1-C3)alkoxy, alkoxy(C1-C3)alkoxy, hydroxy(C1-C3)alkoxy, alkyl thio cyclo(C3-C6)alkyl or cyclo(C3-C6)alkoxy.",
+      "link_degree": 1,
+      "references": [
+        2
+      ],
+      "group": 1
+    },
+    {
+      "id": 5398,
+      "index": 29,
+      "node_name": "claim 29",
+      "node_value": "The compound as claimed in claim 28, wherein R2 is hydrogen, halogen, (C1-C3)alkyl, halo(C1-C3)alkyl, (C1-C3)alkoxy or halo(C1-3) alkoxy.",
+      "link_degree": 1,
+      "references": [
+        28
+      ],
+      "group": 1
+    },
+    {
+      "id": 5401,
+      "index": 30,
+      "node_name": "claim 30",
+      "node_value": "The compound as claimed in claim 2, wherein R2 is hydrogen, halogen, (C1-C3)alkyl, halo(C1-C3)alkyl, (C1-C3)alkoxy or halo(C1-3) alkoxy.",
+      "link_degree": 1,
+      "references": [
+        2
+      ],
+      "group": 1
+    },
+    {
+      "id": 5404,
+      "index": 31,
+      "node_name": "claim 31",
+      "node_value": "The compound as claimed in claim 3, wherein R2 is hydrogen, halogen, (C1-C3)alkyl, halo(C1-C3)alkyl, (C1-C3)alkoxy or halo(C1-3) alkoxy.",
+      "link_degree": 1,
+      "references": [
+        3
+      ],
+      "group": 1
+    },
+    {
+      "id": 5407,
+      "index": 32,
+      "node_name": "claim 32",
+      "node_value": "The compound as claimed in claim 2, wherein R3 is hydrogen, halogen, (C1-C3)alkyl or halo(C1-C3)alkyl, (C1-C3) alkoxy or halo(C1-C3) alkoxy.",
+      "link_degree": 1,
+      "references": [
+        2
+      ],
+      "group": 1
+    },
+    {
+      "id": 5410,
+      "index": 33,
+      "node_name": "claim 33",
+      "node_value": "The compound as claimed in claim 3, wherein R3 is hydrogen, halogen, (C1-C3)alkyl or halo(C1-C3)alkyl, (C1-C3) alkoxy or halo(C1-C3) alkoxy.",
+      "link_degree": 1,
+      "references": [
+        3
+      ],
+      "group": 1
+    },
+    {
+      "id": 5413,
+      "index": 34,
+      "node_name": "claim 34",
+      "node_value": "The compound as claimed in claim 4, wherein R3 is hydrogen, halogen, (C1-C3)alkyl or halo(C1-C3)alkyl, (C1-C3) alkoxy or halo(C1-C3) alkoxy.",
+      "link_degree": 1,
+      "references": [
+        4
+      ],
+      "group": 1
+    },
+    {
+      "id": 5416,
+      "index": 35,
+      "node_name": "claim 35",
+      "node_value": "The compound as claimed in claim 2, wherein both R4 and R5 are hydrogen.",
+      "link_degree": 1,
+      "references": [
+        2
+      ],
+      "group": 1
+    },
+    {
+      "id": 5419,
+      "index": 36,
+      "node_name": "claim 36",
+      "node_value": "The compound as claimed in claim 3, wherein both R4 and R5 are hydrogen.",
+      "link_degree": 1,
+      "references": [
+        3
+      ],
+      "group": 1
+    },
+    {
+      "id": 5422,
+      "index": 37,
+      "node_name": "claim 37",
+      "node_value": "The compound as claimed in claim 4, wherein both R4 and R5 are hydrogen.",
+      "link_degree": 1,
+      "references": [
+        4
+      ],
+      "group": 1
+    },
+    {
+      "id": 5425,
+      "index": 38,
+      "node_name": "claim 38",
+      "node_value": "The compound as claimed in claim 5, wherein both R4 and R5 are hydrogen.",
+      "link_degree": 1,
+      "references": [
+        5
+      ],
+      "group": 1
+    },
+    {
+      "id": 5428,
+      "index": 39,
+      "node_name": "claim 39",
+      "node_value": "A pharmaceutical composition comprising a compound according to claim 2 or a pharmaceutically accepted carrier, diluent, recipient or solvate along with a therapeutically effective amount of a compound according to claim 1, its stereoisomers, its pharmaceutically accepted salts and any suitable combination of the above.",
+      "link_degree": 1,
+      "references": [
+        2
+      ],
+      "group": 1
+    }
+  ],
+  "claim_links": [
+    {
+      "source": 5362,
+      "target": 5359,
+      "value": 1
+    },
+    {
+      "source": 5365,
+      "target": 5359,
+      "value": 1
+    },
+    {
+      "source": 5368,
+      "target": 5359,
+      "value": 1
+    },
+    {
+      "source": 5371,
+      "target": 5359,
+      "value": 1
+    },
+    {
+      "source": 5374,
+      "target": 5359,
+      "value": 1
+    },
+    {
+      "source": 5377,
+      "target": 5359,
+      "value": 1
+    },
+    {
+      "source": 5380,
+      "target": 5359,
+      "value": 1
+    },
+    {
+      "source": 5383,
+      "target": 5359,
+      "value": 1
+    },
+    {
+      "source": 5386,
+      "target": 5383,
+      "value": 1
+    },
+    {
+      "source": 5389,
+      "target": 5383,
+      "value": 1
+    },
+    {
+      "source": 5392,
+      "target": 5359,
+      "value": 1
+    },
+    {
+      "source": 5395,
+      "target": 5362,
+      "value": 1
+    },
+    {
+      "source": 5398,
+      "target": 5395,
+      "value": 1
+    },
+    {
+      "source": 5401,
+      "target": 5362,
+      "value": 1
+    },
+    {
+      "source": 5404,
+      "target": 5365,
+      "value": 1
+    },
+    {
+      "source": 5407,
+      "target": 5362,
+      "value": 1
+    },
+    {
+      "source": 5410,
+      "target": 5365,
+      "value": 1
+    },
+    {
+      "source": 5413,
+      "target": 5368,
+      "value": 1
+    },
+    {
+      "source": 5416,
+      "target": 5362,
+      "value": 1
+    },
+    {
+      "source": 5419,
+      "target": 5365,
+      "value": 1
+    },
+    {
+      "source": 5422,
+      "target": 5368,
+      "value": 1
+    },
+    {
+      "source": 5425,
+      "target": 5371,
+      "value": 1
+    },
+    {
+      "source": 5428,
+      "target": 5362,
+      "value": 1
+    }
+  ],
+  "links": {
+    "Coreference": [
+      {
+        "source": 5386,
+        "target": 5383,
+        "source_value": "pharmaceutical composition",
+        "target_value": "pharmaceutical composition"
+      },
+      {
+        "source": 5389,
+        "target": 5383,
+        "source_value": "pharmaceutical composition",
+        "target_value": "pharmaceutical composition"
+      },
+      {
+        "source": 5383,
+        "target": 5359,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5410,
+        "target": 5365,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5416,
+        "target": 5362,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5380,
+        "target": 5359,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5377,
+        "target": 5359,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5428,
+        "target": 5359,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5428,
+        "target": 5362,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5371,
+        "target": 5359,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5374,
+        "target": 5359,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5365,
+        "target": 5359,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5368,
+        "target": 5359,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5362,
+        "target": 5359,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5398,
+        "target": 5395,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5395,
+        "target": 5362,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5404,
+        "target": 5365,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5401,
+        "target": 5362,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5392,
+        "target": 5359,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5419,
+        "target": 5365,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5422,
+        "target": 5368,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5407,
+        "target": 5362,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5425,
+        "target": 5371,
+        "source_value": "compound",
+        "target_value": "compound"
+      },
+      {
+        "source": 5413,
+        "target": 5368,
+        "source_value": "compound",
+        "target_value": "compound"
+      }
+    ],
+    "is_parentChem_of": [
+      {
+        "source": 5425,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5428,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5380,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5416,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5419,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5422,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5413,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5362,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5365,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5398,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5395,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5392,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5359,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5401,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5404,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5368,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5371,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5377,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5374,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5410,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5407,
+        "target": 5383,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5425,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5428,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5383,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5380,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5416,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5419,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5422,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5413,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5362,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5365,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5398,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5395,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5392,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5359,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5401,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5404,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5368,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5371,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5374,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5410,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5407,
+        "target": 5377,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 5425,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5383,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5380,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5416,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5419,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5422,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5413,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5362,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5365,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5398,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5395,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5392,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5359,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5401,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5404,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5368,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5371,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5377,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5374,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5410,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      },
+      {
+        "source": 5407,
+        "target": 5428,
+        "source_value": "compound",
+        "target_value": "salts"
+      }
+    ]
+  }
+}

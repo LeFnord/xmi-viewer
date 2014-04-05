@@ -1,0 +1,6 @@
+- unless @documents.nil?
+  - @documents.each do |doc|
+    %li 
+      %a.file(href="claims/#{doc}" name="#{doc}")
+        %i.icon-file.a
+        = doc

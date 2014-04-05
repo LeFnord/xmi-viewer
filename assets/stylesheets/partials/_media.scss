@@ -1,0 +1,71 @@
+@media screen {
+  .inverted {background:rgba(37, 42, 42, 1) }
+  .inverted hr { border-color: rgba(51, 63, 64, 1) !important; }
+  .inverted p,
+  .inverted td,
+  .inverted li,
+  .inverted h1,
+  .inverted h2,
+  .inverted h3,
+  .inverted h4,
+  .inverted h5,
+  .inverted h6,
+  .inverted pre,
+  .inverted code,
+  .inverted th,
+  .inverted .math,
+  .inverted caption,
+  .inverted dd,
+  .inverted dt
+  {
+    color:#eee!important
+  }
+  #footer.inverted {
+    background-color: rgba(37, 42, 42,0.7)!important;
+  }
+  
+  
+  .inverted table tr:nth-child(odd), .inverted table th:nth-child(odd), .inverted table td:nth-child(odd) {
+    background: none;
+  }
+  .inverted a { color:rgba(172, 209, 213, 1);}
+
+  ::selection   { background:rgba(157, 193, 200,.5)}
+  h1::selection { background-color:rgba(160, 197, 207, .7)}
+  h2::selection { background-color:rgba(163, 202, 213, .6)}
+  h3::selection { background-color:rgba(166, 206, 220, .5)}
+  h4::selection { background-color:rgba(170, 211, 227, .4)}
+  h5::selection { background-color:rgba(173, 215, 233, .3)}
+  h6::selection,li::selection,ol::selection { background-color:rgba(176, 220, 240, .3)}
+  code::selection { background-color:rgba(98,147,157,.7);color:#eee}
+  code span::selection {background-color:rgba(98,147,157,.7) !important;color:#eee !important}
+  a::selection { background-color:rgba(160,197,207,.2)}
+  .inverted a::selection { background-color:rgba(160,197,207,.6)}
+  td::selection,th::selection,caption::selection { background-color: rgba(180, 237, 95, .5);}
+}
+
+
+// own media foo
+/* Extra small devices (phones, up to 480px) */
+@media (max-width: 768px) { 
+  .tocify {
+    position: relative;
+    width:100%;
+    max-width:100%;
+  }
+}
+/* Small devices (tablets,  and up) */
+@media (min-width: 768px) { 
+  .tocify {
+    position: fixed;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+//@media (min-width: 992px) {
+//}
+
+/* Large devices (large desktops, 1200px and up) */
+//@media (min-width: 1200px) {  }
+
+

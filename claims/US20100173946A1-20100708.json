@@ -1,0 +1,180 @@
+{
+  "claims": [
+    {
+      "id": 559056,
+      "index": 1,
+      "node_name": "claim 1",
+      "node_value": "A propane-1,3-dione derivative represented by the general formula (I) or a pharmaceutically acceptable salt thereof&#10;&#10;&#10;&#10;[symbols in the formula mean as follows,&#10;ring A: benzene which may be substituted, pyridine which may be substituted or thiophene ring,&#10;ring B: benzene or thiophene ring,&#10;R1: H or —CO-lower alkyl,&#10;R2: H, —O—R5, —N(R6)R7, —N3, —S(O)m— lower alkyl, —S(O)m—N(R6) R7 halogen, pyridyl or imidazolyl which may be substituted,&#10;R5: H, lower alkyl, —CO-lower alkyl which may be substituted, or —CO—O-lower alkyl which may be substituted,&#10;R6 and R7: may be the same or different from each other and each is H, lower alkyl, or —CO-lower alkyl, with the proviso that R1 and R2 may together form dioxolane which may be substituted,&#10;m: 0, 1 or 2,&#10;R3: H or lower alkyl,&#10;R401 and R402: may be the same or different from each other and each is H, halogen, OH, —O-lower alkyl, or lower alkyl,&#10;X: bond, lower alkylene which may be substituted, or cycloalkanediyl,&#10;R101, R102, R103 and R104: may be the same or different from one another and each is H, halogen, OH, or —O-lower alkyl which may be substituted with (aryl or heteroaryl)].",
+      "link_degree": 1,
+      "references": [
+        0
+      ],
+      "group": 1
+    },
+    {
+      "id": 559059,
+      "index": 2,
+      "node_name": "claim 2",
+      "node_value": "The propane-1,3-dione derivative or a pharmaceutically acceptable salt thereof according to claim 1, wherein ring A is benzene ring which may be substituted with halogen atom or lower alkyl, ring B is benzene ring, R1 is H, R2 is OH, R3 is H, and X is lower alkylene which may be substituted.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 559062,
+      "index": 3,
+      "node_name": "claim 3",
+      "node_value": "The propane-1,3-dione derivative or a pharmaceutically acceptable salt thereof according to claim 2, wherein X is methylene which may be substituted.",
+      "link_degree": 1,
+      "references": [
+        2
+      ],
+      "group": 1
+    },
+    {
+      "id": 559065,
+      "index": 4,
+      "node_name": "claim 4",
+      "node_value": "A propane-1,3-dione derivative represented by a general formula (Ib) or a pharmaceutically acceptable salt thereof&#10;&#10;&#10;&#10;(symbols in the formula mean as follows,&#10;R8 and R9: may be the same or different from each other and each is H, lower alkyl, lower alkenyl or —O-lower alkyl,&#10;R801, R802 and R803: may be the same or different from one another and each is H, halogen or lower alkyl,&#10;R403 and R404: may be the same or different from each other and each is H, halogen or lower alkyl, and,&#10;R101, R102, R103 and R104: may be the same or different from one another and each is H, halogen, OH, or —O-lower alkyl which may be substituted with (aryl or heteroaryl)).",
+      "link_degree": 1,
+      "references": [
+        0
+      ],
+      "group": 1
+    },
+    {
+      "id": 559068,
+      "index": 5,
+      "node_name": "claim 5",
+      "node_value": "The propane-1,3-dione derivative or a pharmaceutically acceptable salt thereof according to claim 4, wherein R801, R802 and R803 may be the same or different from one another and each represents H or a halogen atom.",
+      "link_degree": 1,
+      "references": [
+        4
+      ],
+      "group": 1
+    },
+    {
+      "id": 559071,
+      "index": 6,
+      "node_name": "claim 6",
+      "node_value": "The propane-1,3-dione derivative or a pharmaceutically acceptable salt thereof according to claim 5, which is at least one compound selected from the group consisting of:&#10;2-(1,3-Dihydro-2H-benzimidazol-2-ylidene)-1-(3-fluorophenyl)-3-[3-(2-methoxy-1,3-dioxolan-4-yl)phenyl]propane-1,3-dione; 2-(1,3-dihydro-2H-benzimidazol-2-ylidene)-1-(3-fluorophenyl)-3-[3-(2-methoxy-2-methyl-1,3-dioxolan-4-yl)phenyl]propane-1,3-dione or a pharmaceutically acceptable salt thereof.",
+      "link_degree": 1,
+      "references": [
+        5
+      ],
+      "group": 1
+    },
+    {
+      "id": 559074,
+      "index": 7,
+      "node_name": "claim 7",
+      "node_value": "A pharmaceutical composition comprising as an active ingredient a propane-1,3-dione compound represented by the general formula (I) or a pharmaceutically acceptable salt thereof as claimed in claim 1, and a pharmaceutically acceptable carrier.",
+      "link_degree": 1,
+      "references": [
+        1
+      ],
+      "group": 1
+    },
+    {
+      "id": 559077,
+      "index": 8,
+      "node_name": "claim 8",
+      "node_value": "The pharmaceutical composition as claimed in claim 7, which is used for a GnRH receptor antagonist.",
+      "link_degree": 1,
+      "references": [
+        7
+      ],
+      "group": 1
+    },
+    {
+      "id": 559080,
+      "index": 9,
+      "node_name": "claim 9",
+      "node_value": "The pharmaceutical composition as claimed in claim 8, which is used for the GnRH receptor antagonist for treating prostate cancer, breast cancer, endometriosis, uterine leiomyoma, or benign prostatic hypertrophy.",
+      "link_degree": 1,
+      "references": [
+        8
+      ],
+      "group": 1
+    }
+  ],
+  "claim_links": [
+    {
+      "source": 559059,
+      "target": 559056,
+      "value": 1
+    },
+    {
+      "source": 559062,
+      "target": 559059,
+      "value": 1
+    },
+    {
+      "source": 559068,
+      "target": 559065,
+      "value": 1
+    },
+    {
+      "source": 559071,
+      "target": 559068,
+      "value": 1
+    },
+    {
+      "source": 559074,
+      "target": 559056,
+      "value": 1
+    },
+    {
+      "source": 559077,
+      "target": 559074,
+      "value": 1
+    },
+    {
+      "source": 559080,
+      "target": 559077,
+      "value": 1
+    }
+  ],
+  "links": {
+    "is_parentChem_of": [
+      {
+        "source": 559071,
+        "target": 559056,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 559071,
+        "target": 559059,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 559071,
+        "target": 559062,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 559071,
+        "target": 559065,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 559071,
+        "target": 559068,
+        "source_value": "compound",
+        "target_value": "salt"
+      },
+      {
+        "source": 559071,
+        "target": 559074,
+        "source_value": "compound",
+        "target_value": "salt"
+      }
+    ]
+  }
+}

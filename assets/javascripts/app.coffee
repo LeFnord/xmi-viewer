@@ -98,7 +98,7 @@ drawNodes = (nodes) ->
   ).style('cursor','pointer').style("fill", (d, i) ->
     color 1
   ).on("click", (d, i) ->
-    hideClaim d
+    # hideClaim d
     seeClaim d
     
     return
@@ -197,7 +197,7 @@ seeClaim = (node,top) ->
     .delay(150)
     .style({'display':'run-in','opacity':1,'top':top})
   
-  d3.select("#claim_"+node.id).append("div",":first-child").attr("class","closer").text("×").on "click", (d, i) ->
+  d3.select("#claim_"+node.id).insert("span").attr("class","closer").text("×").on "click", (d, i) ->
     hideClaim node
   return
 

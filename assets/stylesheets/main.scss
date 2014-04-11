@@ -9,6 +9,9 @@
 #content{
   margin-top:50px;
   padding:1em;
+  width:100%;
+  margin:0 auto;
+  min-height: 100%;
 }
 
 #footer {
@@ -19,41 +22,6 @@
   bottom:0;
   padding:13px 40%;
   background-color: rgba(253,253,253,0.7);
-}
-
-// for fullscreen
-#content.fullScreen{
-  margin: 0 auto;
-  padding: 10% 17%;
-}
-
-// for presentations
-.presentation {
-  margin: 0 auto;
-  font: 142% sans-serif;
-  padding-bottom:10%;
-  padding: 10% 7%;
-  margin-top:42px;
-  li {
-    margin-bottom:7px;
-  }
-  
-  pre, code {
-    font-size: 85%;
-  }
-  
-  .great {
-    font-size: 200%;
-    font-weight:bold;
-    font:sans-serif;
-    text-align:center;
-    margin:3em auto;
-  }
-  .great-addition{
-    display: block;
-    text-align:center;
-  }
-  
 }
 
 /* arc diagram */
@@ -100,7 +68,11 @@
 
 .claim {
   position: fixed;
+  top:57px;
   display: none;
+  cursor: move;
+  opacity:0;
+  font-family: $georgia;
   max-height:50%;
   max-width: 80%;
   margin:0 auto;
@@ -108,7 +80,6 @@
   background-color:white;
   box-shadow:0px 3px 7px 0px rgba(123,123,123,0.5);
   overflow: auto;
-  opacity:0;
 }
 
 .closer {

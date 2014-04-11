@@ -8,14 +8,15 @@ width = 960
 height = 1000
 margin = 10
 pad = margin / 2
-radius = 15
+radius = 7
 yfixed = pad + radius
 
 jQuery(document).ready ($) ->
-  $("a").click (event) ->
+  $(".file").click (event) ->
+    path = $(this).attr("href")
     event.preventDefault()
     $.ajax
-      url: $(this).attr("href")
+      url: path
       success: (response) ->
         $("#content").empty()
         $('#arc').remove()
@@ -23,16 +24,21 @@ jQuery(document).ready ($) ->
         
         obj = response
         
-        build_graph(obj)
-        $.each obj.claims, (i, item) ->
-          claim = "<p id='claim_" + item.id + "' class='claim'><span class='index'>" + item.index + ".</span> <span class='claim_content'>" + item.node_value + "</span></p>"
-          $("#content").append claim
+        setHistory path
+        
+        # $.each obj.claims, (i, item) ->
+          # claim = "<p id='claim_" + item.id + "' class='claim'><span class='index'>" + item.index + ".</span> <span class='claim_content'>" + item.node_value + "</span></p>"
+        #   $("#content").append claim
+        
+        buildGraph obj
+
   
-set_history = (path) ->
+setHistory = (path) ->
   if path!=window.location
     window.history.pushState({path:path},'',path)
 
-build_graph = (graph) ->
+# all for graph bulding
+buildGraph = (graph) ->
   # create svg image
   svg = d3.select("#content").append("svg").attr("id", "arc").attr("width", width).attr("height", height)
   # create plot area within svg image
@@ -53,6 +59,8 @@ build_graph = (graph) ->
     $("#head").append "<span class='info link_corefs navbar-brand' style='color:red'>#Coref: " + graph.links.Coreference.length + "</span>"
   
   drawNodes graph.claims
+  writeClaims graph.claims
+  
 
 linearLayout = (nodes) ->
   # used to scale node index to x position
@@ -107,7 +115,7 @@ drawNodes = (nodes) ->
       d3.select(this).remove()
       return
     return
-
+  
   return
 
 # Draws nice arcs for each link on plot
@@ -124,13 +132,14 @@ drawLinks = (links,color,d,klass) ->
       3 * Math.PI / 2
     ])
   
-  arc = d3.svg.line.radial().interpolate("basis").tension(1).angle((d) ->
+  arc = d3.svg.line.radial().interpolate("monotone").tension(1).angle((d) ->
     radians d
   )
   
   link = "link "+d
   d3.select("#plot").selectAll(link).data(links).enter().append("path").attr("class", "link").attr("transform", (d, i) ->
     xshift = d.source.x + (d.target.x - d.source.x) / 2
+    # ToDo 2014-04-10: 
     yshift = yfixed + height / 3
     "translate(" + xshift + ", " + yshift + ")"
   ).style({'stroke-width': 2,'stroke':color}).on("mouseover", (d,i) ->
@@ -139,7 +148,7 @@ drawLinks = (links,color,d,klass) ->
   ).on("click", (d, i) ->
     addTooltipToLink d, klass
     d3.selectAll("#tooltip").transition().duration(2000).delay(100).attr("y", height / 10).each "end", ->
-      d3.select(this).transition().duration(1500).delay(100).style('opacity',0).each "end", ->
+      d3.select(this).transition().duration(2000).delay(100).style('opacity',0).each "end", ->
         d3.select(this).remove()
         return
     
@@ -157,6 +166,9 @@ drawLinks = (links,color,d,klass) ->
   return
 
 
+
+
+# add tooltips
 addTooltipToLink = (link, klass) ->
   unless klass is 'claims'
     addTooltip link.source, link.source_value
@@ -167,7 +179,6 @@ addTooltipToLink = (link, klass) ->
   return
 
 # helper functions
-
 addTooltip = (circle,text) ->
   x = parseFloat(circle.x)
   y = parseFloat(circle.y)
@@ -187,6 +198,20 @@ addTooltip = (circle,text) ->
     
   return
 
+
+
+writeClaims = (claims) ->
+  $.each claims, (i, item) ->
+    d3.select("#content").append("p")
+      .attr("class","claim").attr("id", (d) ->
+        "claim_" + item.id
+      ).html( (d) ->
+        "<span class='index'>" + item.index + ".</span> <span class='claim_content'>" + item.node_value + "</span>"
+      ).insert("span").attr("class","closer").text("×").on "click", (d, i) ->
+        hideClaim item
+        return
+    d3.selectAll(".claim").call d3.behavior.drag().on("drag", moveClaim)
+    
 seeClaim = (node,top) ->
   top = top
   top = '57px' unless top?
@@ -195,15 +220,31 @@ seeClaim = (node,top) ->
     .transition()
     .duration(900)
     .delay(150)
-    .style({'display':'run-in','opacity':1,'top':top})
+    .style({'display':'inline','opacity':1,'z-index':1,'top':top,'curosr':'move'})
   
-  d3.select("#claim_"+node.id).insert("span").attr("class","closer").text("×").on "click", (d, i) ->
-    hideClaim node
+
+hideClaim = (node) ->
+  d3.select("#claim_"+node.id).transition().duration(300).delay(50).style({'display':'none','opacity':0,'top':'0px','z-index':1})
   return
 
-hideClaim = (claim) ->
-  d3.selectAll(".claim").transition().duration(300).delay(50).style({'display':'none','opacity':0,'top':'0px'})
-  return
+
+moveClaim = ->
+  pos = $(this).offset()
+  ypos = pos.top
+  windowHeigth = $(document).height()
+  eleHeigth = $(this).height()
+  
+  if d3.event.y + eleHeigth <= windowHeigth 
+    $(this).css
+      top: "+=" + (d3.event.y - pos.top) + "px"
+  if d3.event.y - eleHeigth / 2 > windowHeigth
+    $(this).css
+      top: (d3.event.y - eleHeigth * 2) + "px"
+  if d3.event.y <= 57
+    $(this).css
+      top: "57px"
+  
+
 
 # accessing an array element of objects by proerty value
 # ary.where property: value

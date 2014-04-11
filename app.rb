@@ -110,17 +110,18 @@ class App < Sinatra::Base
       doc_path = params[:path] + '/' + params[:name]  + '.json'
     end
     
+    doc_path = File.join(File.join(settings.claim_dir,doc_path))
+    
     @document = Documents.new path: doc_path, name: params[:name]
     
-    json @document.out
-      # if request.xhr?
-    #   json doc
-    # else
-    #   stream do |out|
-    #     # out << doc, layout: !request.xhr?, layout_engine: :haml, layout_options: { views: 'views' }
-    #   end
-    # end
+    
+    if request.xhr?
+      json @document.out
+    else
+      redirect '/'
+    end
   end
+  
   
   run! if app_file == $0
 end

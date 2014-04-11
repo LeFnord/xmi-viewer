@@ -1,6 +1,6 @@
 - unless @documents.nil?
   - @documents.each do |doc|
     %li 
-      %a.file(href="claims/#{doc}" name="#{doc}")
+      %a.file(href="claims/#{doc[:file_name]}" name="#{doc[:name]}")
         %i.icon-file.a
-        = doc
+        = doc[:file_name]

@@ -6,8 +6,8 @@
 
 width = 960
 height = 1000
-margin = 10
-pad = margin / 2
+margin = 1
+pad = margin / 10
 radius = 7
 yfixed = pad + radius
 
@@ -23,16 +23,9 @@ jQuery(document).ready ($) ->
         $('span.info').remove()
         
         obj = response
-        
         setHistory path
-        
-        # $.each obj.claims, (i, item) ->
-          # claim = "<p id='claim_" + item.id + "' class='claim'><span class='index'>" + item.index + ".</span> <span class='claim_content'>" + item.node_value + "</span></p>"
-        #   $("#content").append claim
-        
         buildGraph obj
 
-  
 setHistory = (path) ->
   if path!=window.location
     window.history.pushState({path:path},'',path)
@@ -94,7 +87,7 @@ drawNodes = (nodes) ->
   # used to assign nodes color by group
   color = d3.scale.category20()
   d3.select("#plot").selectAll(".node").data(nodes).enter().append("circle").attr("class", "node").attr("id", (d, i) ->
-    d.id
+    "node_" + d.id
   ).attr("name", (d, i) ->
     d.node_name
   ).attr("cx", (d, i) ->
@@ -108,13 +101,18 @@ drawNodes = (nodes) ->
   ).on("click", (d, i) ->
     # hideClaim d
     seeClaim d
-    
+    d3.select(this).transition()
+      .duration(450)
+      .delay(50)
+      .attr("r",15)
+    addTooltip d, d.index, 'node-index'
     return
-  ).on "mouseout", (d, i) ->
-    d3.select("#tooltip_" + d.id).transition().duration(2300).delay(250).style('opacity',0).each "end", ->
-      d3.select(this).remove()
-      return
-    return
+  )
+  # .on "mouseout", (d, i) ->
+  #   d3.select("#tooltip_" + d.id).transition().duration(2300).delay(250).style('opacity',0).each "end", ->
+  #     d3.select(this).remove()
+  #     return
+  #   return
   
   return
 
@@ -179,12 +177,15 @@ addTooltipToLink = (link, klass) ->
   return
 
 # helper functions
-addTooltip = (circle,text) ->
+addTooltip = (circle,text,klass) ->
   x = parseFloat(circle.x)
   y = parseFloat(circle.y)
   r = parseFloat(5)
   
-  tooltip = d3.select("#plot").append("text").text(text).attr("x", x).attr("y", y).attr("dy", -r * 2).attr("id", "tooltip")
+  if klass?
+    tooltip = d3.select("#plot").append("text").text(text).attr("x", x).attr("y", y).attr("dy", r * 1.2).attr("class", klass).attr("id","node_index_" + circle.index)
+  else
+    tooltip = d3.select("#plot").append("text").text(text).attr("x", x).attr("y", y).attr("dy", -r * 2).attr("id", "tooltip")
   offset = tooltip.node().getBBox().width / 2
   if (x - offset) < 0
     tooltip.attr "text-anchor", "start"
@@ -198,20 +199,19 @@ addTooltip = (circle,text) ->
     
   return
 
-
-
 writeClaims = (claims) ->
-  $.each claims, (i, item) ->
+  claims.forEach (item, i) ->
     d3.select("#content").append("p")
       .attr("class","claim").attr("id", (d) ->
         "claim_" + item.id
       ).html( (d) ->
         "<span class='index'>" + item.index + ".</span> <span class='claim_content'>" + item.node_value + "</span>"
-      ).insert("span").attr("class","closer").text("×").on "click", (d, i) ->
+      ).insert("span").attr("class","closer").style('text-color','rgba(76, 76, 76,0.5)').text("×").on "click", (d, i) ->
         hideClaim item
         return
     d3.selectAll(".claim").call d3.behavior.drag().on("drag", moveClaim)
-    
+  return
+
 seeClaim = (node,top) ->
   top = top
   top = '57px' unless top?
@@ -220,19 +220,36 @@ seeClaim = (node,top) ->
     .transition()
     .duration(900)
     .delay(150)
-    .style({'display':'inline','opacity':1,'z-index':1,'top':top,'curosr':'move'})
-  
-
-hideClaim = (node) ->
-  d3.select("#claim_"+node.id).transition().duration(300).delay(50).style({'display':'none','opacity':0,'top':'0px','z-index':1})
+    .style({'display':'inline','opacity':1,'top':top,'curosr':'move'})
+  $(".claim").css
+    zIndex: 0
+  $("#claim_"+node.id).css
+    zIndex: 3
   return
 
+hideClaim = (node) ->
+  d3.select("#claim_"+node.id).transition().duration(300).delay(50).style({'display':'none','opacity':0,'top':'0px'})
+  d3.select("#node_"+node.id).transition()
+    .duration(450)
+    .delay(50)
+    .attr("r",radius)
+  d3.select("#node_index_" + node.index).transition()
+    .style({"opacity":0})
+    .duration(400)
+    .delay(50)
+    .remove()
+  return
 
 moveClaim = ->
   pos = $(this).offset()
   ypos = pos.top
   windowHeigth = $(document).height()
   eleHeigth = $(this).height()
+  
+  $(".claim").css
+    zIndex: 0
+  $(this).css
+    zIndex: 3
   
   if d3.event.y + eleHeigth <= windowHeigth 
     $(this).css
@@ -243,8 +260,7 @@ moveClaim = ->
   if d3.event.y <= 57
     $(this).css
       top: "57px"
-  
-
+  return
 
 # accessing an array element of objects by proerty value
 # ary.where property: value

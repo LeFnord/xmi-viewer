@@ -33,7 +33,7 @@
 }
 
 #tooltip {
-  font-family: $news-cycle;
+  font-family: $sans-serif;
   font-size: 80%;
   font-weight: 600;
   color:black;
@@ -67,12 +67,12 @@
 }
 
 .claim {
-  position: fixed;
+  position: absolute;
   top:57px;
   display: none;
   cursor: move;
   opacity:0;
-  font-family: $georgia;
+  font-family: $serif;
   max-height:50%;
   max-width: 80%;
   margin:0 auto;
@@ -98,6 +98,16 @@
     color:red;
     opacity:0.8;
   }
+}
+
+text.node-index {
+  position:absolute;
+  top:57px;
+  font-family:$sans-serif;
+  font-size: 95%;
+  font-weight: 600;
+  fill: #fff;
+/*  stroke: #ffffff;*/
 }
 
 ul.scroll-menu {

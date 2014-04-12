@@ -1,17 +1,22 @@
+html{
+  background-color: $bg-color;
+  width: 100%;
+}
+
 body{
   -webkit-font-smoothing:antialiased;
   font-smoothing:antialiased;
   padding-top:20px;
   padding-left: 10%;
   padding-right: 10%;
-  font-family: $georgia;
+  font-family: $serif;
   font-size: 17px;
   line-height: 1.428571429;
-  background-color: #fefeff;
   text-align: justify;
   word-wrap: break-word;
   word-break: keep-all;
   color: $text-color;
+  width: 100%;
   background-color: $bg-color;
 }
 
@@ -39,7 +44,7 @@ a:visited {
 }
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
-  font-family: $news-cycle;
+  font-family: $sans-serif;
   font-weight: 700;
   color:$head-color;
 }
@@ -94,7 +99,7 @@ code {
 
 
 nav {
-  font-family: $news-cycle;
+  font-family: $sans-serif;
   font-size: 110%;
   color: #000;
   padding:0.1em;
@@ -126,9 +131,9 @@ dl {
 
 .ul { text-decoration: underline; }
 
-.sans-serif{ font-family: $news-cycle; }
+.sans-serif{ font-family: $sans-serif; }
            
-.serif{ font-family: $georgia; }
+.serif{ font-family: $serif; }
 
 .monospace{ font-family:$monospace; }
 
@@ -136,7 +141,7 @@ dl {
 .italic { font-weight: italic; }
 
 .important{
-  font-family: $news-cycle;
+  font-family: $sans-serif;
   font-weight: 800;
   font-size:120%;
   margin-right:0.5em;

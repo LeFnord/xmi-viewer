@@ -6,11 +6,49 @@
 
 width = 960
 height = 1000
-margin = 1
-pad = margin / 10
+margin = 10
+pad = margin / 2
 radius = 7
 yfixed = pad + radius
-
+color = d3.scale.category20()
+colors = [
+  [
+    'rgb(228,26,28)'
+    'rgba(228,26,28,0.5)'
+  ]
+  [
+    'rgb(55,126,184)'
+    'rgba(55,126,184,0.5)'
+  ]
+  [
+    'rgb(77,175,74)'
+    'rgba(77,175,74,0.5)'
+  ]
+  [
+    'rgb(152,78,163)'
+    'rgba(152,78,163,0.5)'
+  ]
+  [
+    'rgb(255,127,0)'
+    'rgba(255,127,0,0.5)'
+  ]
+  [
+    'rgb(255,255,51)'
+    'rgba(255,255,51,0.5)'
+  ]
+  [
+    'rgb(166,86,40)'
+    'rgba(166,86,40,0.5)'
+  ]
+  [
+    'rgb(247,129,191)'
+    'rgba(247,129,191,0.5)'
+  ]
+  [
+    'rgb(153,153,153)'
+    'rgba(153,153,153,0.5)'
+  ]
+]
 jQuery(document).ready ($) ->
   $(".file").click (event) ->
     path = $(this).attr("href")
@@ -44,12 +82,12 @@ buildGraph = (graph) ->
   $("#head").append "<span class='info claims navbar-brand'>#Claims: " + graph.claims.length + "</span>"
   $("#head").append "<span class='info link_claims navbar-brand'>#Links: " + graph.claim_links.length + "</span>"
   
-  if graph.links && graph.links.is_parentChem_of
-    arcLinks graph.claims,graph.links.is_parentChem_of,'green','t','chems'
-    $("#head").append "<span class='info link_chems navbar-brand' style='color:green'>#Chems: " + graph.links.is_parentChem_of.length + "</span>"
-  if graph.links && graph.links.Coreference
-    arcLinks graph.claims,graph.links.Coreference,'red','t','corefs'
-    $("#head").append "<span class='info link_corefs navbar-brand' style='color:red'>#Coref: " + graph.links.Coreference.length + "</span>"
+  list_index = 0
+  for k,v of graph.links
+    act_color = colors[list_index]
+    list_index += 2
+    arcLinks graph.claims,v,act_color[1],'t',v
+    $("#head").append "<span class='info navbar-brand' style='color:" + act_color[0] + "'>#" + k + ": " + v.length + "</span>"
   
   drawNodes graph.claims
   writeClaims graph.claims
@@ -61,8 +99,8 @@ linearLayout = (nodes) ->
     0
     nodes.length - 1
   ]).range([
-    radius
-    width - margin - radius
+    radius * 2
+    width - margin - radius * 2
   ])
   
   # calculate pixel location for each node
@@ -73,19 +111,7 @@ linearLayout = (nodes) ->
   
   return
 
-
-arcLinks = (nodes,links,color,d,klass) ->
-  links.forEach (d, i) ->
-    d.source = (if isNaN(d.source) then d.source else (nodes.where id: d.source)[0])
-    d.target = (if isNaN(d.target) then d.target else (nodes.where id: d.target)[0])
-    return
-  
-  drawLinks links,color,d,klass
-  return
-
 drawNodes = (nodes) ->
-  # used to assign nodes color by group
-  color = d3.scale.category20()
   d3.select("#plot").selectAll(".node").data(nodes).enter().append("circle").attr("class", "node").attr("id", (d, i) ->
     "node_" + d.id
   ).attr("name", (d, i) ->
@@ -97,8 +123,8 @@ drawNodes = (nodes) ->
   ).attr("r", (d, i) ->
     radius
   ).style('cursor','pointer').style("fill", (d, i) ->
-    color 1
-  ).on("click", (d, i) ->
+    color 7
+  ).on "click", (d, i) ->
     # hideClaim d
     seeClaim d
     d3.select(this).transition()
@@ -107,16 +133,17 @@ drawNodes = (nodes) ->
       .attr("r",15)
     addTooltip d, d.index, 'node-index'
     return
-  )
-  # .on "mouseout", (d, i) ->
-  #   d3.select("#tooltip_" + d.id).transition().duration(2300).delay(250).style('opacity',0).each "end", ->
-  #     d3.select(this).remove()
-  #     return
-  #   return
-  
   return
 
-# Draws nice arcs for each link on plot
+arcLinks = (nodes,links,color,d,klass) ->
+  links.forEach (d, i) ->
+    d.source = (if isNaN(d.source) then d.source else (nodes.where id: d.source)[0])
+    d.target = (if isNaN(d.target) then d.target else (nodes.where id: d.target)[0])
+    return
+  
+  drawLinks links,color,d,klass
+  return
+
 drawLinks = (links,color,d,klass) ->
   # scale to generate radians (just for lower-half of circle)
   if d == 't'
@@ -145,7 +172,7 @@ drawLinks = (links,color,d,klass) ->
       d3.select(this).style({'stroke': color, 'stroke-width': 2})
   ).on("click", (d, i) ->
     addTooltipToLink d, klass
-    d3.selectAll("#tooltip").transition().duration(2000).delay(100).attr("y", height / 10).each "end", ->
+    d3.selectAll("#tooltip").transition().duration(2000).delay(100).attr("y", "57px").each "end", ->
       d3.select(this).transition().duration(2000).delay(100).style('opacity',0).each "end", ->
         d3.select(this).remove()
         return
@@ -162,9 +189,6 @@ drawLinks = (links,color,d,klass) ->
     arc points
 
   return
-
-
-
 
 # add tooltips
 addTooltipToLink = (link, klass) ->
@@ -201,7 +225,7 @@ addTooltip = (circle,text,klass) ->
 
 writeClaims = (claims) ->
   claims.forEach (item, i) ->
-    d3.select("#content").append("p")
+    d3.select("#content").append("tspan")
       .attr("class","claim").attr("id", (d) ->
         "claim_" + item.id
       ).html( (d) ->

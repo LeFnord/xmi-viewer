@@ -20,7 +20,6 @@ class App < Sinatra::Base
   # Configuration
   #
   configure do
-    # set :root, File.dirname(__FILE__)
     set :root, __dir__
     
     set :server, :thin

@@ -75,22 +75,22 @@ buildGraph = (graph) ->
   # create plot area within svg image
   plot = svg.append("g").attr("id", "plot").attr("transform", "translate(" + pad + ", " + pad*25 + ")")
   
-  linearLayout graph.claims
-  arcLinks graph.claims,graph.claim_links,'grey','b','claims'
+  linearLayout graph.nodes
+  arcLinks graph.nodes,graph.node_links,'grey','b','claims'
   
   $("#head").append "<span class='info name navbar-brand'>" + graph.name + "</span>"
-  $("#head").append "<span class='info claims navbar-brand'>#Claims: " + graph.claims.length + "</span>"
-  $("#head").append "<span class='info link_claims navbar-brand'>#Links: " + graph.claim_links.length + "</span>"
+  $("#head").append "<span class='info claims navbar-brand'>#Claims: " + graph.nodes.length + "</span>"
+  $("#head").append "<span class='info link_claims navbar-brand'>#Links: " + graph.node_links.length + "</span>"
   
   list_index = 0
   for k,v of graph.links
     act_color = colors[list_index]
     list_index += 2
-    arcLinks graph.claims,v,act_color[1],'t',v
+    arcLinks graph.nodes,v,act_color[1],'t',v
     $("#head").append "<span class='info navbar-brand' style='color:" + act_color[0] + "'>#" + k + ": " + v.length + "</span>"
   
-  drawNodes graph.claims
-  writeClaims graph.claims
+  drawNodes graph.nodes
+  writeClaims graph.nodes
   
 
 linearLayout = (nodes) ->
@@ -200,7 +200,6 @@ addTooltipToLink = (link, klass) ->
     addTooltip link.target, link.target.node_name
   return
 
-# helper functions
 addTooltip = (circle,text,klass) ->
   x = parseFloat(circle.x)
   y = parseFloat(circle.y)
@@ -223,6 +222,7 @@ addTooltip = (circle,text,klass) ->
     
   return
 
+# claims (node texts)
 writeClaims = (claims) ->
   claims.forEach (item, i) ->
     d3.select("#content").append("tspan")

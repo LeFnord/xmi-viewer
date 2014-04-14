@@ -1,5 +1,5 @@
 {
-  "claims": [
+  "nodes": [
     {
       "id": 12385,
       "index": 1,
@@ -280,7 +280,7 @@
       "group": 17
     }
   ],
-  "claim_links": [
+  "node_links": [
     {
       "source": 12388,
       "target": 12385,

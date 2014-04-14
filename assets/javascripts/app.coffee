@@ -14,65 +14,82 @@ color = d3.scale.category20()
 colors = [
   [
     'rgb(228,26,28)'
-    'rgba(228,26,28,0.5)'
+    'rgba(228,26,28,0.66)'
   ]
   [
     'rgb(55,126,184)'
-    'rgba(55,126,184,0.5)'
+    'rgba(55,126,184,0.66)'
   ]
   [
     'rgb(77,175,74)'
-    'rgba(77,175,74,0.5)'
+    'rgba(77,175,74,0.66)'
   ]
   [
     'rgb(152,78,163)'
-    'rgba(152,78,163,0.5)'
+    'rgba(152,78,163,0.66)'
   ]
   [
     'rgb(255,127,0)'
-    'rgba(255,127,0,0.5)'
+    'rgba(255,127,0,0.66)'
   ]
   [
     'rgb(255,255,51)'
-    'rgba(255,255,51,0.5)'
+    'rgba(255,255,51,0.66)'
   ]
   [
     'rgb(166,86,40)'
-    'rgba(166,86,40,0.5)'
+    'rgba(166,86,40,0.66)'
   ]
   [
     'rgb(247,129,191)'
-    'rgba(247,129,191,0.5)'
+    'rgba(247,129,191,0.66)'
   ]
   [
     'rgb(153,153,153)'
-    'rgba(153,153,153,0.5)'
+    'rgba(153,153,153,0.66)'
   ]
 ]
-jQuery(document).ready ($) ->
-  $(".file").click (event) ->
-    path = $(this).attr("href")
-    event.preventDefault()
-    $.ajax
-      url: path
-      success: (response) ->
-        $("#content").empty()
-        $('#arc').remove()
-        $('span.info').remove()
-        
-        obj = response
-        setHistory path
-        buildGraph obj
+# jQuery(document).ready ($) ->
+$(".file").click (event) ->
+  path = $(this).attr("href")
+  event.preventDefault()
+  $.ajax
+    url: path
+    success: (response) ->
+      $("#content").empty()
+      $('#arc').remove()
+      $('span.info').remove()
+      
+      setHistory path
+      buildGraph response
+      $(".info").on "click", (event) ->
+        makeLinksActive this
+  return
+
 
 setHistory = (path) ->
   if path!=window.location
     window.history.pushState({path:path},'',path)
 
+makeLinksActive = (reference) ->
+  cssColor = $(reference).css 'color'
+  strokeColor = cssColor.replace(/\)/,',0.66)').replace(/rgb/,'rgba')
+  hrefValue = $(reference).attr("href")
+  klass = hrefValue.substring(1,hrefValue.length)
+  
+  if $(reference).hasClass 'inactive-link'
+    $(reference).removeClass 'inactive-link'
+    d3.selectAll("." + klass).style({'stroke': strokeColor, 'stroke-width': 2})
+  else
+    $(reference).addClass 'inactive-link'
+    d3.selectAll("." + klass).style({'stroke': 'rgba(80,80,80,0.66)', 'stroke-width': 2})
+  return
+  
+
+
 # all for graph bulding
 buildGraph = (graph) ->
-  # create svg image
   svg = d3.select("#content").append("svg").attr("id", "arc").attr("width", width).attr("height", height)
-  # create plot area within svg image
   plot = svg.append("g").attr("id", "plot").attr("transform", "translate(" + pad + ", " + pad*25 + ")")
   
   linearLayout graph.nodes
@@ -86,15 +103,14 @@ buildGraph = (graph) ->
   for k,v of graph.links
     act_color = colors[list_index]
     list_index += 2
-    arcLinks graph.nodes,v,act_color[1],'t',v
-    $("#head").append "<span class='info navbar-brand' style='color:" + act_color[0] + "'>#" + k + ": " + v.length + "</span>"
+    console.log 
+    arcLinks graph.nodes,v,act_color[1],'t',k
+    $("#head").append "<a href='#" + k + "' class='info navbar-brand' style='color:" + act_color[0] + "'>#" + k + ": " + v.length + "</a>"
   
   drawNodes graph.nodes
   writeClaims graph.nodes
-  
 
 linearLayout = (nodes) ->
-  # used to scale node index to x position
   xscale = d3.scale.linear().domain([
     0
     nodes.length - 1
@@ -102,13 +118,10 @@ linearLayout = (nodes) ->
     radius * 2
     width - margin - radius * 2
   ])
-  
-  # calculate pixel location for each node
   nodes.forEach (d, i) ->
     d.x = xscale(i)
     d.y = yfixed + height / 3
     return
-  
   return
 
 drawNodes = (nodes) ->
@@ -162,7 +175,7 @@ drawLinks = (links,color,d,klass) ->
   )
   
   link = "link "+d
-  d3.select("#plot").selectAll(link).data(links).enter().append("path").attr("class", "link").attr("transform", (d, i) ->
+  d3.select("#plot").selectAll(link).data(links).enter().append("path").attr("class", "link " + klass).attr("transform", (d, i) ->
     xshift = d.source.x + (d.target.x - d.source.x) / 2
     # ToDo 2014-04-10: 
     yshift = yfixed + height / 3
@@ -176,7 +189,6 @@ drawLinks = (links,color,d,klass) ->
       d3.select(this).transition().duration(2000).delay(100).style('opacity',0).each "end", ->
         d3.select(this).remove()
         return
-    
     return
   ).attr "d", (d, i) ->
     xdist = Math.abs(d.source.x - d.target.x)
@@ -187,7 +199,7 @@ drawLinks = (links,color,d,klass) ->
       points.length - 1
     ]
     arc points
-
+    
   return
 
 # add tooltips
@@ -242,9 +254,10 @@ seeClaim = (node,top) ->
   
   d3.select("#claim_"+node.id)
     .transition()
-    .duration(900)
-    .delay(150)
-    .style({'display':'inline','opacity':1,'top':top,'curosr':'move'})
+    .duration(450)
+    .delay(50)
+    .style({'display':'inline','opacity':1})
+  # ToDo 2014-04-14: DRY it up
   $(".claim").css
     zIndex: 0
   $("#claim_"+node.id).css
@@ -252,7 +265,7 @@ seeClaim = (node,top) ->
   return
 
 hideClaim = (node) ->
-  d3.select("#claim_"+node.id).transition().duration(300).delay(50).style({'display':'none','opacity':0,'top':'0px'})
+  d3.select("#claim_"+node.id).transition().duration(450).delay(50).style({'display':'none','opacity':0})
   d3.select("#node_"+node.id).transition()
     .duration(450)
     .delay(50)

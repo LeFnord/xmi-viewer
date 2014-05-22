@@ -6730,6 +6730,10 @@ td.hidden-lg {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  #content{
+    left:-100px;
+  }
+  
   .hidden-lg.hidden-sm {
     display: none !important;
   }

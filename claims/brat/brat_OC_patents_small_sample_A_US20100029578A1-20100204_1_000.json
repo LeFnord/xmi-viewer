@@ -1,523 +1,1654 @@
 {
   "nodes": [
     {
-      "id": 5640,
+      "id": 23154,
       "index": 1,
-      "node_name": "claim 1",
-      "node_value": "A method of treating atrial fibrillation, preventing arrhythmia, or preventing atrial fibrosis in a subject in need thereof, the method comprising administering to the subject a pharmaceutical composition comprising a therapeutically effective amount of a p38 inhibitor compound and a pharmaceutically acceptable carrier, wherein said compound is of Genus Ia or a metabolite, hydrate, solvate, or prodrug thereof:     and wherein R1, R2, R3 and R4 are independently selected from the group consisting of H, alkyl substituted alkyl, alkenyl, haloalkyl, nitroalkyl, thioalkyl, hydroxyalkyl, alkoxy, phenyl, substituted phenyl, halo, hydroxyl, alkoxyalkyl, carboxy, alkoxycarbonyl, CO-uronide, CO-monosaccharide, CO-oligosaccharide, and CO- polysaccharide; X1, X2, X3, X4 and X5 are independently selected from the group consisting of H, halo, alkoxy, and hydroxyl; or said compound is of Genus IV or a metabolite, hydrate, solvate, or prodrug thereof:      wherein Ar is pyridinyl or phenyl; Z is O or S; X3 is H, F, Cl, OH, or OCH3; R2 is methyl, C(═O)H, C(═O)CH3, C(═O)O-glucosyl, fluoromethyl, difluoromethyl, trifluoromethyl, methylmethoxyl, methylhydroxyl, or phenyl; and R4 is H or hydroxyl; with the proviso that when R2 is trifluoromethyl, Z is O, R4 is H and Ar is phenyl, the phenyl is not solely substituted at the 4' position by H, F, or OH.",
-      "link_degree": 1,
+      "name": "claim 1",
+      "begin": 5,
+      "end": 1356,
+      "content": "A <tspan id='2745_method_treats_disease' class='ne method_treats_disease'><tspan id='2745_coreference' class='ne coreference'>method</tspan></tspan> of treating <tspan id='2719_method_treats_disease' class='ne method_treats_disease'><tspan id='2719_fusion' class='ne fusion'>atrial fibrillation</tspan></tspan>, preventing <tspan id='2225_fusion' class='ne fusion'>arrhythmia</tspan>, or preventing atrial <tspan id='2238_fusion' class='ne fusion'>fibrosis</tspan> in a subject in need <tspan id='2264_fusion' class='ne fusion'>thereof</tspan>, the <tspan id='2199_coreference' class='ne coreference'>method</tspan> comprising administering to the subject a <tspan id='4305_coreference' class='ne coreference'>pharmaceutical composition</tspan> comprising a therapeutically effective amount of a <tspan id='3109_coreference' class='ne coreference'>p38 inhibitor compound</tspan> and a pharmaceutically acceptable carrier, wherein said <tspan id='2355_coreference' class='ne coreference'>compound</tspan> is of Genus Ia or a <tspan id='561_fusion' class='ne fusion'>metabolite</tspan>, <tspan id='2706_fusion' class='ne fusion'>hydrate</tspan>, <tspan id='3083_fusion' class='ne fusion'>solvate</tspan>, or <tspan id='548_fusion' class='ne fusion'>prodrug</tspan> <tspan id='2290_fusion' class='ne fusion'><tspan id='2290_coreference' class='ne coreference'>thereof</tspan></tspan>: and wherein R1, R2, R3 and R4 are independently selected from the group consisting of H, alkyl substituted alkyl, alkenyl, haloalkyl, nitroalkyl, thioalkyl, hydroxyalkyl, alkoxy, phenyl, substituted phenyl, halo, hydroxyl, alkoxyalkyl, carboxy, alkoxycarbonyl, CO-uronide, CO-monosaccharide, CO-oligosaccharide, and CO- polysaccharide; X1, X2, X3, X4 and X5 are independently selected from the group consisting of H, halo, alkoxy, and hydroxyl; or said <tspan id='1497_coreference' class='ne coreference'>compound</tspan> is of Genus IV or a <tspan id='1484_fusion' class='ne fusion'>metabolite</tspan>, <tspan id='1432_fusion' class='ne fusion'>hydrate</tspan>, <tspan id='3148_fusion' class='ne fusion'>solvate</tspan>, or <tspan id='1445_fusion' class='ne fusion'>prodrug</tspan> <tspan id='1458_fusion' class='ne fusion'><tspan id='1458_coreference' class='ne coreference'>thereof</tspan></tspan>: wherein Ar is pyridinyl or phenyl; Z is O or S; X3 is H, F, Cl, OH, or OCH3; R2 is methyl, C(═O)H, C(═O)CH3, C(═O)O-glucosyl, fluoromethyl, difluoromethyl, trifluoromethyl, methylmethoxyl, methylhydroxyl, or phenyl; and R4 is H or hydroxyl; with the proviso that when R2 is trifluoromethyl, Z is O, R4 is H and Ar is phenyl, the phenyl is not solely substituted at the 4' position by H, F, or OH.",
       "references": [
         0
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5643,
+      "id": 23157,
       "index": 2,
-      "node_name": "claim 2",
-      "node_value": "The method of claim 1, wherein the subject is a human.",
-      "link_degree": 1,
+      "name": "claim 2",
+      "begin": 1363,
+      "end": 1417,
+      "content": "The <tspan id='4084_coreference' class='ne coreference'>method</tspan> of claim 1, wherein the subject is a human.",
       "references": [
         1
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5646,
+      "id": 23160,
       "index": 4,
-      "node_name": "claim 4",
-      "node_value": "The method of claim 1, wherein the p38 inhibitor compound exhibits an IC50 in the range of about 100 μM to about 1000 μM for inhibition of p38 MAPK.",
-      "link_degree": 1,
+      "name": "claim 4",
+      "begin": 1439,
+      "end": 1587,
+      "content": "The <tspan id='4032_coreference' class='ne coreference'>method</tspan> of claim 1, wherein the <tspan id='3018_coreference' class='ne coreference'>p38 inhibitor compound</tspan> exhibits an IC50 in the range of about 100 μM to about 1000 μM for inhibition of p38 MAPK.",
       "references": [
         1
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5649,
+      "id": 23163,
       "index": 5,
-      "node_name": "claim 5",
-      "node_value": "The method of claim 1, wherein the therapeutically effective amount produces a blood or serum or other bodily fluid concentration that is less than an IC30 for inhibition of p38 MAPK.",
-      "link_degree": 1,
+      "name": "claim 5",
+      "begin": 1593,
+      "end": 1776,
+      "content": "The <tspan id='3096_coreference' class='ne coreference'>method</tspan> of claim 1, wherein the therapeutically effective amount produces a blood or serum or other bodily fluid concentration that is less than an IC30 for inhibition of p38 MAPK.",
       "references": [
         1
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5652,
+      "id": 23166,
       "index": 6,
-      "node_name": "claim 6",
-      "node_value": "The method of claim 1, wherein the therapeutically effective amount is less than 50% of an amount that causes an undesirable side effect in the subject.",
-      "link_degree": 1,
+      "name": "claim 6",
+      "begin": 1782,
+      "end": 1934,
+      "content": "The <tspan id='3395_coreference' class='ne coreference'>method</tspan> of claim 1, wherein the therapeutically effective amount is less than 50% of an amount that causes an undesirable side effect in the subject.",
       "references": [
         1
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5655,
+      "id": 23169,
       "index": 7,
-      "node_name": "claim 7",
-      "node_value": "The method of claim 1, wherein the therapeutically effective amount of the p38 inhibitor compound suppresses the fibrillation.",
-      "link_degree": 1,
+      "name": "claim 7",
+      "begin": 1940,
+      "end": 2066,
+      "content": "The <tspan id='3330_coreference' class='ne coreference'>method</tspan> of claim 1, wherein the therapeutically effective amount of the <tspan id='2940_compound_treats_disease' class='ne compound_treats_disease'><tspan id='2940_coreference' class='ne coreference'>p38 inhibitor compound</tspan></tspan> suppresses the <tspan id='3473_compound_treats_disease' class='ne compound_treats_disease'>fibrillation</tspan>.",
       "references": [
         1
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5658,
+      "id": 23172,
       "index": 8,
-      "node_name": "claim 8",
-      "node_value": "The method of claim 1, wherein the therapeutically effective amount of the p38 inhibitor compound inhibits the fibrillation.",
-      "link_degree": 1,
+      "name": "claim 8",
+      "begin": 2072,
+      "end": 2196,
+      "content": "The <tspan id='3603_coreference' class='ne coreference'>method</tspan> of claim 1, wherein the therapeutically effective amount of the <tspan id='3577_compound_treats_disease' class='ne compound_treats_disease'><tspan id='3577_coreference' class='ne coreference'>p38 inhibitor compound</tspan></tspan> inhibits the <tspan id='990_compound_treats_disease' class='ne compound_treats_disease'>fibrillation</tspan>.",
       "references": [
         1
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5661,
+      "id": 23175,
       "index": 9,
-      "node_name": "claim 9",
-      "node_value": "The method of claim 1, wherein the therapeutically effective amount of the p38 inhibitor compound terminates the fibrillation.",
-      "link_degree": 1,
+      "name": "claim 9",
+      "begin": 2202,
+      "end": 2328,
+      "content": "The <tspan id='977_coreference' class='ne coreference'>method</tspan> of claim 1, wherein the therapeutically effective amount of the <tspan id='3590_compound_treats_disease' class='ne compound_treats_disease'><tspan id='3590_coreference' class='ne coreference'>p38 inhibitor compound</tspan></tspan> terminates the <tspan id='1042_compound_treats_disease' class='ne compound_treats_disease'>fibrillation</tspan>.",
       "references": [
         1
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5664,
+      "id": 23178,
       "index": 10,
-      "node_name": "claim 10",
-      "node_value": "The method of claim 1, wherein the therapeutically effective amount of the p38 inhibitor compound restores normal sinus rhythm.",
-      "link_degree": 1,
+      "name": "claim 10",
+      "begin": 2335,
+      "end": 2462,
+      "content": "The <tspan id='1068_coreference' class='ne coreference'>method</tspan> of claim 1, wherein the therapeutically effective amount of the <tspan id='3460_compound_restores_physiology' class='ne compound_restores_physiology'><tspan id='3460_coreference' class='ne coreference'>p38 inhibitor compound</tspan></tspan> restores normal <tspan id='4331_compound_restores_physiology' class='ne compound_restores_physiology'>sinus rhythm</tspan>.",
       "references": [
         1
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5667,
+      "id": 23181,
       "index": 11,
-      "node_name": "claim 11",
-      "node_value": "The method of claim 1, wherein the p38 inhibitor compound substantially lacks hemodynamic effects.",
-      "link_degree": 1,
+      "name": "claim 11",
+      "begin": 2469,
+      "end": 2567,
+      "content": "The <tspan id='717_coreference' class='ne coreference'>method</tspan> of claim 1, wherein the <tspan id='3499_coreference' class='ne coreference'>p38 inhibitor compound</tspan> substantially lacks hemodynamic effects.",
       "references": [
         1
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5670,
+      "id": 23184,
       "index": 12,
-      "node_name": "claim 12",
-      "node_value": "The method of claim 1, wherein the p38 inhibitor compound is pirfenidone.",
-      "link_degree": 1,
+      "name": "claim 12",
+      "begin": 2574,
+      "end": 2647,
+      "content": "The <tspan id='639_coreference' class='ne coreference'>method</tspan> of claim 1, wherein the <tspan id='3278_is_instance_of' class='ne is_instance_of'><tspan id='3278_coreference' class='ne coreference'>p38 inhibitor compound</tspan></tspan> is <tspan id='600_is_instance_of' class='ne is_instance_of'>pirfenidone</tspan>.",
       "references": [
         1
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5673,
+      "id": 23187,
       "index": 13,
-      "node_name": "claim 13",
-      "node_value": "The method of claim 1, wherein the p38 inhibitor compound is selected from Compounds 1 to 23 in Table 1 as disclosed herein.",
-      "link_degree": 1,
+      "name": "claim 13",
+      "begin": 2654,
+      "end": 2778,
+      "content": "The <tspan id='418_coreference' class='ne coreference'>method</tspan> of claim 1, wherein the <tspan id='3759_coreference' class='ne coreference'>p38 inhibitor compound</tspan> is selected from Compounds 1 to 23 in Table 1 as disclosed herein.",
       "references": [
         1
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5676,
+      "id": 23190,
       "index": 24,
-      "node_name": "claim 24",
-      "node_value": "The method of claim 1, wherein the administering comprises orally administering the p38 inhibitor compound pharmaceutical composition.",
-      "link_degree": 1,
+      "name": "claim 24",
+      "begin": 2806,
+      "end": 2940,
+      "content": "The <tspan id='366_coreference' class='ne coreference'>method</tspan> of claim 1, wherein the administering comprises orally administering the <tspan id='3720_coreference' class='ne coreference'>p38 inhibitor compound</tspan> <tspan id='340_coreference' class='ne coreference'>pharmaceutical composition</tspan>.",
       "references": [
         1
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5679,
+      "id": 23193,
       "index": 25,
-      "node_name": "claim 25",
-      "node_value": "The method of claim 24, wherein the administering comprises administering a tablet or capsule, wherein the tablet or capsule comprises the pharmaceutical composition.",
-      "link_degree": 1,
+      "name": "claim 25",
+      "begin": 2947,
+      "end": 3113,
+      "content": "The <tspan id='353_coreference' class='ne coreference'>method</tspan> of claim 24, wherein the administering comprises administering a <tspan id='3876_coreference' class='ne coreference'>tablet</tspan> or <tspan id='3642_coreference' class='ne coreference'>capsule</tspan>, wherein the <tspan id='3967_coreference' class='ne coreference'>tablet</tspan> or <tspan id='3941_coreference' class='ne coreference'>capsule</tspan> comprises the <tspan id='2771_coreference' class='ne coreference'>pharmaceutical composition</tspan>.",
       "references": [
         24
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5682,
+      "id": 23196,
       "index": 26,
-      "node_name": "claim 26",
-      "node_value": "The method of claim 25, wherein the administering comprises administering one or more of the tablets or capsules to the subject one or more times per day.",
-      "link_degree": 1,
+      "name": "claim 26",
+      "begin": 3120,
+      "end": 3274,
+      "content": "The <tspan id='2797_coreference' class='ne coreference'>method</tspan> of claim 25, wherein the administering comprises administering one or more of the <tspan id='2563_coreference' class='ne coreference'>tablets</tspan> or <tspan id='2550_coreference' class='ne coreference'>capsules</tspan> to the subject one or more times per day.",
       "references": [
         25
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5685,
+      "id": 23199,
       "index": 34,
-      "node_name": "claim 34",
-      "node_value": "The method of claim 1, wherein the arrhythmia is atrial fibrillation.",
-      "link_degree": 1,
+      "name": "claim 34",
+      "begin": 3302,
+      "end": 3371,
+      "content": "The <tspan id='2524_coreference' class='ne coreference'>method</tspan> of claim 1, wherein the <tspan id='2667_is_instance_of' class='ne is_instance_of'>arrhythmia</tspan> is <tspan id='2641_is_instance_of' class='ne is_instance_of'>atrial fibrillation</tspan>.",
       "references": [
         1
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5688,
+      "id": 23202,
       "index": 62,
-      "node_name": "claim 62",
-      "node_value": "The method of claim 34, wherein the subject suffers from a heart disorder.",
-      "link_degree": 1,
+      "name": "claim 62",
+      "begin": 3399,
+      "end": 3473,
+      "content": "The <tspan id='2615_coreference' class='ne coreference'>method</tspan> of claim 34, wherein the subject suffers from a heart disorder.",
       "references": [
         34
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5691,
+      "id": 23205,
       "index": 118,
-      "node_name": "claim 118",
-      "node_value": "A pharmaceutical composition to treat or suppress atrial fibrillation comprising an effective treating or suppressing amount of a p38 inhibitor compound, wherein said compound is of Genus Ia:     wherein R1, R2, R3 and R4 are independently selected from the group consisting of H, alkyl, substituted alkyl, alkenyl, haloalkyl, nitroalkyl, thioalkyl, hydroxyalkyl, alkoxy, phenyl, substituted phenyl, halo, hydroxyl, alkoxyalkyl, carboxy, alkoxycarbonyl, CO-uronide, CO-monosaccharide, CO-oligosaccharide, and CO- polysaccharide; and X1, X2, X3, X4, and X5 are independently selected from the group consisting of H, halo, alkoxy, and hydroxyl or said compound is of Genus VI:      wherein Ar is pyridinyl or phenyl; Z is O or S; and X3 is H, F, Cl, OH, or OCH3; R2 is methyl, C(═O)H, C(═O)CH3, C(═O)O-glucosyl, fluoromethyl, difluoromethyl, trifluoromethyl, methylmethoxyl, methylhydroxyl, or phenyl; and R4 is H or hydroxyl; with the proviso that when R2 is trifluoromethyl, Z is O, R4 is H and Ar is phenyl, the phenyl is not solely substituted at the 4' position by H, F, or OH.",
-      "link_degree": 1,
+      "name": "claim 118",
+      "begin": 3503,
+      "end": 4583,
+      "content": "A <tspan id='2446_substance_treats_disease' class='ne substance_treats_disease'><tspan id='2446_coreference' class='ne coreference'>pharmaceutical composition</tspan></tspan> to treat or suppress <tspan id='2472_substance_treats_disease' class='ne substance_treats_disease'>atrial fibrillation</tspan> comprising an effective treating or suppressing amount of a <tspan id='3850_coreference' class='ne coreference'>p38 inhibitor compound</tspan>, wherein said compound is of Genus Ia: wherein R1, R2, R3 and R4 are independently selected from the group consisting of H, alkyl, substituted alkyl, alkenyl, haloalkyl, nitroalkyl, thioalkyl, hydroxyalkyl, alkoxy, phenyl, substituted phenyl, halo, hydroxyl, alkoxyalkyl, carboxy, alkoxycarbonyl, CO-uronide, CO-monosaccharide, CO-oligosaccharide, and CO- polysaccharide; and X1, X2, X3, X4, and X5 are independently selected from the group consisting of H, halo, alkoxy, and hydroxyl or said compound is of Genus VI: wherein Ar is pyridinyl or phenyl; Z is O or S; and X3 is H, F, Cl, OH, or OCH3; R2 is methyl, C(═O)H, C(═O)CH3, C(═O)O-glucosyl, fluoromethyl, difluoromethyl, trifluoromethyl, methylmethoxyl, methylhydroxyl, or phenyl; and R4 is H or hydroxyl; with the proviso that when R2 is trifluoromethyl, Z is O, R4 is H and Ar is phenyl, the phenyl is not solely substituted at the 4' position by H, F, or OH.",
       "references": [
         0
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5694,
+      "id": 23208,
       "index": 123,
-      "node_name": "claim 123",
-      "node_value": "The composition of any of claim 118, wherein the effective treating or suppressing amount of the p38 inhibitor compound suppresses, inhibits, or terminates atrial fibrillation, or restores normal sinus rhythm.",
-      "link_degree": 1,
+      "name": "claim 123",
+      "begin": 4615,
+      "end": 4824,
+      "content": "The <tspan id='4162_coreference' class='ne coreference'>composition</tspan> of any of claim 118, wherein the effective treating or suppressing amount of the <tspan id='3811_compound_treats_disease' class='ne compound_treats_disease'><tspan id='3811_coreference' class='ne coreference'>p38 inhibitor compound</tspan></tspan> suppresses, inhibits, or terminates <tspan id='4227_compound_treats_disease' class='ne compound_treats_disease'>atrial fibrillation</tspan>, or restores normal sinus rhythm.",
       "references": [
         118
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     },
     {
-      "id": 5697,
+      "id": 23211,
       "index": 127,
-      "node_name": "claim 127",
-      "node_value": "The composition of claim 118, wherein the p38 inhibitor compound substantially lacks hemodynamic effects.",
-      "link_degree": 1,
+      "name": "claim 127",
+      "begin": 4855,
+      "end": 4960,
+      "content": "The <tspan id='782_coreference' class='ne coreference'>composition</tspan> of claim 118, wherein the <tspan id='3668_coreference' class='ne coreference'>p38 inhibitor compound</tspan> substantially lacks hemodynamic effects.",
       "references": [
         118
       ],
-      "group": 1
+      "position": 0,
+      "move": 0,
+      "token": ""
     }
   ],
   "node_links": [
     {
-      "source": 5643,
-      "target": 5640,
-      "value": 1
+      "source": 23157,
+      "target": 23154
     },
     {
-      "source": 5646,
-      "target": 5640,
-      "value": 1
+      "source": 23160,
+      "target": 23154
     },
     {
-      "source": 5649,
-      "target": 5640,
-      "value": 1
+      "source": 23163,
+      "target": 23154
     },
     {
-      "source": 5652,
-      "target": 5640,
-      "value": 1
+      "source": 23166,
+      "target": 23154
     },
     {
-      "source": 5655,
-      "target": 5640,
-      "value": 1
+      "source": 23169,
+      "target": 23154
     },
     {
-      "source": 5658,
-      "target": 5640,
-      "value": 1
+      "source": 23172,
+      "target": 23154
     },
     {
-      "source": 5661,
-      "target": 5640,
-      "value": 1
+      "source": 23175,
+      "target": 23154
     },
     {
-      "source": 5664,
-      "target": 5640,
-      "value": 1
+      "source": 23178,
+      "target": 23154
     },
     {
-      "source": 5667,
-      "target": 5640,
-      "value": 1
+      "source": 23181,
+      "target": 23154
     },
     {
-      "source": 5670,
-      "target": 5640,
-      "value": 1
+      "source": 23184,
+      "target": 23154
     },
     {
-      "source": 5673,
-      "target": 5640,
-      "value": 1
+      "source": 23187,
+      "target": 23154
     },
     {
-      "source": 5676,
-      "target": 5640,
-      "value": 1
+      "source": 23190,
+      "target": 23154
     },
     {
-      "source": 5679,
-      "target": 5676,
-      "value": 1
+      "source": 23193,
+      "target": 23190
     },
     {
-      "source": 5682,
-      "target": 5679,
-      "value": 1
+      "source": 23196,
+      "target": 23193
     },
     {
-      "source": 5685,
-      "target": 5640,
-      "value": 1
+      "source": 23199,
+      "target": 23154
     },
     {
-      "source": 5688,
-      "target": 5685,
-      "value": 1
+      "source": 23202,
+      "target": 23199
     },
     {
-      "source": 5694,
-      "target": 5691,
-      "value": 1
+      "source": 23208,
+      "target": 23205
     },
     {
-      "source": 5697,
-      "target": 5691,
-      "value": 1
+      "source": 23211,
+      "target": 23205
     }
   ],
   "links": {
-    "Coreference": [
+    "coreference": [
       {
-        "source": 5682,
-        "target": 5679,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4409,
+        "source": 23196,
+        "target": 23193,
+        "source_relatum": {
+          "id": 2797,
+          "begin": 3124,
+          "end": 3130,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 353,
+          "begin": 2951,
+          "end": 2957,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5679,
-        "target": 5676,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4431,
+        "source": 23193,
+        "target": 23190,
+        "source_relatum": {
+          "id": 353,
+          "begin": 2951,
+          "end": 2957,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 366,
+          "begin": 2810,
+          "end": 2816,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5685,
-        "target": 5640,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4464,
+        "source": 23199,
+        "target": 23154,
+        "source_relatum": {
+          "id": 2524,
+          "begin": 3306,
+          "end": 3312,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5673,
-        "target": 5640,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4486,
+        "source": 23187,
+        "target": 23154,
+        "source_relatum": {
+          "id": 418,
+          "begin": 2658,
+          "end": 2664,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5676,
-        "target": 5640,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4508,
+        "source": 23190,
+        "target": 23154,
+        "source_relatum": {
+          "id": 366,
+          "begin": 2810,
+          "end": 2816,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5676,
-        "target": 5640,
-        "source_value": "pharmaceutical composition",
-        "target_value": "pharmaceutical composition"
+        "id": 4519,
+        "source": 23190,
+        "target": 23154,
+        "source_relatum": {
+          "id": 340,
+          "begin": 2913,
+          "end": 2939,
+          "onto_id": 239000000093,
+          "ne_type": 84,
+          "content": "pharmaceutical composition"
+        },
+        "target_relatum": {
+          "id": 4305,
+          "begin": 183,
+          "end": 209,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "pharmaceutical composition"
+        }
       },
       {
-        "source": 5670,
-        "target": 5640,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4530,
+        "source": 23184,
+        "target": 23154,
+        "source_relatum": {
+          "id": 639,
+          "begin": 2578,
+          "end": 2584,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5664,
-        "target": 5640,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4541,
+        "source": 23178,
+        "target": 23154,
+        "source_relatum": {
+          "id": 1068,
+          "begin": 2339,
+          "end": 2345,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5667,
-        "target": 5640,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4552,
+        "source": 23181,
+        "target": 23154,
+        "source_relatum": {
+          "id": 717,
+          "begin": 2473,
+          "end": 2479,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5658,
-        "target": 5640,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4563,
+        "source": 23193,
+        "target": 23193,
+        "source_relatum": {
+          "id": 3941,
+          "begin": 3064,
+          "end": 3071,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "capsule"
+        },
+        "target_relatum": {
+          "id": 3642,
+          "begin": 3033,
+          "end": 3040,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "capsule"
+        }
       },
       {
-        "source": 5661,
-        "target": 5640,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4574,
+        "source": 23172,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3603,
+          "begin": 2076,
+          "end": 2082,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5679,
-        "target": 5640,
-        "source_value": "pharmaceutical composition",
-        "target_value": "pharmaceutical composition"
+        "id": 4585,
+        "source": 23193,
+        "target": 23193,
+        "source_relatum": {
+          "id": 3967,
+          "begin": 3054,
+          "end": 3060,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "tablet"
+        },
+        "target_relatum": {
+          "id": 3876,
+          "begin": 3023,
+          "end": 3029,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "tablet"
+        }
       },
       {
-        "source": 5652,
-        "target": 5640,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4596,
+        "source": 23175,
+        "target": 23154,
+        "source_relatum": {
+          "id": 977,
+          "begin": 2206,
+          "end": 2212,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5655,
-        "target": 5640,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4607,
+        "source": 23193,
+        "target": 23154,
+        "source_relatum": {
+          "id": 2771,
+          "begin": 3086,
+          "end": 3112,
+          "onto_id": 239000000093,
+          "ne_type": 84,
+          "content": "pharmaceutical composition"
+        },
+        "target_relatum": {
+          "id": 4305,
+          "begin": 183,
+          "end": 209,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "pharmaceutical composition"
+        }
       },
       {
-        "source": 5682,
-        "target": 5679,
-        "source_value": "capsules",
-        "target_value": "capsule"
+        "id": 4618,
+        "source": 23166,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3395,
+          "begin": 1786,
+          "end": 1792,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5646,
-        "target": 5640,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4640,
+        "source": 23169,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3330,
+          "begin": 1944,
+          "end": 1950,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5682,
-        "target": 5679,
-        "source_value": "tablets",
-        "target_value": "tablet"
+        "id": 4651,
+        "source": 23196,
+        "target": 23193,
+        "source_relatum": {
+          "id": 2550,
+          "begin": 3224,
+          "end": 3232,
+          "onto_id": 239000000617,
+          "ne_type": 84,
+          "content": "capsules"
+        },
+        "target_relatum": {
+          "id": 3642,
+          "begin": 3033,
+          "end": 3040,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "capsule"
+        }
       },
       {
-        "source": 5649,
-        "target": 5640,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4662,
+        "source": 23160,
+        "target": 23154,
+        "source_relatum": {
+          "id": 4032,
+          "begin": 1443,
+          "end": 1449,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5643,
-        "target": 5640,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4673,
+        "source": 23196,
+        "target": 23193,
+        "source_relatum": {
+          "id": 2563,
+          "begin": 3213,
+          "end": 3220,
+          "onto_id": 239000000558,
+          "ne_type": 84,
+          "content": "tablets"
+        },
+        "target_relatum": {
+          "id": 3876,
+          "begin": 3023,
+          "end": 3029,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "tablet"
+        }
       },
       {
-        "source": 5655,
-        "target": 5640,
-        "source_value": "p38 inhibitor compound",
-        "target_value": "p38 inhibitor compound"
+        "id": 4684,
+        "source": 23163,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3096,
+          "begin": 1597,
+          "end": 1603,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5646,
-        "target": 5640,
-        "source_value": "p38 inhibitor compound",
-        "target_value": "p38 inhibitor compound"
+        "id": 4695,
+        "source": 23157,
+        "target": 23154,
+        "source_relatum": {
+          "id": 4084,
+          "begin": 1367,
+          "end": 1373,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
       },
       {
-        "source": 5658,
-        "target": 5640,
-        "source_value": "p38 inhibitor compound",
-        "target_value": "p38 inhibitor compound"
+        "id": 4706,
+        "source": 23169,
+        "target": 23154,
+        "source_relatum": {
+          "id": 2940,
+          "begin": 2015,
+          "end": 2037,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
       },
       {
-        "source": 5664,
-        "target": 5640,
-        "source_value": "p38 inhibitor compound",
-        "target_value": "p38 inhibitor compound"
+        "id": 4717,
+        "source": 23160,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3018,
+          "begin": 1474,
+          "end": 1496,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
       },
       {
-        "source": 5661,
-        "target": 5640,
-        "source_value": "p38 inhibitor compound",
-        "target_value": "p38 inhibitor compound"
+        "id": 4728,
+        "source": 23172,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3577,
+          "begin": 2147,
+          "end": 2169,
+          "onto_id": 0,
+          "ne_type": 89,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
       },
       {
-        "source": 5670,
-        "target": 5640,
-        "source_value": "p38 inhibitor compound",
-        "target_value": "p38 inhibitor compound"
+        "id": 4739,
+        "source": 23178,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3460,
+          "begin": 2410,
+          "end": 2432,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
       },
       {
-        "source": 5667,
-        "target": 5640,
-        "source_value": "p38 inhibitor compound",
-        "target_value": "p38 inhibitor compound"
+        "id": 4750,
+        "source": 23175,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3590,
+          "begin": 2277,
+          "end": 2299,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
       },
       {
-        "source": 5676,
-        "target": 5640,
-        "source_value": "p38 inhibitor compound",
-        "target_value": "p38 inhibitor compound"
+        "id": 4761,
+        "source": 23184,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3278,
+          "begin": 2609,
+          "end": 2631,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
       },
       {
-        "source": 5673,
-        "target": 5640,
-        "source_value": "p38 inhibitor compound",
-        "target_value": "p38 inhibitor compound"
+        "id": 4772,
+        "source": 23181,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3499,
+          "begin": 2504,
+          "end": 2526,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
       },
       {
-        "source": 5691,
-        "target": 5640,
-        "source_value": "p38 inhibitor compound",
-        "target_value": "p38 inhibitor compound"
+        "id": 4783,
+        "source": 23190,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3720,
+          "begin": 2890,
+          "end": 2912,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
       },
       {
-        "source": 5697,
-        "target": 5640,
-        "source_value": "p38 inhibitor compound",
-        "target_value": "p38 inhibitor compound"
+        "id": 4794,
+        "source": 23187,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3759,
+          "begin": 2689,
+          "end": 2711,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
       },
       {
-        "source": 5694,
-        "target": 5640,
-        "source_value": "p38 inhibitor compound",
-        "target_value": "p38 inhibitor compound"
+        "id": 4805,
+        "source": 23205,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3850,
+          "begin": 3633,
+          "end": 3655,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
       },
       {
-        "source": 5697,
-        "target": 5691,
-        "source_value": "composition",
-        "target_value": "pharmaceutical composition"
+        "id": 4827,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 1497,
+          "begin": 876,
+          "end": 884,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
       },
       {
-        "source": 5694,
-        "target": 5691,
-        "source_value": "composition",
-        "target_value": "pharmaceutical composition"
+        "id": 4838,
+        "source": 23211,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3668,
+          "begin": 4897,
+          "end": 4919,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
       },
       {
-        "source": 5688,
-        "target": 5685,
-        "source_value": "method",
-        "target_value": "method"
+        "id": 4849,
+        "source": 23208,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3811,
+          "begin": 4712,
+          "end": 4734,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
+      },
+      {
+        "id": 4882,
+        "source": 23211,
+        "target": 23205,
+        "source_relatum": {
+          "id": 782,
+          "begin": 4859,
+          "end": 4870,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        },
+        "target_relatum": {
+          "id": 2446,
+          "begin": 3505,
+          "end": 3531,
+          "onto_id": 239000000093,
+          "ne_type": 84,
+          "content": "pharmaceutical composition"
+        }
+      },
+      {
+        "id": 4893,
+        "source": 23208,
+        "target": 23205,
+        "source_relatum": {
+          "id": 4162,
+          "begin": 4619,
+          "end": 4630,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        },
+        "target_relatum": {
+          "id": 2446,
+          "begin": 3505,
+          "end": 3531,
+          "onto_id": 239000000093,
+          "ne_type": 84,
+          "content": "pharmaceutical composition"
+        }
+      },
+      {
+        "id": 4904,
+        "source": 23202,
+        "target": 23199,
+        "source_relatum": {
+          "id": 2615,
+          "begin": 3403,
+          "end": 3409,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2524,
+          "begin": 3306,
+          "end": 3312,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
+      },
+      {
+        "id": 4937,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 1458,
+          "begin": 946,
+          "end": 953,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "thereof"
+        },
+        "target_relatum": {
+          "id": 1497,
+          "begin": 876,
+          "end": 884,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        }
+      },
+      {
+        "id": 4992,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 2290,
+          "begin": 410,
+          "end": 417,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "thereof"
+        },
+        "target_relatum": {
+          "id": 2355,
+          "begin": 340,
+          "end": 348,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        }
+      },
+      {
+        "id": 5003,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 2355,
+          "begin": 340,
+          "end": 348,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        },
+        "target_relatum": {
+          "id": 3109,
+          "begin": 261,
+          "end": 283,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
+      },
+      {
+        "id": 5014,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 2199,
+          "begin": 134,
+          "end": 140,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        }
+      }
+    ],
+    "fusion": [
+      {
+        "id": 4816,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 1445,
+          "begin": 938,
+          "end": 945,
+          "onto_id": 239000000651,
+          "ne_type": 84,
+          "content": "prodrug"
+        },
+        "target_relatum": {
+          "id": 1458,
+          "begin": 946,
+          "end": 953,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "thereof"
+        }
+      },
+      {
+        "id": 4860,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 548,
+          "begin": 402,
+          "end": 409,
+          "onto_id": 239000000651,
+          "ne_type": 84,
+          "content": "prodrug"
+        },
+        "target_relatum": {
+          "id": 2290,
+          "begin": 410,
+          "end": 417,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "thereof"
+        }
+      },
+      {
+        "id": 4926,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 1432,
+          "begin": 917,
+          "end": 924,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "hydrate"
+        },
+        "target_relatum": {
+          "id": 1458,
+          "begin": 946,
+          "end": 953,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "thereof"
+        }
+      },
+      {
+        "id": 4948,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3148,
+          "begin": 926,
+          "end": 933,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "solvate"
+        },
+        "target_relatum": {
+          "id": 1458,
+          "begin": 946,
+          "end": 953,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "thereof"
+        }
+      },
+      {
+        "id": 4959,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 2706,
+          "begin": 381,
+          "end": 388,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "hydrate"
+        },
+        "target_relatum": {
+          "id": 2290,
+          "begin": 410,
+          "end": 417,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "thereof"
+        }
+      },
+      {
+        "id": 4970,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 1484,
+          "begin": 905,
+          "end": 915,
+          "onto_id": 239000000556,
+          "ne_type": 84,
+          "content": "metabolite"
+        },
+        "target_relatum": {
+          "id": 1458,
+          "begin": 946,
+          "end": 953,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "thereof"
+        }
+      },
+      {
+        "id": 4981,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 3083,
+          "begin": 390,
+          "end": 397,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "solvate"
+        },
+        "target_relatum": {
+          "id": 2290,
+          "begin": 410,
+          "end": 417,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "thereof"
+        }
+      },
+      {
+        "id": 5025,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 2238,
+          "begin": 91,
+          "end": 99,
+          "onto_id": 209000062011,
+          "ne_type": 20,
+          "content": "fibrosis"
+        },
+        "target_relatum": {
+          "id": 2264,
+          "begin": 121,
+          "end": 128,
+          "onto_id": 0,
+          "ne_type": 90,
+          "content": "thereof"
+        }
+      },
+      {
+        "id": 5036,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 561,
+          "begin": 369,
+          "end": 379,
+          "onto_id": 239000000556,
+          "ne_type": 84,
+          "content": "metabolite"
+        },
+        "target_relatum": {
+          "id": 2290,
+          "begin": 410,
+          "end": 417,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "thereof"
+        }
+      },
+      {
+        "id": 5047,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 2719,
+          "begin": 26,
+          "end": 45,
+          "onto_id": 209000047767,
+          "ne_type": 20,
+          "content": "atrial fibrillation"
+        },
+        "target_relatum": {
+          "id": 2264,
+          "begin": 121,
+          "end": 128,
+          "onto_id": 0,
+          "ne_type": 90,
+          "content": "thereof"
+        }
+      },
+      {
+        "id": 5058,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 2225,
+          "begin": 58,
+          "end": 68,
+          "onto_id": 209000014807,
+          "ne_type": 20,
+          "content": "arrhythmia"
+        },
+        "target_relatum": {
+          "id": 2264,
+          "begin": 121,
+          "end": 128,
+          "onto_id": 0,
+          "ne_type": 90,
+          "content": "thereof"
+        }
+      }
+    ],
+    "is_instance_of": [
+      {
+        "id": 4497,
+        "source": 23184,
+        "target": 23184,
+        "source_relatum": {
+          "id": 600,
+          "begin": 2635,
+          "end": 2646,
+          "onto_id": 190000036270,
+          "ne_type": 89,
+          "content": "pirfenidone"
+        },
+        "target_relatum": {
+          "id": 3278,
+          "begin": 2609,
+          "end": 2631,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        }
+      },
+      {
+        "id": 4629,
+        "source": 23199,
+        "target": 23199,
+        "source_relatum": {
+          "id": 2641,
+          "begin": 3351,
+          "end": 3370,
+          "onto_id": 209000047767,
+          "ne_type": 20,
+          "content": "atrial fibrillation"
+        },
+        "target_relatum": {
+          "id": 2667,
+          "begin": 3337,
+          "end": 3347,
+          "onto_id": 209000014807,
+          "ne_type": 20,
+          "content": "arrhythmia"
+        }
+      }
+    ],
+    "compound_restores_physiology": [
+      {
+        "id": 5069,
+        "source": 23178,
+        "target": 23178,
+        "source_relatum": {
+          "id": 3460,
+          "begin": 2410,
+          "end": 2432,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 4331,
+          "begin": 2449,
+          "end": 2461,
+          "onto_id": 0,
+          "ne_type": 78,
+          "content": "sinus rhythm"
+        }
+      }
+    ],
+    "compound_treats_disease": [
+      {
+        "id": 4420,
+        "source": 23175,
+        "target": 23175,
+        "source_relatum": {
+          "id": 3590,
+          "begin": 2277,
+          "end": 2299,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 1042,
+          "begin": 2315,
+          "end": 2327,
+          "onto_id": 209000048759,
+          "ne_type": 20,
+          "content": "fibrillation"
+        }
+      },
+      {
+        "id": 4442,
+        "source": 23169,
+        "target": 23169,
+        "source_relatum": {
+          "id": 2940,
+          "begin": 2015,
+          "end": 2037,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 3473,
+          "begin": 2053,
+          "end": 2065,
+          "onto_id": 209000048759,
+          "ne_type": 20,
+          "content": "fibrillation"
+        }
+      },
+      {
+        "id": 4453,
+        "source": 23172,
+        "target": 23172,
+        "source_relatum": {
+          "id": 3577,
+          "begin": 2147,
+          "end": 2169,
+          "onto_id": 0,
+          "ne_type": 89,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 990,
+          "begin": 2183,
+          "end": 2195,
+          "onto_id": 209000048759,
+          "ne_type": 20,
+          "content": "fibrillation"
+        }
+      },
+      {
+        "id": 4915,
+        "source": 23208,
+        "target": 23208,
+        "source_relatum": {
+          "id": 3811,
+          "begin": 4712,
+          "end": 4734,
+          "onto_id": 0,
+          "ne_type": 69,
+          "content": "p38 inhibitor compound"
+        },
+        "target_relatum": {
+          "id": 4227,
+          "begin": 4771,
+          "end": 4790,
+          "onto_id": 209000047767,
+          "ne_type": 20,
+          "content": "atrial fibrillation"
+        }
+      }
+    ],
+    "method_treats_disease": [
+      {
+        "id": 4871,
+        "source": 23154,
+        "target": 23154,
+        "source_relatum": {
+          "id": 2745,
+          "begin": 7,
+          "end": 13,
+          "onto_id": 238000000034,
+          "ne_type": 80,
+          "content": "method"
+        },
+        "target_relatum": {
+          "id": 2719,
+          "begin": 26,
+          "end": 45,
+          "onto_id": 209000047767,
+          "ne_type": 20,
+          "content": "atrial fibrillation"
+        }
+      }
+    ],
+    "substance_treats_disease": [
+      {
+        "id": 4475,
+        "source": 23205,
+        "target": 23205,
+        "source_relatum": {
+          "id": 2446,
+          "begin": 3505,
+          "end": 3531,
+          "onto_id": 239000000093,
+          "ne_type": 84,
+          "content": "pharmaceutical composition"
+        },
+        "target_relatum": {
+          "id": 2472,
+          "begin": 3553,
+          "end": 3572,
+          "onto_id": 209000047767,
+          "ne_type": 20,
+          "content": "atrial fibrillation"
+        }
       }
     ]
   }

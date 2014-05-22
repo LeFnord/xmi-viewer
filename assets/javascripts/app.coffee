@@ -15,41 +15,50 @@ colors = [
   [
     'rgb(228,26,28)'
     'rgba(228,26,28,0.66)'
+    'rgba(228,26,28,0.13)'
   ]
   [
     'rgb(55,126,184)'
     'rgba(55,126,184,0.66)'
+    'rgba(55,126,184,0.13)'
   ]
   [
     'rgb(77,175,74)'
     'rgba(77,175,74,0.66)'
+    'rgba(77,175,74,0.13)'
   ]
   [
     'rgb(152,78,163)'
     'rgba(152,78,163,0.66)'
+    'rgba(152,78,163,0.13)'
   ]
   [
     'rgb(255,127,0)'
     'rgba(255,127,0,0.66)'
+    'rgba(255,127,0,0.13)'
   ]
   [
-    'rgb(255,255,51)'
-    'rgba(255,255,51,0.66)'
+    'rgb(215,225,51)'
+    'rgba(215,225,51,0.66)'
+    'rgba(215,225,51,0.13)'
   ]
   [
     'rgb(166,86,40)'
     'rgba(166,86,40,0.66)'
+    'rgba(166,86,40,0.13)'
   ]
   [
     'rgb(247,129,191)'
     'rgba(247,129,191,0.66)'
+    'rgba(247,129,191,0.13)'
   ]
   [
     'rgb(153,153,153)'
     'rgba(153,153,153,0.66)'
+    'rgba(153,153,153,0.13)'
   ]
 ]
-# jQuery(document).ready ($) ->
+
 $(".file").click (event) ->
   path = $(this).attr("href")
   event.preventDefault()
@@ -58,57 +67,74 @@ $(".file").click (event) ->
     success: (response) ->
       $("#content").empty()
       $('#arc').remove()
-      $('span.info').remove()
+      $(".info").remove()
+      $(".info-list").remove()
       
       setHistory path
       buildGraph response
-      $(".info").on "click", (event) ->
+      $(".info-list").on "click", (event) ->
         makeLinksActive this
   return
 
 
 setHistory = (path) ->
   if path!=window.location
-    window.history.pushState({path:path},'',path)
+    window.history.replaceState(path,'',path)
+    # window.history.pushState({path:'/'},'',path)
 
 makeLinksActive = (reference) ->
-  cssColor = $(reference).css 'color'
-  strokeColor = cssColor.replace(/\)/,',0.66)').replace(/rgb/,'rgba')
   hrefValue = $(reference).attr("href")
-  klass = hrefValue.substring(1,hrefValue.length)
-  
-  if $(reference).hasClass 'inactive-link'
-    $(reference).removeClass 'inactive-link'
-    d3.selectAll("." + klass).style({'stroke': strokeColor, 'stroke-width': 2})
-  else
-    $(reference).addClass 'inactive-link'
-    d3.selectAll("." + klass).style({'stroke': 'rgba(80,80,80,0.66)', 'stroke-width': 2})
-  return
-  
+  if hrefValue
+    cssColor = $(reference).css 'color'
+    klass = hrefValue.substring(1,hrefValue.length)
+    
+    if $(reference).hasClass 'inactive-link'
+      $(reference).removeClass 'inactive-link'
+      $("path." + klass).show()
+      newColor = cssColor.replace(/\)/,',0.13)').replace(/rgb/,'rgba')
+      $("tspan ." + klass).css({'background-color': newColor})
+    else
+      $(reference).addClass 'inactive-link'
+      $("path." + klass).hide()
+      newColor = cssColor.replace(/\)/,',0.0)').replace(/rgb/,'rgba')
+      $("tspan ." + klass).css({'background-color': newColor})
+    return
 
 
 # all for graph bulding
 buildGraph = (graph) ->
+  
+  width = $(window).width() - $(window).width() / 13;
+  height = $(window).height() * 1.7;
+  
   svg = d3.select("#content").append("svg").attr("id", "arc").attr("width", width).attr("height", height)
-  plot = svg.append("g").attr("id", "plot").attr("transform", "translate(" + pad + ", " + pad*25 + ")")
+  plot = svg.append("g").attr("id", "plot").attr("transform", "translate(" + 0 + ", " + pad * 25 + ")")
+  
+  height += 150
   
   linearLayout graph.nodes
   arcLinks graph.nodes,graph.node_links,'grey','b','claims'
   
-  $("#head").append "<span class='info name navbar-brand'>" + graph.name + "</span>"
-  $("#head").append "<span class='info claims navbar-brand'>#Claims: " + graph.nodes.length + "</span>"
-  $("#head").append "<span class='info link_claims navbar-brand'>#Links: " + graph.node_links.length + "</span>"
+  $("#head").append "<span class='navbar-brand info name'>" + graph.name + "</span>"
+  $("#head").append "<span class='navbar-brand info claims'>#Claims: " + graph.nodes.length + "</span>"
+  $("#head").append "<span class='navbar-brand info link_claims'>#Links: " + graph.node_links.length + "</span>"
   
   list_index = 0
   for k,v of graph.links
     act_color = colors[list_index]
-    list_index += 2
-    console.log 
+    list_index += 1
     arcLinks graph.nodes,v,act_color[1],'t',k
-    $("#head").append "<a href='#" + k + "' class='info navbar-brand' style='color:" + act_color[0] + "'>#" + k + ": " + v.length + "</a>"
-  
+    $("#legend").append "<li role='presentation'><a role='menuitem' tabindex='-1' href='#" + k + "' class='info-list' style='cursor:pointer;color:" + act_color[0] + "'><i class='icon-link'/> #" + k + ": " + v.length + "</a></li>"
+    
   drawNodes graph.nodes
   writeClaims graph.nodes
+  
+  list_index = 0
+  for k,v of graph.links
+    act_color = colors[list_index]
+    list_index += 1
+    color_named_entities k, act_color[1], act_color[2]
+    draw_line_between_nes k, v
 
 linearLayout = (nodes) ->
   xscale = d3.scale.linear().domain([
@@ -128,7 +154,7 @@ drawNodes = (nodes) ->
   d3.select("#plot").selectAll(".node").data(nodes).enter().append("circle").attr("class", "node").attr("id", (d, i) ->
     "node_" + d.id
   ).attr("name", (d, i) ->
-    d.node_name
+    d.name
   ).attr("cx", (d, i) ->
     d.x
   ).attr("cy", (d, i) ->
@@ -241,7 +267,7 @@ writeClaims = (claims) ->
       .attr("class","claim").attr("id", (d) ->
         "claim_" + item.id
       ).html( (d) ->
-        "<span class='index'>" + item.index + ".</span> <span class='claim_content'>" + item.node_value + "</span>"
+        "<span class='index'>" + item.index + ".</span> <span class='claim_content'>" + item.content + "</span>"
       ).insert("span").attr("class","closer").style('text-color','rgba(76, 76, 76,0.5)').text("×").on "click", (d, i) ->
         hideClaim item
         return
@@ -254,9 +280,9 @@ seeClaim = (node,top) ->
   
   d3.select("#claim_"+node.id)
     .transition()
-    .duration(450)
+    .duration(250)
     .delay(50)
-    .style({'display':'inline','opacity':1})
+    .style({'display':'inline','opacity':1,'top':'57px'})
   # ToDo 2014-04-14: DRY it up
   $(".claim").css
     zIndex: 0
@@ -299,15 +325,15 @@ moveClaim = ->
       top: "57px"
   return
 
-# accessing an array element of objects by proerty value
-# ary.where property: value
-# returns all elements, for which query == true
-Array::where = (query) ->
-  return [] if typeof query isnt "object"
-  hit = Object.keys(query).length
-  @filter (item) ->
-    match = 0
-    for key, val of query
-      match += 1 if item[key] is val
-    if match is hit then true else false
+# relevant to named entities
+color_named_entities = (klass,lColor,color) ->
+  unless klass == 'claims'
+    $("tspan." + klass).css({'background-color': color, 'border':'2px solid '+lColor})
+    # $("tspan." + klass).css({'background-color': color})
+
+
+draw_line_between_nes = (klass,links) ->
+  # console.log klass
+  # console.log links
+
 

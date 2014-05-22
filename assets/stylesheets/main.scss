@@ -6,12 +6,27 @@
 @import 'partials/media';
 @import 'partials/layout';
 
-#content{
-  padding:1em;
+#head {
+  position: relative;
+  top:15px;
+}
+.info {
+  font-size:90%;
+  padding-top:1px;
+}
+
+.info-list {
   width:100%;
-  margin:0 auto;
-  margin-top:50px;
-  min-height: 100%;
+  font-size:110%;
+  text-align: left;
+}
+
+#content{
+  position: relative;
+  padding:1em;
+  margin:0 0;
+  padding-top:50px;
+  left:-10%;
 }
 
 #footer {
@@ -60,15 +75,9 @@
   stroke-opacity: 1.0;
 }
 
-.info {
-  font-size: 80%;
-  padding-bottom:10px;
-  cursor: pointer;
-}
-
 .claim {
   position: absolute;
-  top:57px;
+  top:50%;
   display: none;
   cursor: move;
   opacity:0;
@@ -100,6 +109,12 @@
   }
 }
 
+.ne {
+  background-color: rgba(233,233,233,0.5);
+  padding:1px 4px;
+  cursor:pointer;
+  border-radius: 3px;
+}
 text.node-index {
   position:absolute;
   top:57px;

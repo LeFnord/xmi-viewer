@@ -18,23 +18,29 @@
     
     %title .: xmi- viewer : . .
   %body
-    %nav#navigation.navbar.navbar-default.navbar-fixed-top(role="navigation")
-      %div#head.navbar-header
+    %nav.navbar.navbar-fixed-top(role="navigation")
+      %div.navbar-header
         %a.navbar-toggle(data-toggle="collapse" data-target=".navbar-collapse")
           %span.icon-list
         %a.navbar-brand(href="/")xmi relation viewer
+      %div#head.navbar-nav.collapse.navbar-collapse
       %div.navbar-nav.navbar-right.collapse.navbar-collapse
-        %div.btn-group
-          %button.btn.btn-default.dropdown-toggle(title="list files" type="button" data-toggle="dropdown")
+        %div.btn
+          %a.nav-list(id="LinkList" title="list links" type="button" data-toggle="dropdown")
+            %i.icon-link
+            links
+            %i.icon-caret-down
+          %ul#legend.dropdown-menu.scroll-menu(role="menu" aria-labelledby="LinkList")
+        %div.btn
+          %a.nav-list(id="FileList" title="list files" type="button" data-toggle="dropdown")
             %i.icon-folder-open
             patents
             %i.icon-caret-down
-          %ul.dropdown-menu.scroll-menu= partial :'partials/docs'
-          
-          
-    %div.container
-      %div#content
-        %article= yield
+          %ul.dropdown-menu.scroll-menu(role="menu" aria-labelledby="FileList")
+            = partial :'partials/docs'
+    
+    %div#content.container-fluid
+      %article= yield
     
   = partial :'partials/javascripts'
   

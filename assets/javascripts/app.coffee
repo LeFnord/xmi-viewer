@@ -231,11 +231,11 @@ drawLinks = (links,color,d,klass) ->
 # add tooltips
 addTooltipToLink = (link, klass) ->
   unless klass is 'claims'
-    addTooltip link.source, link.source_value
-    addTooltip link.target, link.target_value
+    # addTooltip link.source_relatum, link.source_relatum.content
+    # addTooltip link.target_relatum, link.target_relatum.content
   else
-    addTooltip link.source, link.source.node_name
-    addTooltip link.target, link.target.node_name
+    addTooltip link.source, link.source.name
+    addTooltip link.target, link.target.name
   return
 
 addTooltip = (circle,text,klass) ->

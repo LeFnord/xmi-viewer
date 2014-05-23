@@ -10,6 +10,8 @@ gem 'kramdown'
 gem 'coffee-script'
 gem 'multi_json'
 
+gem 'execjs'
+gem 'therubyracer', platforms: :ruby
 
 group :development do
   gem 'sinatra-reloader'

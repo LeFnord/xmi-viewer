@@ -6,7 +6,6 @@ gem 'sinatra'
 # for layout
 gem 'haml'
 gem 'sass'
-gem 'kramdown'
 gem 'coffee-script'
 gem 'multi_json'
 

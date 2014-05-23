@@ -89,7 +89,7 @@ class App < Sinatra::Base
   end
 
   get '/javascripts/:name.js' do
-    content_type 'text/plain', :charset => 'utf-8'
+    content_type 'text/javascript', :charset => 'utf-8'
     coffee :"../assets/javascripts/#{params[:name]}"
   end
   

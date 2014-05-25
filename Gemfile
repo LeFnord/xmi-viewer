@@ -9,8 +9,10 @@ gem 'sass'
 gem 'coffee-script'
 gem 'multi_json'
 
-gem 'execjs'
-gem 'therubyracer', platforms: :ruby
+if RUBY_PLATFORM =~ /linux/
+  gem 'execjs'
+  gem 'therubyracer', platforms: :ruby
+end 
 
 group :development do
   gem 'sinatra-reloader'
@@ -18,9 +20,12 @@ group :development do
 end
 
 group :test do
-  # # gem 'cucumber'
-  # # gem 'capybara'
-  # gem 'rspec'
+  gem "rspec"
+  
+  gem "guard"
+  gem "guard-rspec"
+  gem "guard-bundler"
+  gem "terminal-notifier-guard"
 end
 
 # server

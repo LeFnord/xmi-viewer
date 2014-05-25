@@ -2,10 +2,10 @@ require 'pathname'
 
 class Documents
   
-  # def self.content_of dir: nil, root: nil
+  # def self.documents_of dir: nil, root: nil
   #   Dir.no_dot_entries(dir).collect{|x| x }
   # end
-  def self.content_of dir: nil, root: nil
+  def self.documents_of dir: nil, root: nil
     return false if dir.nil?
     return false if root.nil?
     
@@ -13,7 +13,7 @@ class Documents
     Dir.no_dot_entries(dir).each do |entry|
       file = File.join(dir,entry)
       if Dir.exists?(file)
-        existend_documents << content_of(dir: file, root: dir) unless entry == 'figures' || entry == 'archive'
+        existend_documents << documents_of(dir: file, root: dir) unless entry == 'figures' || entry == 'archive'
       elsif entry.end_with?('.json')
         dirs = dir.split('/')
         actual_dir = dirs[-(dirs.length-root.split('/').length)..-1] - ['claims']
@@ -25,7 +25,7 @@ class Documents
       end
     end
     
-    return existend_documents
+    existend_documents
   end
   
   attr_accessor :json_file, :structure, :out

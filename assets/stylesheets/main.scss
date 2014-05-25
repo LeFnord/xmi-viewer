@@ -6,18 +6,15 @@
 @import 'partials/media';
 @import 'partials/layout';
 
-#head {
-  position: relative;
-  top:15px;
-}
+
 .info {
-  font-size:90%;
-  padding-top:1px;
+  font-size:85%;
+/*  padding-top:1px;*/
 }
 
-.info-list {
-  width:100%;
-  font-size:110%;
+.file-list,.info-list {
+  position: relative;
+  left:-0.66em;
   text-align: left;
 }
 
@@ -75,6 +72,9 @@
   stroke-opacity: 1.0;
 }
 
+.claim, .closer {
+  background-color: rgba(250,252,252,0.975);
+}
 .claim {
   position: absolute;
   top:20%;
@@ -83,10 +83,7 @@
   opacity:0;
   font-family: $serif;
   max-height:50%;
-/*  max-width: 100%;*/
-/*  margin:0 auto;*/
-  padding:7px 23px;
-  background-color:white;
+  padding:7px 7px 7px 23px;
   box-shadow:0px 3px 7px 0px rgba(123,123,123,0.5);
   overflow: auto;
 }
@@ -100,7 +97,6 @@
   text-align:center;
   cursor:pointer;
   index:3;
-  background-color:white;
   border-radius:5px;
   font: bold 1.3em sans-serif;
   &:hover{

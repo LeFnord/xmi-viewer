@@ -74,7 +74,9 @@ class App < Sinatra::Base
   # Filters
   # 
   before do
-    @documents = Documents.content_of(dir: File.join(settings.claim_dir), root: File.join(settings.root)).flatten
+    @entries = Dir.no_dot_entries(settings.claim_dir)
+    @path = "set path: #{settings.claim_dir}"
+    @documents = Documents.documents_of(dir: File.join(settings.claim_dir), root: File.join(settings.root)).flatten
   end
   
   #
@@ -103,16 +105,14 @@ class App < Sinatra::Base
   end
   
   get %r{/?((?<path>[\w\-\_]*)/)(?<name>[\w\-\_]+).json} do
-    if params[:path].empty?
+    if params[:path].empty? || params[:path] == 'claims'
       doc_path = params[:name]  + '.json'
     else params[:path] != '/'
       doc_path = params[:path] + '/' + params[:name]  + '.json'
     end
     
     doc_path = File.join(File.join(settings.claim_dir,doc_path))
-    
     @document = Documents.new path: doc_path, name: params[:name]
-    
     
     if request.xhr?
       json @document.out
@@ -121,6 +121,32 @@ class App < Sinatra::Base
     end
   end
   
+  get "/path" do
+    input = params[:q].split('/')
+    ap input
+    path = input[0..-2].join('/')
+    path = '/' if path.empty?
+    dir = input.last
+    
+    
+    if Dir.exist?(path)
+      $stdout.print "path: #{path}\n".blue
+      $stdout.print "dir: #{dir}\n".blue
+      @entries = Dir.no_dot_entries(path)
+      foo = []
+      @entries.each{ |x| foo << x if x.start_with?(dir) }
+      @entries = foo unless foo.empty?
+    end
+    ap @entries
+    json @entries
+  end
+  
+  get '/dir' do
+    $stdout.puts "in dir: #{params[:q]}".red
+    cookies[:dir] = params[:q]
+    
+    true
+  end
   
   run! if app_file == $0
 end

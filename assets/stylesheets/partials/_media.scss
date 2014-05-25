@@ -47,25 +47,52 @@
 
 // own media foo
 /* Extra small devices (phones, up to 480px) */
-@media (max-width: 768px) { 
-  .tocify {
+@media (max-width: 768px) {
+  .navbar-nav {
     position: relative;
+    top:-10px;
+  }
+  #head {
     width:100%;
-    max-width:100%;
+  }
+  
+  .name, .claims,.link_claim {
+    padding-left: 1em;
+  }
+  .name {
+    width: inherit;
+  }
+  .claims,.link_claim {
+    width:40%;
+  }
+  
+  .path-input {
+    padding-top:0;
+    width:104%;
   }
 }
 /* Small devices (tablets,  and up) */
-@media (min-width: 768px) { 
-  .tocify {
-    position: fixed;
+@media (min-width: 768px) {
+  .navbar-nav {
+    top:0px;
   }
+  #head {
+    width:60%;
+  }
+  .name {width: 100%;}
+  .claims,.link_claim {width:50%;}
+  
+  .path-input {
+    padding-top:0.7em;
+    width:46%;
+  }
+  
 }
 
 /* Medium devices (desktops, 992px and up) */
-//@media (min-width: 992px) {
-//}
+@media (min-width: 992px) {}
 
 /* Large devices (large desktops, 1200px and up) */
-//@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {  }
 
 

@@ -69,18 +69,19 @@ $(".file").click (event) ->
       $('#arc').remove()
       $(".info").remove()
       $(".info-list").remove()
+      $(".path-input").empty().css({'width':'0%'})
       
-      setHistory path
+      # setHistory path
       buildGraph response
       $(".info-list").on "click", (event) ->
         makeLinksActive this
   return
 
 
-setHistory = (path) ->
-  if path!=window.location
-    window.history.replaceState(path,'',path)
-    # window.history.pushState({path:'/'},'',path)
+# setHistory = (path) ->
+#   if path!=window.location
+#     window.history.replaceState(path,'',path)
+#     # window.history.pushState({path:'/'},'',path)
 
 makeLinksActive = (reference) ->
   hrefValue = $(reference).attr("href")
@@ -91,13 +92,15 @@ makeLinksActive = (reference) ->
     if $(reference).hasClass 'inactive-link'
       $(reference).removeClass 'inactive-link'
       $("path." + klass).show()
-      newColor = cssColor.replace(/\)/,',0.13)').replace(/rgb/,'rgba')
-      $("tspan ." + klass).css({'background-color': newColor})
+      newBGColor = cssColor.replace(/\)/,',0.13)').replace(/rgb/,'rgba')
+      newBorderColor = cssColor.replace(/\)/,',0.9)').replace(/rgb/,'rgba')
+      $("tspan ." + klass).css({'background-color': newBGColor,'border-color':newBorderColor})
     else
       $(reference).addClass 'inactive-link'
       $("path." + klass).hide()
-      newColor = cssColor.replace(/\)/,',0.0)').replace(/rgb/,'rgba')
-      $("tspan ." + klass).css({'background-color': newColor})
+      newBGColor = cssColor.replace(/\)/,',0.0)').replace(/rgb/,'rgba')
+      newBorderColor = cssColor.replace(/\)/,',0.23)').replace(/rgb/,'rgba')
+      $("tspan ." + klass).css({'background-color': newBGColor,'border-color':newBorderColor})
     return
 
 
@@ -115,9 +118,9 @@ buildGraph = (graph) ->
   linearLayout graph.nodes
   arcLinks graph.nodes,graph.node_links,'grey','b','claims'
   
-  $("#head").append "<span class='navbar-brand info name'>" + graph.name + "</span>"
-  $("#head").append "<span class='navbar-brand info claims'>#Claims: " + graph.nodes.length + "</span>"
-  $("#head").append "<span class='navbar-brand info link_claims'>#Links: " + graph.node_links.length + "</span>"
+  $("#head").append "<span class='navbar-text info name'>" + graph.name + "</span>"
+  $("#head").append "<span class='navbar-text info claims'>#Claims: " + graph.nodes.length + "</span>"
+  $("#head").append "<span class='navbar-text info link_claims'>#Links: " + graph.node_links.length + "</span>"
   
   list_index = 0
   for k,v of graph.links

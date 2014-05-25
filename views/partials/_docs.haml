@@ -1,6 +1,6 @@
 - unless @documents.nil?
   - @documents.each do |doc|
     %li(role='presentation') 
-      %a.file(href="claims/#{doc[:file_name]}" name="#{doc[:name]}" role='menuitem' tabindex='-1')
+      %a.file(class='file-list' href="claims/#{doc[:file_name]}" name="#{doc[:name]}" role='menuitem' tabindex='-1')
         %i.icon-file.a
         = doc[:file_name]

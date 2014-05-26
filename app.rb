@@ -4,7 +4,6 @@ require 'sinatra/contrib/all'
 
 require 'haml'
 require 'sass'
-require 'kramdown'
 require 'coffee-script'
 require 'awesome_print'
 require 'pathname'
@@ -57,7 +56,7 @@ class App < Sinatra::Base
     alias_method :h, :escape_html
     
     def is_to_old_browser?
-      if request.user_agent.include?("MSIE") && !request.user_agent.include?("MSIE 10.0")
+      if request.user_agent.include?("MSIE") && !request.user_agent.include?("MSIE 11.0")
         return true
       else
         return false
@@ -74,9 +73,8 @@ class App < Sinatra::Base
   # Filters
   # 
   before do
-    @entries = Dir.no_dot_entries(settings.claim_dir)
     @path = "set path: #{settings.claim_dir}"
-    @documents = Documents.documents_of(dir: File.join(settings.claim_dir), root: File.join(settings.root)).flatten
+    @documents = Finder.documents_of(dir: 'claims')
   end
   
   #
@@ -129,16 +127,16 @@ class App < Sinatra::Base
     dir = input.last
     
     
-    if Dir.exist?(path)
-      $stdout.print "path: #{path}\n".blue
-      $stdout.print "dir: #{dir}\n".blue
-      @entries = Dir.no_dot_entries(path)
-      foo = []
-      @entries.each{ |x| foo << x if x.start_with?(dir) }
-      @entries = foo unless foo.empty?
-    end
-    ap @entries
-    json @entries
+    # if Dir.exist?(path)
+    #   $stdout.print "path: #{path}\n".blue
+    #   $stdout.print "dir: #{dir}\n".blue
+    #   @entries = Dir.no_dot_entries(path)
+    #   foo = []
+    #   @entries.each{ |x| foo << x if x.start_with?(dir) }
+    #   @entries = foo unless foo.empty?
+    # end
+    # ap @entries
+    # json @entries
   end
   
   get '/dir' do

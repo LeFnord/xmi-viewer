@@ -110,6 +110,8 @@ buildGraph = (graph) ->
   width = $(window).width() - $(window).width() / 13;
   height = $(window).height() * 1.7;
   
+  writeClaims graph.nodes
+  
   svg = d3.select("#content").append("svg").attr("id", "arc").attr("width", width).attr("height", height)
   plot = svg.append("g").attr("id", "plot").attr("transform", "translate(" + 0 + ", " + pad * 25 + ")")
   
@@ -130,7 +132,6 @@ buildGraph = (graph) ->
     $("#legend").append "<li role='presentation'><a role='menuitem' tabindex='-1' href='#" + k + "' class='info-list' style='cursor:pointer;color:" + act_color[0] + "'><i class='icon-link'/> #" + k + ": " + v.length + "</a></li>"
     
   drawNodes graph.nodes
-  writeClaims graph.nodes
   
   list_index = 0
   for k,v of graph.links

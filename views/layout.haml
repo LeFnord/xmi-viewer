@@ -25,7 +25,7 @@
         %a.navbar-brand(href="/")xmi relation viewer
       %div#head.navbar-nav.collapse.navbar-collapse
       %div.path-input.navbar-nav.collapse.navbar-collapse
-        -#%input#path.form-control{type: "text", placeholder: @path, autocomplete: true}
+        -#%input#path.form-control{type: "text", placeholder: @path, autocomplete: false}
       %div.navbar-nav.navbar-right.collapse.navbar-collapse
         %div.btn
           %a.nav-list(id="LinkList" title="list links" type="button" data-toggle="dropdown")
@@ -41,7 +41,7 @@
           %ul.dropdown-menu.scroll-menu(role="menu" aria-labelledby="FileList")
             = partial :'partials/docs'
     
-    %div#content.container-fluid
+    %div#content
       %article= yield
     
   = partial :'partials/javascripts'

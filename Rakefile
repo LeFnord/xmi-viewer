@@ -1,10 +1,8 @@
 require "./app"
+require "rspec/core/rake_task"
 
-namespace :service do
-  desc "foo"
-  task :bar do
-    ap "test"
-    
-  end
-end
+# require "./lib/rxmi"
 
+RSpec::Core::RakeTask.new(:spec)
+
+task :default => :spec

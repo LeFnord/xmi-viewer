@@ -1,0 +1,796 @@
+{
+  "nodes": [
+    {
+      "id": 6692,
+      "index": 1,
+      "name": "claim 1",
+      "begin": 5,
+      "end": 57,
+      "content": "A <tspan id='796_coreference' class='ne coreference'>compound</tspan> represented by the following formula (1):",
+      "references": [
+        0
+      ],
+      "position": 0,
+      "move": 0,
+      "token": ""
+    },
+    {
+      "id": 6695,
+      "index": 2,
+      "name": "claim 2",
+      "begin": 67,
+      "end": 119,
+      "content": "A <tspan id='757_coreference' class='ne coreference'>compound</tspan> represented by the following formula (2):",
+      "references": [
+        0
+      ],
+      "position": 0,
+      "move": 0,
+      "token": ""
+    },
+    {
+      "id": 6698,
+      "index": 3,
+      "name": "claim 3",
+      "begin": 129,
+      "end": 261,
+      "content": "An <tspan id='640_is_active_part_of' class='ne is_active_part_of'><tspan id='640_coreference' class='ne coreference'>α1 adrenergic receptor antagonistic agent</tspan></tspan> comprising a <tspan id='523_is_active_part_of' class='ne is_active_part_of'><tspan id='523_coreference' class='ne coreference'>compound</tspan></tspan> represented by the following formula (1) as an active ingredient:",
+      "references": [
+        0
+      ],
+      "position": 0,
+      "move": 0,
+      "token": ""
+    },
+    {
+      "id": 6701,
+      "index": 4,
+      "name": "claim 4",
+      "begin": 271,
+      "end": 403,
+      "content": "An <tspan id='744_coreference' class='ne coreference'>α1 adrenergic receptor antagonistic agent</tspan> comprising a <tspan id='666_coreference' class='ne coreference'>compound</tspan> represented by the following formula (2) as an active ingredient:",
+      "references": [
+        0
+      ],
+      "position": 0,
+      "move": 0,
+      "token": ""
+    },
+    {
+      "id": 6704,
+      "index": 5,
+      "name": "claim 5",
+      "begin": 413,
+      "end": 575,
+      "content": "The <tspan id='588_is_instance_of' class='ne is_instance_of'><tspan id='588_coreference' class='ne coreference'>α1 adrenergic receptor antagonistic agent</tspan></tspan> according to claim 3 which is any one of an <tspan id='614_is_instance_of' class='ne is_instance_of'>antihypertensive drug</tspan>, a <tspan id='341_substance_treats_disease' class='ne substance_treats_disease'><tspan id='341_is_instance_of' class='ne is_instance_of'>drug</tspan></tspan> for <tspan id='354_substance_treats_disease' class='ne substance_treats_disease'>prostatic hypertrophy</tspan>, and a <tspan id='536_is_instance_of' class='ne is_instance_of'>diuretic</tspan>.",
+      "references": [
+        3
+      ],
+      "position": 0,
+      "move": 0,
+      "token": ""
+    },
+    {
+      "id": 6707,
+      "index": 6,
+      "name": "claim 6",
+      "begin": 581,
+      "end": 715,
+      "content": "A <tspan id='328_is_active_part_of' class='ne is_active_part_of'><tspan id='328_coreference' class='ne coreference'>composition</tspan></tspan> which comprises a <tspan id='367_is_active_part_of' class='ne is_active_part_of'><tspan id='367_coreference' class='ne coreference'>compound</tspan></tspan> represented by the following formula (1) and has an action through an <tspan id='653_coreference' class='ne coreference'>α1 adrenergic receptor</tspan>:",
+      "references": [
+        0
+      ],
+      "position": 0,
+      "move": 0,
+      "token": ""
+    },
+    {
+      "id": 6710,
+      "index": 7,
+      "name": "claim 7",
+      "begin": 725,
+      "end": 859,
+      "content": "A <tspan id='380_is_active_part_of' class='ne is_active_part_of'><tspan id='380_coreference' class='ne coreference'>composition</tspan></tspan> which comprises a <tspan id='445_is_active_part_of' class='ne is_active_part_of'><tspan id='445_coreference' class='ne coreference'>compound</tspan></tspan> represented by the following formula (2) and has an action through an <tspan id='783_coreference' class='ne coreference'>α1 adrenergic receptor</tspan>:",
+      "references": [
+        0
+      ],
+      "position": 0,
+      "move": 0,
+      "token": ""
+    },
+    {
+      "id": 6713,
+      "index": 8,
+      "name": "claim 8",
+      "begin": 869,
+      "end": 999,
+      "content": "The <tspan id='419_is_instance_of' class='ne is_instance_of'><tspan id='419_coreference' class='ne coreference'>composition</tspan></tspan> according to claim 6, which is any one of food and beverage, <tspan id='835_is_instance_of' class='ne is_instance_of'>food</tspan> and <tspan id='822_is_instance_of' class='ne is_instance_of'>beverage additive</tspan>, and <tspan id='809_is_instance_of' class='ne is_instance_of'>veterinary feedstuff</tspan>.",
+      "references": [
+        6
+      ],
+      "position": 0,
+      "move": 0,
+      "token": ""
+    },
+    {
+      "id": 6716,
+      "index": 9,
+      "name": "claim 9",
+      "begin": 1005,
+      "end": 1165,
+      "content": "The composition according to claim 6, which is accompanied with an indication with respect to a function based on the action through the α1 adrenergic receptor.",
+      "references": [
+        6
+      ],
+      "position": 0,
+      "move": 0,
+      "token": ""
+    },
+    {
+      "id": 6719,
+      "index": 10,
+      "name": "claim 10",
+      "begin": 1172,
+      "end": 1334,
+      "content": "The <tspan id='900_is_instance_of' class='ne is_instance_of'><tspan id='900_coreference' class='ne coreference'>α1 adrenergic receptor antagonistic agent</tspan></tspan> according to claim 4 which is any one of an <tspan id='926_is_instance_of' class='ne is_instance_of'>antihypertensive drug</tspan>, a <tspan id='289_substance_treats_disease' class='ne substance_treats_disease'><tspan id='289_is_instance_of' class='ne is_instance_of'>drug</tspan></tspan> for <tspan id='692_substance_treats_disease' class='ne substance_treats_disease'>prostatic hypertrophy</tspan>, and a <tspan id='861_is_instance_of' class='ne is_instance_of'>diuretic</tspan>.",
+      "references": [
+        4
+      ],
+      "position": 0,
+      "move": 0,
+      "token": ""
+    },
+    {
+      "id": 6722,
+      "index": 11,
+      "name": "claim 11",
+      "begin": 1341,
+      "end": 1471,
+      "content": "The <tspan id='679_is_instance_of' class='ne is_instance_of'><tspan id='679_coreference' class='ne coreference'>composition</tspan></tspan> according to claim 7, which is any one of food and beverage, <tspan id='237_is_instance_of' class='ne is_instance_of'>food</tspan> and <tspan id='952_is_instance_of' class='ne is_instance_of'>beverage additive</tspan>, and <tspan id='263_is_instance_of' class='ne is_instance_of'>veterinary feedstuff</tspan>.",
+      "references": [
+        7
+      ],
+      "position": 0,
+      "move": 0,
+      "token": ""
+    },
+    {
+      "id": 6725,
+      "index": 12,
+      "name": "claim 12",
+      "begin": 1478,
+      "end": 1638,
+      "content": "The <tspan id='913_coreference' class='ne coreference'>composition</tspan> according to claim 7, which is accompanied with an indication with respect to a function based on the action through the α1 adrenergic receptor.",
+      "references": [
+        7
+      ],
+      "position": 0,
+      "move": 0,
+      "token": ""
+    }
+  ],
+  "node_links": [
+    {
+      "source": 6704,
+      "target": 6698
+    },
+    {
+      "source": 6713,
+      "target": 6707
+    },
+    {
+      "source": 6716,
+      "target": 6707
+    },
+    {
+      "source": 6719,
+      "target": 6701
+    },
+    {
+      "source": 6722,
+      "target": 6710
+    },
+    {
+      "source": 6725,
+      "target": 6710
+    }
+  ],
+  "links": {
+    "coreference": [
+      {
+        "id": 1061,
+        "source": 6713,
+        "target": 6707,
+        "source_relatum": {
+          "id": 419,
+          "begin": 873,
+          "end": 884,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        },
+        "target_relatum": {
+          "id": 328,
+          "begin": 583,
+          "end": 594,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        }
+      },
+      {
+        "id": 1072,
+        "source": 6707,
+        "target": 6698,
+        "source_relatum": {
+          "id": 653,
+          "begin": 692,
+          "end": 714,
+          "onto_id": 0,
+          "ne_type": 27,
+          "content": "α1 adrenergic receptor"
+        },
+        "target_relatum": {
+          "id": 640,
+          "begin": 132,
+          "end": 173,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "α1 adrenergic receptor antagonistic agent"
+        }
+      },
+      {
+        "id": 1083,
+        "source": 6710,
+        "target": 6701,
+        "source_relatum": {
+          "id": 783,
+          "begin": 836,
+          "end": 858,
+          "onto_id": 0,
+          "ne_type": 27,
+          "content": "α1 adrenergic receptor"
+        },
+        "target_relatum": {
+          "id": 744,
+          "begin": 274,
+          "end": 315,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "α1 adrenergic receptor antagonistic agent"
+        }
+      },
+      {
+        "id": 1105,
+        "source": 6704,
+        "target": 6698,
+        "source_relatum": {
+          "id": 588,
+          "begin": 417,
+          "end": 458,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "α1 adrenergic receptor antagonistic agent"
+        },
+        "target_relatum": {
+          "id": 640,
+          "begin": 132,
+          "end": 173,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "α1 adrenergic receptor antagonistic agent"
+        }
+      },
+      {
+        "id": 1171,
+        "source": 6710,
+        "target": 6695,
+        "source_relatum": {
+          "id": 445,
+          "begin": 757,
+          "end": 765,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        },
+        "target_relatum": {
+          "id": 757,
+          "begin": 69,
+          "end": 77,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        }
+      },
+      {
+        "id": 1182,
+        "source": 6722,
+        "target": 6710,
+        "source_relatum": {
+          "id": 679,
+          "begin": 1345,
+          "end": 1356,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        },
+        "target_relatum": {
+          "id": 380,
+          "begin": 727,
+          "end": 738,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        }
+      },
+      {
+        "id": 1237,
+        "source": 6707,
+        "target": 6692,
+        "source_relatum": {
+          "id": 367,
+          "begin": 613,
+          "end": 621,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        },
+        "target_relatum": {
+          "id": 796,
+          "begin": 7,
+          "end": 15,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        }
+      },
+      {
+        "id": 1259,
+        "source": 6701,
+        "target": 6695,
+        "source_relatum": {
+          "id": 666,
+          "begin": 329,
+          "end": 337,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        },
+        "target_relatum": {
+          "id": 757,
+          "begin": 69,
+          "end": 77,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        }
+      },
+      {
+        "id": 1281,
+        "source": 6719,
+        "target": 6701,
+        "source_relatum": {
+          "id": 900,
+          "begin": 1176,
+          "end": 1217,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "α1 adrenergic receptor antagonistic agent"
+        },
+        "target_relatum": {
+          "id": 744,
+          "begin": 274,
+          "end": 315,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "α1 adrenergic receptor antagonistic agent"
+        }
+      },
+      {
+        "id": 1292,
+        "source": 6725,
+        "target": 6710,
+        "source_relatum": {
+          "id": 913,
+          "begin": 1482,
+          "end": 1493,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        },
+        "target_relatum": {
+          "id": 380,
+          "begin": 727,
+          "end": 738,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        }
+      },
+      {
+        "id": 1314,
+        "source": 6698,
+        "target": 6692,
+        "source_relatum": {
+          "id": 523,
+          "begin": 187,
+          "end": 195,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        },
+        "target_relatum": {
+          "id": 796,
+          "begin": 7,
+          "end": 15,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        }
+      }
+    ],
+    "is_active_part_of": [
+      {
+        "id": 1050,
+        "source": 6710,
+        "target": 6710,
+        "source_relatum": {
+          "id": 445,
+          "begin": 757,
+          "end": 765,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        },
+        "target_relatum": {
+          "id": 380,
+          "begin": 727,
+          "end": 738,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        }
+      },
+      {
+        "id": 1094,
+        "source": 6698,
+        "target": 6698,
+        "source_relatum": {
+          "id": 523,
+          "begin": 187,
+          "end": 195,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        },
+        "target_relatum": {
+          "id": 640,
+          "begin": 132,
+          "end": 173,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "α1 adrenergic receptor antagonistic agent"
+        }
+      },
+      {
+        "id": 1215,
+        "source": 6707,
+        "target": 6707,
+        "source_relatum": {
+          "id": 367,
+          "begin": 613,
+          "end": 621,
+          "onto_id": 150000001875,
+          "ne_type": 69,
+          "content": "compound"
+        },
+        "target_relatum": {
+          "id": 328,
+          "begin": 583,
+          "end": 594,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        }
+      }
+    ],
+    "is_instance_of": [
+      {
+        "id": 1017,
+        "source": 6713,
+        "target": 6713,
+        "source_relatum": {
+          "id": 419,
+          "begin": 873,
+          "end": 884,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        },
+        "target_relatum": {
+          "id": 809,
+          "begin": 978,
+          "end": 998,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "veterinary feedstuff"
+        }
+      },
+      {
+        "id": 1028,
+        "source": 6713,
+        "target": 6713,
+        "source_relatum": {
+          "id": 419,
+          "begin": 873,
+          "end": 884,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        },
+        "target_relatum": {
+          "id": 835,
+          "begin": 946,
+          "end": 950,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "food"
+        }
+      },
+      {
+        "id": 1039,
+        "source": 6713,
+        "target": 6713,
+        "source_relatum": {
+          "id": 419,
+          "begin": 873,
+          "end": 884,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        },
+        "target_relatum": {
+          "id": 822,
+          "begin": 955,
+          "end": 972,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "beverage additive"
+        }
+      },
+      {
+        "id": 1116,
+        "source": 6704,
+        "target": 6704,
+        "source_relatum": {
+          "id": 588,
+          "begin": 417,
+          "end": 458,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "α1 adrenergic receptor antagonistic agent"
+        },
+        "target_relatum": {
+          "id": 536,
+          "begin": 566,
+          "end": 574,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "diuretic"
+        }
+      },
+      {
+        "id": 1127,
+        "source": 6722,
+        "target": 6722,
+        "source_relatum": {
+          "id": 679,
+          "begin": 1345,
+          "end": 1356,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        },
+        "target_relatum": {
+          "id": 952,
+          "begin": 1427,
+          "end": 1444,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "beverage additive"
+        }
+      },
+      {
+        "id": 1138,
+        "source": 6704,
+        "target": 6704,
+        "source_relatum": {
+          "id": 588,
+          "begin": 417,
+          "end": 458,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "α1 adrenergic receptor antagonistic agent"
+        },
+        "target_relatum": {
+          "id": 614,
+          "begin": 503,
+          "end": 524,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "antihypertensive drug"
+        }
+      },
+      {
+        "id": 1149,
+        "source": 6722,
+        "target": 6722,
+        "source_relatum": {
+          "id": 679,
+          "begin": 1345,
+          "end": 1356,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        },
+        "target_relatum": {
+          "id": 237,
+          "begin": 1418,
+          "end": 1422,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "food"
+        }
+      },
+      {
+        "id": 1160,
+        "source": 6704,
+        "target": 6704,
+        "source_relatum": {
+          "id": 588,
+          "begin": 417,
+          "end": 458,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "α1 adrenergic receptor antagonistic agent"
+        },
+        "target_relatum": {
+          "id": 341,
+          "begin": 528,
+          "end": 532,
+          "onto_id": 239000000565,
+          "ne_type": 84,
+          "content": "drug"
+        }
+      },
+      {
+        "id": 1204,
+        "source": 6719,
+        "target": 6719,
+        "source_relatum": {
+          "id": 900,
+          "begin": 1176,
+          "end": 1217,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "α1 adrenergic receptor antagonistic agent"
+        },
+        "target_relatum": {
+          "id": 861,
+          "begin": 1325,
+          "end": 1333,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "diuretic"
+        }
+      },
+      {
+        "id": 1226,
+        "source": 6719,
+        "target": 6719,
+        "source_relatum": {
+          "id": 900,
+          "begin": 1176,
+          "end": 1217,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "α1 adrenergic receptor antagonistic agent"
+        },
+        "target_relatum": {
+          "id": 289,
+          "begin": 1287,
+          "end": 1291,
+          "onto_id": 239000000565,
+          "ne_type": 84,
+          "content": "drug"
+        }
+      },
+      {
+        "id": 1248,
+        "source": 6719,
+        "target": 6719,
+        "source_relatum": {
+          "id": 900,
+          "begin": 1176,
+          "end": 1217,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "α1 adrenergic receptor antagonistic agent"
+        },
+        "target_relatum": {
+          "id": 926,
+          "begin": 1262,
+          "end": 1283,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "antihypertensive drug"
+        }
+      },
+      {
+        "id": 1303,
+        "source": 6722,
+        "target": 6722,
+        "source_relatum": {
+          "id": 679,
+          "begin": 1345,
+          "end": 1356,
+          "onto_id": 239000000291,
+          "ne_type": 84,
+          "content": "composition"
+        },
+        "target_relatum": {
+          "id": 263,
+          "begin": 1450,
+          "end": 1470,
+          "onto_id": 0,
+          "ne_type": 84,
+          "content": "veterinary feedstuff"
+        }
+      }
+    ],
+    "substance_treats_disease": [
+      {
+        "id": 1193,
+        "source": 6704,
+        "target": 6704,
+        "source_relatum": {
+          "id": 341,
+          "begin": 528,
+          "end": 532,
+          "onto_id": 239000000565,
+          "ne_type": 84,
+          "content": "drug"
+        },
+        "target_relatum": {
+          "id": 354,
+          "begin": 537,
+          "end": 558,
+          "onto_id": 209000011224,
+          "ne_type": 20,
+          "content": "prostatic hypertrophy"
+        }
+      },
+      {
+        "id": 1270,
+        "source": 6719,
+        "target": 6719,
+        "source_relatum": {
+          "id": 289,
+          "begin": 1287,
+          "end": 1291,
+          "onto_id": 239000000565,
+          "ne_type": 84,
+          "content": "drug"
+        },
+        "target_relatum": {
+          "id": 692,
+          "begin": 1296,
+          "end": 1317,
+          "onto_id": 209000011224,
+          "ne_type": 20,
+          "content": "prostatic hypertrophy"
+        }
+      }
+    ]
+  }
+}

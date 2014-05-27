@@ -13,4 +13,9 @@ class Documents
     @out = {name: name}.merge!(@structure)
   end
   
+  def self.store_files collection: nil, files: nil
+    ap collection
+    ap files
+  end
+  
 end

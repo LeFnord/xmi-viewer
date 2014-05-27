@@ -18,31 +18,52 @@
     
     %title .: xmi- viewer : . .
   %body
-    %nav.navbar.navbar-fixed-top(role="navigation")
+    %nav.navbar.navbar-fixed-top{role: "navigation"}
       %div.navbar-header
-        %a.navbar-toggle(data-toggle="collapse" data-target=".navbar-collapse")
+        %a.navbar-toggle{data: {toggle: "collapse", target: ".navbar-collapse"}}
           %span.icon-list
-        %a.navbar-brand(href="/")xmi relation viewer
+        %a.navbar-brand{href: "/"} xmi relation viewer
       %div#head.navbar-nav.collapse.navbar-collapse
-      %div.path-input.navbar-nav.collapse.navbar-collapse
-        -#%input#path.form-control{type: "text", placeholder: @path, autocomplete: false}
+      -#%div.path-input.navbar-nav.collapse.navbar-collapse
+        -#%input#collection.form-control{type: "text", placeholder: 'collection', autocomplete: false}
+        
       %div.navbar-nav.navbar-right.collapse.navbar-collapse
         %div.btn
-          %a.nav-list(id="LinkList" title="list links" type="button" data-toggle="dropdown")
+          %a.nav-list#LinkList{title:"list links" ,type: "button", data: {toggle: "dropdown"}}
             %i.icon-link
             links
             %i.icon-caret-down
-          %ul#legend.dropdown-menu.scroll-menu(role="menu" aria-labelledby="LinkList")
+          %ul#legend.dropdown-menu.scroll-menu{role: "menu", "aria-labelledby" => "LinkList"}
         %div.btn
-          %a.nav-list(id="FileList" title="list files" type="button" data-toggle="dropdown")
+          %a.nav-list#FileList{title: "list files", type: "button", data: {toggle: "dropdown"}}
             %i.icon-folder-open
             patents
             %i.icon-caret-down
-          %ul.dropdown-menu.scroll-menu(role="menu" aria-labelledby="FileList")
-            = partial :'partials/docs'
+          = partial :'partials/docs'
     
     %div#content
-      %article= yield
-    
+      
+      %article
+        = yield
+        %h1 add Collection
+        %form#file-form{role: 'form', method: 'post', action: '/upload', enctyp: 'multipart/form-data'}
+          %div.form-group
+            %label{for: 'collection'} Collection Name
+            %input#collection.controls.form-control{name: 'collection', type: 'text', placeholder: 'collection name', autocomplete: false}
+          %div.form-group
+            %label{for: 'files'} Dateien wählen
+            %input.controls.filestyle.required.controls#files{type: 'file', name: 'files[]', multiple: true, data: {buttonText: 'choose Files', input: 'true', icon: 'false'}}
+          %button.btn.btn-default{type: 'submit', style: 'float:right'} upload
+        
+        %br.clearfix
+        
+        %h1 existend Collections
+        %ul.list-unstyled
+          - @documents.group_by{ |x| x[:dir] }.keys.each do |key|
+            - unless key.empty?
+              %li.collection-list
+                %a.collection{href: key, name: key}
+                  %i.icon-folder-open
+                  = key
+        
   = partial :'partials/javascripts'
-  

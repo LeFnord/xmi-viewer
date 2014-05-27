@@ -27,7 +27,7 @@ class App < Sinatra::Base
     
     set default_encoding: 'UTF-8'
     set :haml, { format: :html5 } 
-    set :claim_dir, Proc.new { File.join(settings.root,'claims') }
+    set :file_dir, Proc.new { File.join(settings.root,'public','files') }
     
   end
   
@@ -72,22 +72,16 @@ class App < Sinatra::Base
   # 
   # Filters
   # 
-  before do
-    @path = "set path: #{settings.claim_dir}"
-    @documents = Finder.documents_of(dir: 'claims')
-  end
+  # before do
+  # end
   
   #
   # Routes
   #
-  get '/landing' do
-    haml :landing, :layout => :layout_landing
-  end
-  
   not_found do
     redirect '/404.html'
   end
-
+  
   get '/javascripts/:name.js' do
     content_type 'text/javascript', :charset => 'utf-8'
     coffee :"../assets/javascripts/#{params[:name]}"
@@ -97,19 +91,27 @@ class App < Sinatra::Base
     content_type 'text/css', :charset => 'utf-8'
     scss :"../assets/stylesheets/#{params[:name]}"
   end
-
-  get "/" do
-    haml :index
+  
+  get '/landing' do
+    haml :landing, :layout => :layout_landing
   end
   
+  get "/" do
+    @path = "set path: #{settings.file_dir}"
+    @documents = Finder.documents_of
+    
+    haml :index
+  end
+    
   get %r{/?((?<path>[\w\-\_]*)/)(?<name>[\w\-\_]+).json} do
+    ap "bar"
     if params[:path].empty? || params[:path] == 'claims'
       doc_path = params[:name]  + '.json'
     else params[:path] != '/'
       doc_path = params[:path] + '/' + params[:name]  + '.json'
     end
     
-    doc_path = File.join(File.join(settings.claim_dir,doc_path))
+    doc_path = File.join(File.join(settings.file_dir,doc_path))
     @document = Documents.new path: doc_path, name: params[:name]
     
     if request.xhr?
@@ -119,31 +121,48 @@ class App < Sinatra::Base
     end
   end
   
-  get "/path" do
-    input = params[:q].split('/')
-    ap input
-    path = input[0..-2].join('/')
-    path = '/' if path.empty?
-    dir = input.last
+  get %r{/?((?<coll>[\w\-\_]*))} do
+    ap "foo"
+    @documents = Finder.documents_of dir: params[:coll]
     
-    
-    # if Dir.exist?(path)
-    #   $stdout.print "path: #{path}\n".blue
-    #   $stdout.print "dir: #{dir}\n".blue
-    #   @entries = Dir.no_dot_entries(path)
-    #   foo = []
-    #   @entries.each{ |x| foo << x if x.start_with?(dir) }
-    #   @entries = foo unless foo.empty?
-    # end
-    # ap @entries
-    # json @entries
+    if request.xhr?
+      haml(:'partials/_docs', layout: false)
+    else
+      redirect '/'
+    end
   end
   
-  get '/dir' do
-    $stdout.puts "in dir: #{params[:q]}".red
-    cookies[:dir] = params[:q]
+  
+  # get "/path" do
+  #   $stdout.puts "in dir: #{params[:q]}".red
+  #   input = params[:q].split('/')
+  #   path = input[0..-2].join('/')
+  #   path = '/' if path.empty?
+  #   dir = input.last
+  #   
+  #   
+  #   
+  #   # if Dir.exist?(path)
+  #   #   $stdout.print "path: #{path}\n".blue
+  #   #   $stdout.print "dir: #{dir}\n".blue
+  #   #   @entries = Dir.no_dot_entries(path)
+  #   #   foo = []
+  #   #   @entries.each{ |x| foo << x if x.start_with?(dir) }
+  #   #   @entries = foo unless foo.empty?
+  #   # end
+  #   # ap @entries
+  #   # json @entries
+  # end
+  
+  # get '/dir' do
+  #   $stdout.puts "in dir: #{params[:q]}".red
+  #   true
+  # end
+  
+  post '/upload' do
+    Documents.store_files collection: params[:collection], files: params[:files]
     
-    true
+    redirect '/'
   end
   
   run! if app_file == $0

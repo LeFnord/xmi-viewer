@@ -36,7 +36,7 @@ $(".collection").on "click", (event) ->
 
 # delete collection
 $(".delete-collection").on "click", (event) ->
-  confirm = window.confirm("sure?\nYou delete also all files …")
+  confirm = window.confirm("sure?\nyou are deleting also all files …")
   if confirm
     parent = $(this).parent()
     element_to_delete = parent.children("a.collection")[0]

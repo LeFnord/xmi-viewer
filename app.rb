@@ -108,7 +108,7 @@ class App < Sinatra::Base
   end
   
   # get a single file for visualization
-  get %r{/?((?<path>[\w\-\_]*)/)(?<name>[\w\-\_]+).json} do
+  get %r{/?((?<path>[\w\-\_]*)/)((?<middle>[\w\-\_]*/)*)(?<name>[\w\-\_]+).json} do
     if params[:path].empty? || params[:path] == 'claims'
       doc_path = params[:name]  + '.json'
     else params[:path] != '/'
@@ -126,7 +126,8 @@ class App < Sinatra::Base
   end
   
   # reload file list, from specified folder (=collection)
-  get %r{/?((?<coll>[\w\-\_]*))} do
+  get %r{/?((?<coll>[\w\-\_/]*))} do
+    ap params
     @documents = Finder.documents_of dir: params[:coll]
     
     if request.xhr?

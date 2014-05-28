@@ -63,6 +63,7 @@ colors = [
 
 $(".file").on "click", (event) ->
   path = $(this).attr("href")
+  console.log path
   getClaimData path
 
 @getClaimData = (path) ->

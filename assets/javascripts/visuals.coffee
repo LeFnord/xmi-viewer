@@ -59,11 +59,8 @@ colors = [
   ]
 ]
 
-# ToDo 2014-05-28: refactor!!!
-
 $(".file").on "click", (event) ->
   path = $(this).attr("href")
-  console.log path
   getClaimData path
 
 @getClaimData = (path) ->

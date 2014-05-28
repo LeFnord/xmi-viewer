@@ -21,7 +21,7 @@ $("#file-form").validate
     form.submit()
     return
 
-
+# change collection
 $(".collection").on "click", (event) ->
   path = $(this).attr("href")
   event.preventDefault()
@@ -34,22 +34,28 @@ $(".collection").on "click", (event) ->
       handleComplete path
   return
 
+# delete collection
 $(".delete-collection").on "click", (event) ->
-  parent = $(this).parent()
-  element_to_delete = parent.children("a.collection")[0]
-  collection_to_delete = $(element_to_delete).attr('href')
-  $.ajax
-    url: 'collection'
-    type: 'DELETE'
-    data: {collection: collection_to_delete}
-    success: (response) ->
-      $(parent).fadeOut 'slow', ->
-        $("ul#files").replaceWith response
-        handleComplete parent
-        animateSuccess 'patents'
-        $(this).remove
+  confirm = window.confirm("sure?\nYou delete also all files …")
+
+  if confirm
+    parent = $(this).parent()
+    element_to_delete = parent.children("a.collection")[0]
+    collection_to_delete = $(element_to_delete).attr('href')
+    $.ajax
+      url: 'collection'
+      type: 'DELETE'
+      data: {collection: collection_to_delete}
+      success: (response) ->
+        $(parent).fadeOut 'slow', ->
+          $("ul#files").replaceWith response
+          handleComplete parent
+          animateSuccess 'patents'
+          $(this).remove
   return
 
+# confirm deletion of collection
+  
 animateSuccess = (path) ->
   $("span.list-name").replaceWith "<span class='list-name'>" + path + "</span>"
   $("#FileList").parent().animate(

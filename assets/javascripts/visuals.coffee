@@ -61,33 +61,11 @@ colors = [
 
 # ToDo 2014-05-28: refactor!!!
 
-$(".collection").on "click", (event) ->
-  path = $(this).attr("href")
-  event.preventDefault()
-  $.ajax
-    url: path
-    success: (response) ->
-      $("ul#files").replaceWith response
-      $("span.list-name").replaceWith path
-      $("#FileList").parent().animate(
-        "borderColor": "rgba(249,249,249, 1)"
-        "background-color": "rgba(13, 110, 161, 0.23)"
-      , 1234
-      ).animate
-        "border-color": "rgba(213, 213, 213, 0.0)"
-        "background-color": "rgba(213, 213, 213, 0.0)"
-      , 1234
-      
-      $(".file").on "click", (event) ->
-        path = $(this).attr("href")
-        getClaimData path
-  return
-
-attacheToFile = $(".file").on "click", (event) ->
+$(".file").on "click", (event) ->
   path = $(this).attr("href")
   getClaimData path
 
-getClaimData = (path) ->
+@getClaimData = (path) ->
   event.preventDefault()
   
   $.ajax

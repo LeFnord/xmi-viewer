@@ -48,15 +48,16 @@ ul.scroll-menu {
 
 /* index site related */
 
-li.collection-list {
+li.one-collection {
   border-bottom: 1px dotted #999;
 }
 
-.collection:after {
-  content: "foo";
+.delete-collection {
+/*  content: "×";*/
   float: right;
   &:hover {
-    bsckground-color: red;
+    color:red;
+    cursor:pointer;
   }
 }
 

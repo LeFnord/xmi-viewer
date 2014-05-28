@@ -59,15 +59,15 @@ colors = [
   ]
 ]
 
-$(".file").on "click", (event) ->
+$("a.file").on "click", (event) ->
+  event.preventDefault()
   path = $(this).attr("href")
   getClaimData path
 
 @getClaimData = (path) ->
-  event.preventDefault()
-  
   $.ajax
     url: path
+    dataType: "json"
     success: (response) ->
       $("#content").empty()
       $('#arc').remove()

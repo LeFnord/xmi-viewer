@@ -23,8 +23,8 @@ $("#file-form").validate
 
 # change collection
 $(".collection").on "click", (event) ->
-  path = $(this).attr("href")
   event.preventDefault()
+  path = $(this).attr("href")
   $.ajax
     url: path
     success: (response) ->
@@ -37,7 +37,6 @@ $(".collection").on "click", (event) ->
 # delete collection
 $(".delete-collection").on "click", (event) ->
   confirm = window.confirm("sure?\nYou delete also all files …")
-
   if confirm
     parent = $(this).parent()
     element_to_delete = parent.children("a.collection")[0]
@@ -69,7 +68,8 @@ animateSuccess = (path) ->
   return
 
 handleComplete = (path) ->
-  $(".file").on "click", (event) ->
+  $("a.file").on "click", (event) ->
+    event.preventDefault()
     path = $(this).attr("href")
     # could be found in visuals, building the graph
     getClaimData path

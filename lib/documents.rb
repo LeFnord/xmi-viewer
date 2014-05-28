@@ -1,6 +1,6 @@
 class Documents
   
-  def self.store_files collection: nil, files: nil
+  def self.create_collection collection: nil, files: nil
     new_dir = File.join(App.file_dir,collection)
     dir = FileUtils.mkdir_p(new_dir).last unless Dir.exists?(new_dir)
     dir = dir || new_dir
@@ -14,6 +14,11 @@ class Documents
       end
     end
     
+  end
+  
+  def self.delete_collection collection: nil
+    to_delete = File.join(App.file_dir,collection)
+    FileUtils.remove_dir to_delete
   end
   
   # instance

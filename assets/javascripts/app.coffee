@@ -6,16 +6,19 @@
 $("#file-form").validate
   rules:
     collection:
-      minlength: 2
+      minlength: 3
+      required: true
+    "uploads[]":
       required: true
 
   highlight: (element) ->
     $(element).closest(".controls").removeClass("success").addClass "error"
     return
-
   success: (element) ->
     element.text("OK!").closest(".controls").removeClass "error"
     return
+  submitHandler: (form) ->
+    form.submit()
 
 
 $(".collection").on "click", (event) ->
@@ -25,18 +28,35 @@ $(".collection").on "click", (event) ->
     url: path
     success: (response) ->
       $("ul#files").replaceWith response
-      $("span.list-name").replaceWith path
-      $("#FileList").parent().animate(
-        "borderColor": "rgba(249,249,249, 1)"
-        "background-color": "rgba(13, 110, 161, 0.23)"
-      , 1234
-      ).animate
-        "border-color": "rgba(213, 213, 213, 0.0)"
-        "background-color": "rgba(213, 213, 213, 0.0)"
-      , 1234
+      animateSuccess path
     complete: ->
       $(".file").on "click", (event) ->
         path = $(this).attr("href")
         # could be found in visuals, building the graph
         getClaimData path
   return
+
+$(".delete-collection").on "click", (event) ->
+  parent = $(this).parent()
+  path_to_delete = parent.children("a.collection")[0]
+  to_delete = $(path_to_delete).attr('href')
+  $.ajax
+    url: 'collection'
+    type: 'DELETE'
+    data: {collection: to_delete}
+    success: (response) ->
+      $(parent).fadeOut 'slow', ->
+        $("ul#files").replaceWith response
+        animateSuccess 'patents'
+        $(this).remove
+  
+animateSuccess = (path) ->
+  $("span.list-name").replaceWith "<span class='list-name'>" + path + "</span>"
+  $("#FileList").parent().animate(
+    "borderColor": "rgba(249,249,249, 1)"
+    "background-color": "rgba(13, 110, 161, 0.23)"
+  , 1234
+  ).animate
+    "border-color": "rgba(213, 213, 213, 0.0)"
+    "background-color": "rgba(213, 213, 213, 0.0)"
+  , 1234

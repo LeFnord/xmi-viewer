@@ -108,7 +108,7 @@ class App < Sinatra::Base
   end
   
   # get a single file for visualization
-  get %r{/?((?<path>[\w\-\_]*)/)((?<middle>[\w\-\_]*/)*)(?<name>[\w\-\_]+).json} do
+  get %r{/?((?<path>[\w\-\_/]*)/)(?<name>[\w\-\_]+).json} do
     if params[:path].empty? || params[:path] == 'claims'
       doc_path = params[:name]  + '.json'
     else params[:path] != '/'
@@ -126,9 +126,8 @@ class App < Sinatra::Base
   end
   
   # reload file list, from specified folder (=collection)
-  get %r{/?((?<coll>[\w\-\_/]*))} do
-    ap params
-    @documents = Finder.documents_of dir: params[:coll]
+  get %r{/?((?<collection>[\w\-\_/]*))} do
+    @documents = Finder.documents_of dir: params[:collection]
     
     if request.xhr?
       haml(:'partials/_docs', layout: false)
@@ -139,9 +138,20 @@ class App < Sinatra::Base
   
   # file uploading (multiple allowed)
   post '/upload' do
-    Documents.store_files collection: params[:collection], files: params[:uploads]
+    Documents.create_collection collection: params[:collection], files: params[:uploads] unless params[:collection].nil?
     
     redirect '/'
+  end
+  
+  delete '/collection' do
+    Documents.delete_collection collection: params[:collection]
+    
+    @documents = Finder.documents_of
+    if request.xhr?
+      haml(:'partials/_docs', layout: false)
+    else
+      redirect '/'
+    end
   end
   
   run! if app_file == $0

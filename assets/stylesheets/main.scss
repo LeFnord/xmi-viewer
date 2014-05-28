@@ -52,6 +52,14 @@ li.collection-list {
   border-bottom: 1px dotted #999;
 }
 
+.collection:after {
+  content: "foo";
+  float: right;
+  &:hover {
+    bsckground-color: red;
+  }
+}
+
 /* file upload related */
 
 input.controls.form-control.error {

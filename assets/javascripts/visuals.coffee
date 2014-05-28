@@ -68,6 +68,7 @@ $(".collection").on "click", (event) ->
     url: path
     success: (response) ->
       $("ul#files").replaceWith response
+      $("span.list-name").replaceWith path
       $("#FileList").parent().animate(
         "borderColor": "rgba(249,249,249, 1)"
         "background-color": "rgba(13, 110, 161, 0.23)"
@@ -149,7 +150,7 @@ buildGraph = (graph) ->
     act_color = colors[list_index]
     list_index += 1
     arcLinks graph.nodes,v,act_color[1],'t',k
-    $("#legend").append "<li role='presentation'><a role='menuitem' tabindex='-1' href='#" + k + "' class='info-list' style='cursor:pointer;color:" + act_color[0] + "'><i class='icon-link'/> #" + k + ": " + v.length + "</a></li>"
+    $("#legend").append "<li role='presentation'><a role='menuitem' tabindex='-1' href='#" + k + "' class='info-list' style='cursor:pointer;color:" + act_color[0] + "'><i class='fa fa-link'/> #" + k + ": " + v.length + "</a></li>"
     
   drawNodes graph.nodes
   

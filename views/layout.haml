@@ -8,7 +8,8 @@
     
     %link{rel:'stylesheet', type: 'text/css', href:'/css/bootstrap.css'}
     -#%link{rel:'stylesheet', type: 'text/css', href:'/css/bootstrap-theme.css'}
-    %link{href:"//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css", rel:"stylesheet"}
+    %link{href:"//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css", rel:"stylesheet"}
+    -#%link{href:"//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css", rel:"stylesheet"}
     %link{rel:'stylesheet', type: 'text/css', href:'/stylesheets/main.css'}
     
     %link{rel: "shortcut icon", href: url("/images/favicon.ico")}
@@ -27,15 +28,15 @@
       %div.navbar-nav.navbar-right.collapse.navbar-collapse
         %div.btn
           %a.nav-list#LinkList{title:"list links" ,type: "button", data: {toggle: "dropdown"}}
-            %i.icon-link
+            %i.fa.fa-link
             links
-            %i.icon-caret-down
+            %i.fa.fa-caret-down
           %ul#legend.dropdown-menu.scroll-menu{role: "menu", "aria-labelledby" => "LinkList"}
         %div.btn
           %a.nav-list#FileList{title: "list files", type: "button", data: {toggle: "dropdown"}}
-            %i.icon-folder-open
-            patents
-            %i.icon-caret-down
+            %i.fa.fa-folder-open
+            %span.list-name patents
+            %i.fa.fa-caret-down
           = partial :'partials/docs'
     
     %div#content
@@ -60,7 +61,7 @@
             - unless key.empty?
               %li.collection-list
                 %a.collection{href: key, name: key}
-                  %i.icon-folder-open
+                  %i.fa.fa-folder-open-o
                   = key
         
   = partial :'partials/javascripts'

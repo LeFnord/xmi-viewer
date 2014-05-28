@@ -21,7 +21,6 @@ class Documents
   
   # FixMe 2014-04-03: !!! make secure !!!
   def initialize(path: '', name: 'foo')
-    
     @json_file = '{}'
     @json_file = File.open(path) if File.exist?(path)
     

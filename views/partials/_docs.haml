@@ -3,5 +3,5 @@
     - @documents.each do |doc|
       %li{role: 'presentation'} 
         %a.file(class='file-list' href="#{doc[:file]}" name="#{doc[:name]}" role='menuitem' tabindex='-1')
-          %i.icon-file.a
+          %i.fa.fa-file.a
           = doc[:name]

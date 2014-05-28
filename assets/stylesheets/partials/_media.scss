@@ -66,10 +66,11 @@
     width:40%;
   }
   
-  .path-input {
-    padding-top:0;
-    width:104%;
+  article {
+    width:100%;
+    margin:0px auto;
   }
+  
   
 }
 /* Small devices (tablets,  and up) */
@@ -83,11 +84,11 @@
   .name {width: 100%;}
   .claims,.link_claim {width:50%;}
   
-  .path-input {
-    padding-top:0.7em;
-    width:46%;
+  article {
+    width:50%;
+    margin:10px auto;
   }
-
+  
 }
 
 /* Medium devices (desktops, 992px and up) */

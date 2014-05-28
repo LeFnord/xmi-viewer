@@ -69,7 +69,7 @@ $(".collection").on "click", (event) ->
     success: (response) ->
       $("ul#files").replaceWith response
       $("#FileList").parent().animate(
-        "border-color": "rgba(249,249,249, 1)"
+        "borderColor": "rgba(249,249,249, 1)"
         "background-color": "rgba(13, 110, 161, 0.23)"
       , 1234
       ).animate
@@ -96,19 +96,12 @@ getClaimData = (path) ->
       $('#arc').remove()
       $(".info").remove()
       $(".info-list").remove()
-      $(".path-input").empty().css({'width':'0%'})
       
-      # setHistory path
       buildGraph response
       $(".info-list").on "click", (event) ->
         makeLinksActive this
   return
   
-
-# setHistory = (path) ->
-#   if path!=window.location
-#     window.history.replaceState(path,'',path)
-#     # window.history.pushState({path:'/'},'',path)
 
 makeLinksActive = (reference) ->
   hrefValue = $(reference).attr("href")

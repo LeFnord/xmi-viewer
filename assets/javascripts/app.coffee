@@ -16,4 +16,3 @@ $("#file-form").validate
   success: (element) ->
     element.text("OK!").closest(".controls").removeClass "error"
     return
-

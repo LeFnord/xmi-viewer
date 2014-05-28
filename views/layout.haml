@@ -24,9 +24,6 @@
           %span.icon-list
         %a.navbar-brand{href: "/"} xmi relation viewer
       %div#head.navbar-nav.collapse.navbar-collapse
-      -#%div.path-input.navbar-nav.collapse.navbar-collapse
-        -#%input#collection.form-control{type: "text", placeholder: 'collection', autocomplete: false}
-        
       %div.navbar-nav.navbar-right.collapse.navbar-collapse
         %div.btn
           %a.nav-list#LinkList{title:"list links" ,type: "button", data: {toggle: "dropdown"}}
@@ -44,15 +41,15 @@
     %div#content
       
       %article
-        = yield
+        
         %h1 add Collection
-        %form#file-form{role: 'form', method: 'post', action: '/upload', enctyp: 'multipart/form-data'}
+        %form#file-form{role: 'form',action: "/upload",method: "post",enctype: "multipart/form-data"}
           %div.form-group
             %label{for: 'collection'} Collection Name
-            %input#collection.controls.form-control{name: 'collection', type: 'text', placeholder: 'collection name', autocomplete: false}
+            %input.controls.form-control{name: 'collection', type: 'text', placeholder: 'collection name', autocomplete: false}
           %div.form-group
-            %label{for: 'files'} Dateien wählen
-            %input.controls.filestyle.required.controls#files{type: 'file', name: 'files[]', multiple: true, data: {buttonText: 'choose Files', input: 'true', icon: 'false'}}
+            %label{for: 'uploads'} Dateien wählen
+            %input.controls.filestyle.required{type: 'file', name: 'uploads[]', multiple: true, data: {buttonText: 'choose Files', input: 'true', icon: 'false'}}
           %button.btn.btn-default{type: 'submit', style: 'float:right'} upload
         
         %br.clearfix

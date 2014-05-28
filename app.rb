@@ -7,6 +7,7 @@ require 'sass'
 require 'coffee-script'
 require 'awesome_print'
 require 'pathname'
+require 'fileutils'
 require 'multi_json'
 
 # require own files
@@ -78,10 +79,8 @@ class App < Sinatra::Base
   #
   # Routes
   #
-  not_found do
-    redirect '/404.html'
-  end
   
+  # get assets
   get '/javascripts/:name.js' do
     content_type 'text/javascript', :charset => 'utf-8'
     coffee :"../assets/javascripts/#{params[:name]}"
@@ -90,6 +89,11 @@ class App < Sinatra::Base
   get '/stylesheets/:name.css' do
     content_type 'text/css', :charset => 'utf-8'
     scss :"../assets/stylesheets/#{params[:name]}"
+  end
+  
+  # routes to pages
+  not_found do
+    redirect '/404.html'
   end
   
   get '/landing' do
@@ -102,9 +106,9 @@ class App < Sinatra::Base
     
     haml :index
   end
-    
+  
+  # get a single file for visualization
   get %r{/?((?<path>[\w\-\_]*)/)(?<name>[\w\-\_]+).json} do
-    ap "bar"
     if params[:path].empty? || params[:path] == 'claims'
       doc_path = params[:name]  + '.json'
     else params[:path] != '/'
@@ -121,8 +125,8 @@ class App < Sinatra::Base
     end
   end
   
+  # reload file list, from specified folder (=collection)
   get %r{/?((?<coll>[\w\-\_]*))} do
-    ap "foo"
     @documents = Finder.documents_of dir: params[:coll]
     
     if request.xhr?
@@ -132,35 +136,9 @@ class App < Sinatra::Base
     end
   end
   
-  
-  # get "/path" do
-  #   $stdout.puts "in dir: #{params[:q]}".red
-  #   input = params[:q].split('/')
-  #   path = input[0..-2].join('/')
-  #   path = '/' if path.empty?
-  #   dir = input.last
-  #   
-  #   
-  #   
-  #   # if Dir.exist?(path)
-  #   #   $stdout.print "path: #{path}\n".blue
-  #   #   $stdout.print "dir: #{dir}\n".blue
-  #   #   @entries = Dir.no_dot_entries(path)
-  #   #   foo = []
-  #   #   @entries.each{ |x| foo << x if x.start_with?(dir) }
-  #   #   @entries = foo unless foo.empty?
-  #   # end
-  #   # ap @entries
-  #   # json @entries
-  # end
-  
-  # get '/dir' do
-  #   $stdout.puts "in dir: #{params[:q]}".red
-  #   true
-  # end
-  
+  # file uploading (multiple allowed)
   post '/upload' do
-    Documents.store_files collection: params[:collection], files: params[:files]
+    Documents.store_files collection: params[:collection], files: params[:uploads]
     
     redirect '/'
   end

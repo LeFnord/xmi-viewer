@@ -19,6 +19,7 @@ $("#file-form").validate
     return
   submitHandler: (form) ->
     form.submit()
+    return
 
 
 $(".collection").on "click", (event) ->
@@ -30,26 +31,25 @@ $(".collection").on "click", (event) ->
       $("ul#files").replaceWith response
       animateSuccess path
     complete: ->
-      $(".file").on "click", (event) ->
-        path = $(this).attr("href")
-        # could be found in visuals, building the graph
-        getClaimData path
+      handleComplete path
   return
 
 $(".delete-collection").on "click", (event) ->
   parent = $(this).parent()
-  path_to_delete = parent.children("a.collection")[0]
-  to_delete = $(path_to_delete).attr('href')
+  element_to_delete = parent.children("a.collection")[0]
+  collection_to_delete = $(element_to_delete).attr('href')
   $.ajax
     url: 'collection'
     type: 'DELETE'
-    data: {collection: to_delete}
+    data: {collection: collection_to_delete}
     success: (response) ->
       $(parent).fadeOut 'slow', ->
         $("ul#files").replaceWith response
+        handleComplete parent
         animateSuccess 'patents'
         $(this).remove
-  
+  return
+
 animateSuccess = (path) ->
   $("span.list-name").replaceWith "<span class='list-name'>" + path + "</span>"
   $("#FileList").parent().animate(
@@ -60,3 +60,12 @@ animateSuccess = (path) ->
     "border-color": "rgba(213, 213, 213, 0.0)"
     "background-color": "rgba(213, 213, 213, 0.0)"
   , 1234
+  return
+
+handleComplete = (path) ->
+  $(".file").on "click", (event) ->
+    path = $(this).attr("href")
+    # could be found in visuals, building the graph
+    getClaimData path
+  return
+  

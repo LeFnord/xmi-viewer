@@ -53,8 +53,6 @@ $(".delete-collection").on "click", (event) ->
           $(this).remove
   return
 
-# confirm deletion of collection
-  
 animateSuccess = (path) ->
   $("span.list-name").replaceWith "<span class='list-name'>" + path + "</span>"
   $("#FileList").parent().animate(

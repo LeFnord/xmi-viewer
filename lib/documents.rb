@@ -2,6 +2,7 @@ class Documents
   
   def self.create_collection collection: nil, files: nil
     collection.gsub!(/\s+/,"_") if collection.include?(" ")
+    collection.gsub!(".","-") if collection.include?(".")
     new_dir = File.join(App.file_dir,collection)
     dir = FileUtils.mkdir_p(new_dir).last unless Dir.exists?(new_dir)
     dir = dir || new_dir

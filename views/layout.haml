@@ -7,9 +7,7 @@
     %meta{name: 'viewport', content:'width=device-width, initial-scale=1.0'}
     
     %link{rel:'stylesheet', type: 'text/css', href:'/css/bootstrap.css'}
-    -#%link{rel:'stylesheet', type: 'text/css', href:'/css/bootstrap-theme.css'}
     %link{href:"//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css", rel:"stylesheet"}
-    -#%link{href:"//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css", rel:"stylesheet"}
     %link{rel:'stylesheet', type: 'text/css', href:'/stylesheets/main.css'}
     
     %link{rel: "shortcut icon", href: url("/images/favicon.ico")}
@@ -57,11 +55,13 @@
         
         %h1 existend Collections
         %ul.list-unstyled
-          - @documents.group_by{ |x| x[:dir] }.keys.each do |key|
+          - groups = @documents.group_by{ |x| x[:dir] }
+          - groups.keys.each do |key|
             - unless key.empty?
               %li.one-collection
                 %a.collection{href: key, name: key}
                   %i.fa.fa-folder-open-o
                   = key
+                  = "(##{groups[key].length})"
                 %span.delete-collection ×
   = partial :'partials/javascripts'

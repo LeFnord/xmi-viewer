@@ -335,7 +335,7 @@ color_named_entities = (klass,lColor,color) ->
     # $("tspan." + klass).css({'background-color': color})
 
 draw_line_between_nes = (klass,links) ->
-  console.log klass
-  console.log links
+  # console.log klass
+  # console.log links
 
 

@@ -78,7 +78,6 @@ $("a.file").on "click", (event) ->
       $(".info-list").on "click", (event) ->
         makeLinksActive this
   return
-  
 
 makeLinksActive = (reference) ->
   hrefValue = $(reference).attr("href")
@@ -100,7 +99,6 @@ makeLinksActive = (reference) ->
       $("tspan ." + klass).css({'background-color': newBGColor,'border-color':newBorderColor})
     return
 
-
 # all for graph bulding
 buildGraph = (graph) ->
   
@@ -114,8 +112,15 @@ buildGraph = (graph) ->
   
   height += 150
   
+  if graph.links?
+    claim_links_d = 'b'
+    links_d = 't'
+  else
+    claim_links_d = 't'
+    links_d = 'b'
+  
   linearLayout graph.nodes
-  arcLinks graph.nodes,graph.node_links,'grey','b','claims'
+  arcLinks graph.nodes,graph.node_links,'grey',claim_links_d,'claims'
   
   $("#head").append "<span class='navbar-text info name'>" + graph.name + "</span>"
   $("#head").append "<span class='navbar-text info claims'>#Claims: " + graph.nodes.length + "</span>"
@@ -125,7 +130,7 @@ buildGraph = (graph) ->
   for k,v of graph.links
     act_color = colors[list_index]
     list_index += 1
-    arcLinks graph.nodes,v,act_color[1],'t',k
+    arcLinks graph.nodes,v,act_color[1],links_d,k
     $("#legend").append "<li role='presentation'><a role='menuitem' tabindex='-1' href='#" + k + "' class='info-list' style='cursor:pointer;color:" + act_color[0] + "'><i class='fa fa-link'/> #" + k + ": " + v.length + "</a></li>"
     
   drawNodes graph.nodes
@@ -284,7 +289,6 @@ seeClaim = (node,top) ->
     .duration(250)
     .delay(50)
     .style({'display':'inline','opacity':1,'top':'57px'})
-  # ToDo 2014-04-14: DRY it up
   $(".claim").css
     zIndex: 0
   $("#claim_"+node.id).css
@@ -309,12 +313,10 @@ moveClaim = ->
   ypos = pos.top
   windowHeigth = $(document).height()
   eleHeigth = $(this).height()
-  
   $(".claim").css
     zIndex: 0
   $(this).css
     zIndex: 3
-  
   if d3.event.y + eleHeigth <= windowHeigth 
     $(this).css
       top: "+=" + (d3.event.y - pos.top) + "px"
@@ -332,9 +334,8 @@ color_named_entities = (klass,lColor,color) ->
     $("tspan." + klass).css({'background-color': color, 'border':'2px solid '+lColor})
     # $("tspan." + klass).css({'background-color': color})
 
-
 draw_line_between_nes = (klass,links) ->
-  # console.log klass
-  # console.log links
+  console.log klass
+  console.log links
 
 

@@ -5,7 +5,8 @@ sample app, for visualizing relations as arc graph with d3.js
 
 ## Usage
 
-download, `bundle`, `mkdir public/files`, `ruby app.rb`
+download, `bundle`, `mkdir public/files`, `ruby app.rb`  
+load sample files from `spec/claims` and see :)
 
 ## Contributing
 

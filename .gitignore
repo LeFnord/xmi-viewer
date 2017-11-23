@@ -2,4 +2,5 @@
 .bundle/
 log
 public/files/*
-tmp
+tmp.DS_Store
+public/.DS_Store

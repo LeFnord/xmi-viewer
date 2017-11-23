@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Sinatra::Partials
   def partial(template, *args)
     template_array = template.to_s.split('/')

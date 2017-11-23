@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Documents
   
   def self.create_collection collection: nil, files: nil
@@ -7,13 +9,11 @@ class Documents
     dir = FileUtils.mkdir_p(new_dir).last unless Dir.exists?(new_dir)
     dir = dir || new_dir
     
-    if files
-      files.each do |file|
-        filename = file[:filename]
-        tmpfile = file[:tempfile]
-        target = "#{dir}/#{filename}"
-        File.open(target, 'wb') {|f| f.write tmpfile.read }
-      end
+    files&.each do |file|
+      filename = file[:filename]
+      tmpfile = file[:tempfile]
+      target = "#{dir}/#{filename}"
+      File.open(target, 'wb') {|f| f.write tmpfile.read }
     end
     
   end

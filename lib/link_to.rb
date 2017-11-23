@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Sinatra::LinkTo
   # Construct a link to +url_fragment+, which should be given relative to
   # the base of this Sinatra app.  The mode should be either

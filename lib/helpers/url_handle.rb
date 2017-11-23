@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Sinatra::UrlHandle
   def build_url(host, port, path, query)
     return URI::HTTP.build({:host => host, :path => path, :query => query}) if port.nil?

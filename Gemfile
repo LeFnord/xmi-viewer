@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 # the framework
@@ -9,10 +11,8 @@ gem 'sass'
 gem 'coffee-script'
 gem 'multi_json'
 
-if RUBY_PLATFORM =~ /linux/
-  gem 'execjs'
-  gem 'therubyracer', platforms: :ruby
-end 
+# server
+gem 'thin'
 
 group :development do
   gem 'rake'
@@ -28,5 +28,6 @@ group :test do
   gem "terminal-notifier-guard"
 end
 
-# server
-gem 'thin'
+group :development, :test do
+  gem "rubocop"
+end

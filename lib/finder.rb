@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # author LeFnord
 # email  pscholz.le@gmail.com
 # date   2014-05-26

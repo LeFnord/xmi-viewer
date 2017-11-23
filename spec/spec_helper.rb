@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "./app"
 Dir["lib/**/*.rb"].each {|f| require "./#{f}"}
 
